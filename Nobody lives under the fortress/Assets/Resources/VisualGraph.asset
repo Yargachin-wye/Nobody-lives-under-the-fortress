@@ -114,7 +114,7 @@ MonoBehaviour:
     DialogueText: "\u043F\u043E\u043B\u0443\u0447\u0438\u043B\u043E\u0441\u044C"
     Type: trial_win
     Trial: -1
-    Bg: 
+    Bg: bg2
     Sound: 
     Music: 
     Position: {x: 1554, y: 4}
