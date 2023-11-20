@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
+  m_Name: VisualGraph
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: 5baf001c-d892-47a2-b077-1bd9b8ffbc98
+    PortName: Next
+    TargetNodeGUID: d3a22799-50f4-41f2-9cf7-c3cd41aaafb8
+  - BaseNodeGUID: c5e4754f-6fa4-4ba9-8365-4f6ee097d898
+    PortName: Option 1
+    TargetNodeGUID: a8f013b0-b834-45c5-b33f-68f3d3ad8204
+  - BaseNodeGUID: c5e4754f-6fa4-4ba9-8365-4f6ee097d898
+    PortName: Option 2
+    TargetNodeGUID: d84d5795-f125-4de0-81c3-f67a9655ec93
+  - BaseNodeGUID: d3a22799-50f4-41f2-9cf7-c3cd41aaafb8
+    PortName: Option 1
+    TargetNodeGUID: c5e4754f-6fa4-4ba9-8365-4f6ee097d898
+  - BaseNodeGUID: d3a22799-50f4-41f2-9cf7-c3cd41aaafb8
+    PortName: Option 2
+    TargetNodeGUID: 59ae4144-8f77-41a6-abc6-10ae27c46986
+  - BaseNodeGUID: 59ae4144-8f77-41a6-abc6-10ae27c46986
+    PortName: Option 1
+    TargetNodeGUID: 96536a7d-0cfb-430c-93cf-daefc918081a
+  - BaseNodeGUID: 96536a7d-0cfb-430c-93cf-daefc918081a
+    PortName: Option 1
+    TargetNodeGUID: c5e4754f-6fa4-4ba9-8365-4f6ee097d898
+  - BaseNodeGUID: 96536a7d-0cfb-430c-93cf-daefc918081a
+    PortName: Option 2
+    TargetNodeGUID: 59ae4144-8f77-41a6-abc6-10ae27c46986
+  - BaseNodeGUID: d84d5795-f125-4de0-81c3-f67a9655ec93
+    PortName: Option 1
+    TargetNodeGUID: 4f4e60a8-7856-4f0d-bf35-53a52c09e070
+  - BaseNodeGUID: a8f013b0-b834-45c5-b33f-68f3d3ad8204
+    PortName: Option 2
+    TargetNodeGUID: c5e4754f-6fa4-4ba9-8365-4f6ee097d898
+  - BaseNodeGUID: a8f013b0-b834-45c5-b33f-68f3d3ad8204
+    PortName: Option 1
+    TargetNodeGUID: 59ae4144-8f77-41a6-abc6-10ae27c46986
+  - BaseNodeGUID: 4f4e60a8-7856-4f0d-bf35-53a52c09e070
+    PortName: Option 1
+    TargetNodeGUID: c5e4754f-6fa4-4ba9-8365-4f6ee097d898
+  - BaseNodeGUID: 4f4e60a8-7856-4f0d-bf35-53a52c09e070
+    PortName: Option 2
+    TargetNodeGUID: 59ae4144-8f77-41a6-abc6-10ae27c46986
+  DialogueNodeData:
+  - Id: 1
+    OutIds: 0600000005000000
+    NodeGUID: c5e4754f-6fa4-4ba9-8365-4f6ee097d898
+    DialogueText: "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u043E\u0442\u043A\u0440\u044B\u0442\u044C
+      \u0432\u043E\u0440\u043E\u0442\u0430"
+    Type: trial
+    Trial: 50
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 1235, y: 200}
+  - Id: 2
+    OutIds: 0100000003000000
+    NodeGUID: d3a22799-50f4-41f2-9cf7-c3cd41aaafb8
+    DialogueText: "\u0412\u044B \u0441\u0442\u043E\u0438\u0442\u0435 \u043F\u0435\u0440\u0435\u0434
+      \u0432\u043E\u0440\u043E\u0442\u0430\u043C\u0438 \u0434\u0440\u0435\u0432\u043D\u0435\u0433\u043E
+      \u0437\u0430\u0431\u0440\u043E\u0448\u0435\u043D\u043D\u043E\u0433\u043E \u0437\u0430\u043C\u043A\u0430."
+    Type: text
+    Trial: -1
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 257, y: 200}
+  - Id: 3
+    OutIds: 04000000
+    NodeGUID: 59ae4144-8f77-41a6-abc6-10ae27c46986
+    DialogueText: "\u0421\u0442\u043E\u044F\u0442\u044C \u0432 \u043D\u0430\u0434\u0435\u0436\u0434\u0435
+      \u043D\u0430 \u0442\u043E, \u0447\u0442\u043E \u0447\u0442\u043E-\u0442\u043E
+      \u043F\u0440\u043E\u0438\u0437\u043E\u0439\u0434\u0451\u0442."
+    Type: text
+    Trial: -1
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 658, y: 303}
+  - Id: 4
+    OutIds: 0100000003000000
+    NodeGUID: 96536a7d-0cfb-430c-93cf-daefc918081a
+    DialogueText: "\u041D\u0438\u0447\u0435\u0433\u043E \u043D\u0435 \u043F\u0440\u043E\u0438\u0437\u043E\u0448\u043B\u043E"
+    Type: text
+    Trial: -1
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 1000, y: 303}
+  - Id: 5
+    OutIds: 07000000
+    NodeGUID: d84d5795-f125-4de0-81c3-f67a9655ec93
+    DialogueText: "\u043D\u0438\u0445\u0443\u044F \u043D\u0435 \u0432\u044B\u0448\u043B\u043E"
+    Type: trial_lose
+    Trial: -1
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 1508, y: 433}
+  - Id: 6
+    OutIds: 0100000003000000
+    NodeGUID: a8f013b0-b834-45c5-b33f-68f3d3ad8204
+    DialogueText: "\u043F\u043E\u043B\u0443\u0447\u0438\u043B\u043E\u0441\u044C"
+    Type: trial_win
+    Trial: -1
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 1554, y: 4}
+  - Id: 7
+    OutIds: 0100000003000000
+    NodeGUID: 4f4e60a8-7856-4f0d-bf35-53a52c09e070
+    DialogueText: "\u041D\u0435\u043C\u043D\u043E\u0433\u043E \u043E\u0442\u0434\u043E\u0445\u043D\u0443\u0442\u044C."
+    Type: text
+    Trial: -1
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 1778, y: 453}
+  ExposedProperties: []
+  CommentBlockData: []
