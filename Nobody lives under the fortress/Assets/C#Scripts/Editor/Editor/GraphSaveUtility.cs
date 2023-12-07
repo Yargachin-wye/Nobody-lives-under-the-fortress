@@ -3,19 +3,17 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Net;
-using System.Text;
 using UnityEditor;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using Subtegral.DialogueSystem.DataContainers;
 using UnityEngine.UIElements;
-using Subtegral.DialogueSystem.Editor;
+
 namespace Subtegral.DialogueSystem.Editor
 {
     public class GraphSaveUtility
     {
-        const string GRAPH_FILE_NAME = "GraphJ";
+        const string GRAPH_FILE_NAME = "Graph";
         private List<Edge> Edges => _graphView.edges.ToList();
         private List<DialogueNode> Nodes => _graphView.nodes.ToList().Cast<DialogueNode>().ToList();
 
@@ -25,18 +23,29 @@ namespace Subtegral.DialogueSystem.Editor
         private DialogueContainer _dialogueContainer;
         private StoryGraphView _graphView;
 
-        public static GraphSaveUtility GetInstance(StoryGraphView graphView)
+        
+    public static GraphSaveUtility GetInstance(StoryGraphView graphView)
         {
             return new GraphSaveUtility
             {
                 _graphView = graphView
             };
         }
-
+        DialogueNodeData StartNodeData = new DialogueNodeData()
+        {
+            Id = 0,
+            DialogueText = "STARTNODE",
+            Type = NodeType.Text,
+            Stipulations = new string[0],
+            Trial = -1,
+            Bg = "firstBG",
+            Sound = "",
+            Music = "firstMusic",
+        };
         public void SaveGraph(string fileName)
         {
+            
             _SaveGraph(fileName);
-            // _SaveGraph(fileName);
         }
 
         private void _SaveGraph(string fileName)
@@ -44,7 +53,7 @@ namespace Subtegral.DialogueSystem.Editor
             var dialogueContainerObject = ScriptableObject.CreateInstance<DialogueContainer>();
             if (!SaveNodes(dialogueContainerObject)) return;
             SaveExposedProperties(dialogueContainerObject);
-            SaveCommentBlocks(dialogueContainerObject);
+            // SaveCommentBlocks(dialogueContainerObject);
 
             if (!AssetDatabase.IsValidFolder("Assets/Resources"))
                 AssetDatabase.CreateFolder("Assets", "Resources");
@@ -71,59 +80,49 @@ namespace Subtegral.DialogueSystem.Editor
         {
             if (!Edges.Any()) return false;
             var connectedSockets = Edges.Where(x => x.input.node != null).ToArray();
-
-            int id = 1;
-
+            
             foreach (var node in Nodes.Where(node => !node.EntyPoint))
             {
                 dialogueContainerObject.DialogueNodeData.Add(new DialogueNodeData
                 {
-                    Id = id,
-                    NodeGUID = node.GUID,
+                    Id = node.Id,
                     DialogueText = node.DialogueText,
                     Type = node.Type,
+                    Stipulations = node.Stipulations.ToArray(),
                     Trial = node.Trial,
+                    Gift = node.Gift,
                     Bg = node.Bg,
                     Sound = node.Sound,
                     Music = node.Music,
                     Position = node.GetPosition().position
                 });
-                node.Id = id;
-                id++;
+                foreach (var element in node.Stipulations.ToArray())
+                {
+                    Debug.Log(element);
+                }
             }
+            dialogueContainerObject.DialogueNodeData = dialogueContainerObject.DialogueNodeData.OrderBy(node => node.Id).ToList();
 
             Dictionary<int, List<int>> targetNodesByBaseNode = new Dictionary<int, List<int>>();
             for (var i = 0; i < connectedSockets.Count(); i++)
             {
                 var outputNode = (connectedSockets[i].output.node as DialogueNode);
                 var inputNode = (connectedSockets[i].input.node as DialogueNode);
+                int outputNodeId = outputNode.EntyPoint ? 0 : outputNode.Id;
+
                 dialogueContainerObject.NodeLinks.Add(new NodeLinkData
                 {
-                    BaseNodeGUID = outputNode.GUID,
-                    PortName = connectedSockets[i].output.portName,
-                    TargetNodeGUID = inputNode.GUID
+                    BaseNodeGUID = outputNodeId,
+                    TargetNodeGUID = inputNode.Id
                 });
-
-                if (!targetNodesByBaseNode.ContainsKey(outputNode.Id))
+                if (!targetNodesByBaseNode.ContainsKey(outputNodeId))
                 {
-                    targetNodesByBaseNode[outputNode.Id] = new List<int>();
+                    targetNodesByBaseNode[outputNodeId] = new List<int>();
                 }
-                targetNodesByBaseNode[outputNode.Id].Add(inputNode.Id);
+                targetNodesByBaseNode[outputNodeId].Add(inputNode.Id);
             }
             List<DialogueNodeData> newData = new List<DialogueNodeData>(dialogueContainerObject.DialogueNodeData);
-            newData.Insert(0, new DialogueNodeData
-            {
-                Id = 0,
-                OutIds = new List<int>(),
-                NodeGUID = "NodeGUID",
-                DialogueText = "STARTNODE",
-                Type = "text",
-                Trial = -1,
-                Bg = "",
-                Sound = "",
-                Music = "",
-                Position = Vector2.zero
-            });
+            newData.Insert(0, StartNodeData);
             foreach (var obj in newData)
             {
                 if (targetNodesByBaseNode.ContainsKey(obj.Id))
@@ -135,29 +134,13 @@ namespace Subtegral.DialogueSystem.Editor
             DataContainer dataContainer = new DataContainer(newData);
             string json = JsonUtility.ToJson(dataContainer);
             File.WriteAllText(Path.Combine(Application.dataPath, "Resources/" + GRAPH_FILE_NAME + ".json"), json);
-
+            AssetDatabase.ImportAsset("Assets/Resources/" + GRAPH_FILE_NAME + ".json");
             return true;
         }
         private void SaveExposedProperties(DialogueContainer dialogueContainer)
         {
             dialogueContainer.ExposedProperties.Clear();
             dialogueContainer.ExposedProperties.AddRange(_graphView.ExposedProperties);
-        }
-
-        private void SaveCommentBlocks(DialogueContainer dialogueContainer)
-        {
-            foreach (var block in CommentBlocks)
-            {
-                var nodes = block.containedElements.Where(x => x is DialogueNode).Cast<DialogueNode>().Select(x => x.GUID)
-                    .ToList();
-
-                dialogueContainer.CommentBlockData.Add(new CommentBlockData
-                {
-                    ChildNodes = nodes,
-                    Title = block.title,
-                    Position = block.GetPosition().position
-                });
-            }
         }
 
         public void LoadNarrative(string fileName)
@@ -169,11 +152,11 @@ namespace Subtegral.DialogueSystem.Editor
                 return;
             }
 
+            _graphView.stipulationPool = _dialogueContainer.stipulationPool;
             ClearGraph();
             GenerateDialogueNodes();
-            ConnectDialogueNodes();
             AddExposedProperties();
-            GenerateCommentBlocks();
+            ConnectDialogueNodes();
         }
 
         /// <summary>
@@ -181,7 +164,7 @@ namespace Subtegral.DialogueSystem.Editor
         /// </summary>
         private void ClearGraph()
         {
-            Nodes.Find(x => x.EntyPoint).GUID = _dialogueContainer.NodeLinks[0].BaseNodeGUID;
+            Nodes.Find(x => x.EntyPoint).Id = _dialogueContainer.NodeLinks[0].BaseNodeGUID;
             foreach (var perNode in Nodes)
             {
                 if (perNode.EntyPoint) continue;
@@ -189,6 +172,7 @@ namespace Subtegral.DialogueSystem.Editor
                     .ForEach(edge => _graphView.RemoveElement(edge));
                 _graphView.RemoveElement(perNode);
             }
+            _graphView.SetNextNodeIDToZero();
         }
 
         /// <summary>
@@ -198,12 +182,12 @@ namespace Subtegral.DialogueSystem.Editor
         {
             foreach (var perNode in _dialogueContainer.DialogueNodeData)
             {
-                var tempNode = _graphView.CreateNode(perNode.Type, perNode.DialogueText, perNode.Trial, perNode.Bg, perNode.Sound, perNode.Music, Vector2.zero);
-                tempNode.GUID = perNode.NodeGUID;
+                var tempNode = _graphView.CreateNode(perNode.Type, perNode.DialogueText, perNode.Stipulations.ToList(), perNode.Trial, perNode.Gift, perNode.Bg, perNode.Sound, perNode.Music, Vector2.zero);
+                tempNode.Id = perNode.Id;
                 _graphView.AddElement(tempNode);
 
-                var nodePorts = _dialogueContainer.NodeLinks.Where(x => x.BaseNodeGUID == perNode.NodeGUID).ToList();
-                nodePorts.ForEach(x => _graphView.AddChoicePort(tempNode, x.PortName));
+                var nodePorts = _dialogueContainer.NodeLinks.Where(x => x.BaseNodeGUID == perNode.Id).ToList();
+                nodePorts.ForEach(x => _graphView.AddChoicePort(tempNode));
             }
         }
 
@@ -212,15 +196,15 @@ namespace Subtegral.DialogueSystem.Editor
             for (var i = 0; i < Nodes.Count; i++)
             {
                 var k = i; //Prevent access to modified closure
-                var connections = _dialogueContainer.NodeLinks.Where(x => x.BaseNodeGUID == Nodes[k].GUID).ToList();
+                var connections = _dialogueContainer.NodeLinks.Where(x => x.BaseNodeGUID == Nodes[k].Id).ToList();
                 for (var j = 0; j < connections.Count(); j++)
                 {
                     var targetNodeGUID = connections[j].TargetNodeGUID;
-                    var targetNode = Nodes.First(x => x.GUID == targetNodeGUID);
+                    var targetNode = Nodes.First(x => x.Id == targetNodeGUID);
                     LinkNodesTogether(Nodes[i].outputContainer[j].Q<Port>(), (Port)targetNode.inputContainer[0]);
 
                     targetNode.SetPosition(new Rect(
-                        _dialogueContainer.DialogueNodeData.First(x => x.NodeGUID == targetNodeGUID).Position,
+                        _dialogueContainer.DialogueNodeData.First(x => x.Id == targetNodeGUID).Position,
                         _graphView.DefaultNodeSize));
                 }
             }
@@ -246,30 +230,6 @@ namespace Subtegral.DialogueSystem.Editor
                 _graphView.AddPropertyToBlackBoard(exposedProperty);
             }
         }
-
-        private void GenerateCommentBlocks()
-        {
-            foreach (var commentBlock in CommentBlocks)
-            {
-                _graphView.RemoveElement(commentBlock);
-            }
-
-            foreach (var commentBlockData in _dialogueContainer.CommentBlockData)
-            {
-                var block = _graphView.CreateCommentBlock(new Rect(commentBlockData.Position, _graphView.DefaultCommentBlockSize),
-                     commentBlockData);
-                block.AddElements(Nodes.Where(x => commentBlockData.ChildNodes.Contains(x.GUID)));
-            }
-        }
     }
-    [Serializable]
-    public class DataContainer
-    {
-        public List<DialogueNodeData> dataList;
-
-        public DataContainer(List<DialogueNodeData> _dataList)
-        {
-            dataList = _dataList;
-        }
-    }
+    
 }

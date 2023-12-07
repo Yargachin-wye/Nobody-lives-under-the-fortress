@@ -55,7 +55,7 @@ namespace Subtegral.DialogueSystem.Editor
             switch (SearchTreeEntry.userData)
             {
                 case DialogueNode dialogueNode:
-                    _graphView.CreateNewDialogueNode("text", "Text field", -1, "", "", "", graphMousePosition);
+                    _graphView.CreateNewDialogueNode(NodeType.Text, "Text field", new List<string>(), -1, "", "", "", "", graphMousePosition);
                     return true;
                 case Group group:
                     var rect = new Rect(graphMousePosition, _graphView.DefaultCommentBlockSize);

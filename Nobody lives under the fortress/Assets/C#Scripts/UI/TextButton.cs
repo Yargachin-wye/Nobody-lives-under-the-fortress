@@ -8,21 +8,11 @@ public class TextButton : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _text;
     [SerializeField] private Image _image;
-    int key;
-    private void Start()
+    int id;
+    public void Init(string text, int ID, Color BGColor, Color TextColor, int FontSize)
     {
-        if (Application.platform == RuntimePlatform.Android)
-        {
-            _text.fontSize = 90;
-        }
-        else
-        {
-            _text.fontSize = 40;
-        }
-    }
-    public void Init(string text, int Key, Color BGColor, Color TextColor)
-    {
-        key = Key;
+        _text.fontSize = FontSize;
+        id = ID;
         _text.text = text;
         _text.color = TextColor;
         _image.color = BGColor;

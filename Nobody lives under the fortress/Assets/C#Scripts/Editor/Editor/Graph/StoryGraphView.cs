@@ -5,10 +5,10 @@ using System.Linq;
 using Subtegral.DialogueSystem.DataContainers;
 using UnityEditor;
 using UnityEditor.Experimental.GraphView;
+using UnityEditor.TestTools.TestRunner.Api;
 using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
-using UnityEngine.UI;
 using UnityEngine.UIElements;
 using Button = UnityEngine.UIElements.Button;
 
@@ -21,18 +21,29 @@ namespace Subtegral.DialogueSystem.Editor
         StyleSheet TrialLoseNodeStyle = Resources.Load<StyleSheet>("TrialLoseNode");
         StyleSheet TrialWinNodeStyle = Resources.Load<StyleSheet>("TrialWinNode");
 
-        List<string> TextTypesList = new List<string> { "text", "trial", "trial_lose", "trial_win", "end" };
-        Dictionary<string, int> TextTypesDict = new Dictionary<string, int> { { "text", 0 }, { "trial", 1 }, { "trial_lose", 2 }, {"trial_win", 3}, { "end", 4 } };
-
         public readonly Vector2 DefaultNodeSize = new Vector2(200, 150);
         public readonly Vector2 DefaultCommentBlockSize = new Vector2(300, 200);
         public DialogueNode EntryPointNode;
         public Blackboard Blackboard = new Blackboard();
         public List<ExposedProperty> ExposedProperties { get; private set; } = new List<ExposedProperty>();
         private NodeSearchWindow _searchWindow;
+        private int NextNodeID = 0;
 
+        List<string> TypesText = new List<string>();
+        StoryGraph _editorWindow;
+
+        public StipulationPool stipulationPool;
+        public void SetNextNodeIDToZero()
+        {
+            // NextNodeID = 0;
+        }
         public StoryGraphView(StoryGraph editorWindow)
         {
+            for (int i = 0; i < Enum.GetNames(typeof(NodeType)).Length; i++)
+            {
+                TypesText.Add(Enum.GetName(typeof(NodeType), i));
+            }
+
             styleSheets.Add(Resources.Load<StyleSheet>("NarrativeGraph"));
             SetupZoom(ContentZoomer.DefaultMinScale, ContentZoomer.DefaultMaxScale);
 
@@ -48,6 +59,7 @@ namespace Subtegral.DialogueSystem.Editor
             AddElement(GetEntryPointNodeInstance());
 
             AddSearchWindow(editorWindow);
+            _editorWindow = editorWindow;
         }
 
         private void AddSearchWindow(StoryGraph editorWindow)
@@ -127,26 +139,29 @@ namespace Subtegral.DialogueSystem.Editor
             return compatiblePorts;
         }
 
-        public void CreateNewDialogueNode(string nodeName, string text, int trial, string bg, string sound, string music, Vector2 position)
+        public void CreateNewDialogueNode(NodeType nodeName, string text, List<string> stipulations, int trial, string gift, string bg, string sound, string music, Vector2 position)
         {
-            DialogueNode node = CreateNode(nodeName, text, trial, bg, sound, music, position);
+            DialogueNode node = CreateNode(nodeName, text, stipulations, trial, gift, bg, sound, music, position);
             AddElement(node);
         }
 
-        public DialogueNode CreateNode(string nodeName, string text, int trial, string bg, string sound, string music, Vector2 position)
+        public DialogueNode CreateNode(NodeType nodeName, string text, List<string> stipulations, int trial, string gift, string bg, string sound, string music, Vector2 position)
         {
             var tempDialogueNode = new DialogueNode()
             {
-                title = nodeName,
+                /*title = nodeName,*/
+                Id = this.nodes.ToList().Cast<DialogueNode>().ToList().Count,
                 DialogueText = text,
-                GUID = Guid.NewGuid().ToString(),
                 Type = nodeName,
+                Stipulations = stipulations,
                 Trial = trial,
+                Gift = gift,
                 Bg = bg,
                 Sound = sound,
                 Music = music
             };
-
+            tempDialogueNode.title = tempDialogueNode.Id + " " + nodeName;
+            NextNodeID += 1;
             SetStyle(tempDialogueNode);
 
             var inputPort = GetPortInstance(tempDialogueNode, Direction.Input, Port.Capacity.Multi);
@@ -163,18 +178,36 @@ namespace Subtegral.DialogueSystem.Editor
                 tempDialogueNode.DialogueText = evt.newValue;
             });
 
-            
-            CreateChoiceElement("Выберите вариант:", tempDialogueNode, tempDialogueNode.Type, evt =>
+
+            CreateChoiceElement("Выберите вариант:", tempDialogueNode, Enum.GetName(typeof(NodeType), tempDialogueNode.Type), evt =>
             {
-                tempDialogueNode.Type = evt.newValue;
-                tempDialogueNode.title = evt.newValue;
+                tempDialogueNode.Type = (NodeType)Enum.Parse(typeof(NodeType), evt.newValue);
+                tempDialogueNode.title = tempDialogueNode.Id + " " + evt.newValue;
                 //SetStyle(tempDialogueNode);
             });
-            CreateTextElement("Trial:", tempDialogueNode,  tempDialogueNode.Trial.ToString(), evt =>
+            if (tempDialogueNode.Type == NodeType.Trial)
             {
-                int trail;
-                tempDialogueNode.Trial = int.TryParse(evt.newValue, out trail) ? trail : -1;
-            });
+                CreateTextElement("Trial:", tempDialogueNode, tempDialogueNode.Trial.ToString(), evt =>
+                {
+                    int trail;
+                    tempDialogueNode.Trial = int.TryParse(evt.newValue, out trail) ? trail : -1;
+                });
+            }
+            else if (tempDialogueNode.Type == NodeType.Stipulation)
+            {
+                CreateCheckboxElements(stipulations, tempDialogueNode, evt =>
+                {
+                    tempDialogueNode.Stipulations = evt;
+                });
+            }
+            else if (tempDialogueNode.Type == NodeType.Gift)
+            {
+                CreateCheckboxElements(new List<string>{ tempDialogueNode.Gift }, tempDialogueNode, evt =>
+                {
+                    tempDialogueNode.Gift = evt.ToArray()[0];
+                });
+            }
+
             CreateTextElement("BG:", tempDialogueNode, tempDialogueNode.Bg, evt =>
             {
                 tempDialogueNode.Bg = evt.newValue;
@@ -200,18 +233,55 @@ namespace Subtegral.DialogueSystem.Editor
             // tempDialogueNode.styleSheets.Clear();
             switch (tempDialogueNode.Type)
             {
-                case "text":
+                case NodeType.Text:
                     tempDialogueNode.styleSheets.Add(TextNodeStyle);
                     break;
-                case "trial":
+                case NodeType.Trial:
                     tempDialogueNode.styleSheets.Add(TrialNodeStyle);
                     break;
-                case "trial_lose":
+                case NodeType.TrialLose:
                     tempDialogueNode.styleSheets.Add(TrialLoseNodeStyle);
                     break;
-                case "trial_win":
+                case NodeType.TrialWin:
                     tempDialogueNode.styleSheets.Add(TrialWinNodeStyle);
                     break;
+                case NodeType.End:
+                    tempDialogueNode.styleSheets.Add(TrialWinNodeStyle);
+                    break;
+            }
+        }
+        private void CreateCheckboxElements(List<string> existsPool, DialogueNode node, Action<List<string>> onCheckboxValueChanged)
+        {
+            var selectedElements = new List<string>();
+            List<string> pool = stipulationPool.pool.ToList(); // Преобразование массива в список
+
+            foreach (var currentElement in pool)
+            {
+                var checkboxElement = new VisualElement();
+                var checkbox = new Toggle(currentElement);
+
+                if (existsPool.Contains(currentElement))
+                {
+                    checkbox.value = true;
+                    selectedElements.Add(currentElement);
+                }
+
+                checkboxElement.Add(checkbox);
+                node.mainContainer.Add(checkboxElement);
+
+                checkbox.RegisterValueChangedCallback(evt =>
+                {
+                    if (evt.newValue && !selectedElements.Contains(currentElement))
+                    {
+                        selectedElements.Add(currentElement);
+                    }
+                    else if (!evt.newValue)
+                    {
+                        selectedElements.Remove(currentElement);
+                    }
+                    
+                    onCheckboxValueChanged?.Invoke(selectedElements);
+                });
             }
         }
         private void CreateTextElement(string labelText, DialogueNode node, string value, EventCallback<ChangeEvent<string>> callback)
@@ -223,6 +293,7 @@ namespace Subtegral.DialogueSystem.Editor
             node.mainContainer.Add(textElement);
 
             var textField = new TextField("");
+            textField.multiline = true;
             textField.RegisterValueChangedCallback(callback);
             textField.SetValueWithoutNotify(value);
             node.mainContainer.Add(textField);
@@ -235,21 +306,19 @@ namespace Subtegral.DialogueSystem.Editor
             textElement.Add(label);
             node.mainContainer.Add(textElement);
 
-            var popupField = new PopupField<string>(TextTypesList, TextTypesDict[node.Type]);
+            var popupField = new PopupField<string>(TypesText, Enum.GetName(typeof(NodeType), node.Type));
             popupField.RegisterValueChangedCallback(callback);
             popupField.SetValueWithoutNotify(value);
             node.mainContainer.Add(popupField);
         }
-        public void AddChoicePort(DialogueNode nodeCache, string overriddenPortName = "")
+        public void AddChoicePort(DialogueNode nodeCache)
         {
             var generatedPort = GetPortInstance(nodeCache, Direction.Output);
             var portLabel = generatedPort.contentContainer.Q<Label>("type");
             generatedPort.contentContainer.Remove(portLabel);
 
             var outputPortCount = nodeCache.outputContainer.Query("connector").ToList().Count();
-            var outputPortName = string.IsNullOrEmpty(overriddenPortName)
-                ? $"Option {outputPortCount + 1}"
-                : overriddenPortName;
+            var outputPortName = $"Option {outputPortCount + 1}";
 
             var textField = new Label(outputPortName.ToString());
 
@@ -294,9 +363,15 @@ namespace Subtegral.DialogueSystem.Editor
         {
             var nodeCache = new DialogueNode()
             {
-                title = "START",
-                GUID = Guid.NewGuid().ToString(),
-                DialogueText = "ENTRYPOINT",
+                Id = 0,
+                title = "STARTNODE",
+                DialogueText = "STARTNODE",
+                Type = NodeType.Text,
+                Trial = -1,
+                Gift = "",
+                Bg = "",
+                Sound = "",
+                Music = "",
                 EntyPoint = true
             };
 

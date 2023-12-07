@@ -41,7 +41,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 136.13, y: 63.59}
-  m_SizeDelta: {x: 671.61, y: 0}
+  m_SizeDelta: {x: 671.61, y: 103.31}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8774295385069276134
 CanvasRenderer:
@@ -64,14 +64,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.23584908, g: 0.23584908, b: 0.23584908, a: 1}
+  m_Color: {r: 0.7075472, g: 0.7075472, b: 0.7075472, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f623660d826d59e40977a1bb9839f4b7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3c97f17fe23b6f648976fe7ce40010df, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -80,7 +80,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 0.5
+  m_PixelsPerUnitMultiplier: 1
 --- !u!114 &8774295385069276128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,7 +108,7 @@ MonoBehaviour:
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
+    m_FadeDuration: 1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8774295385069276060}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
   m_Name: 
@@ -192,11 +192,11 @@ MonoBehaviour:
   _textButton: {fileID: 4150717540425145674, guid: 899ed2e419a7be544ab83f25a0fd4689, type: 3}
   _text: {fileID: 8774295385264978749}
   _image: {fileID: 8774295385069276129}
-  "_\u0441olor\u0421hoice": {r: 0.92549026, g: 0.92549026, b: 0.92549026, a: 1}
+  "_\u0441olor\u0421hoice": {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
   "_\u0441olorWin": {r: 0.990566, g: 0.7660592, b: 0.023362402, a: 1}
   "_\u0441olorLoss": {r: 0.5754717, g: 0, b: 0.079926595, a: 1}
-  "_\u0441olorTrial": {r: 0.13333334, g: 0.46274513, b: 0.27450982, a: 1}
-  "_\u0441olorEnd": {r: 0.23529413, g: 0.23529413, b: 0.23529413, a: 1}
+  "_\u0441olorTrial": {r: 0, g: 0.69803923, b: 0.5058824, a: 1}
+  "_\u0441olorEnd": {r: 0.36862746, g: 0.36862746, b: 0.36862746, a: 1}
 --- !u!1 &8774295385264978750
 GameObject:
   m_ObjectHideFlags: 0
@@ -274,8 +274,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -292,8 +292,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -328,7 +328,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 34.643005, y: 38.666107, z: 25.949585, w: 27.927977}
+  m_margin: {x: 20, y: 20, z: 20, w: 20}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

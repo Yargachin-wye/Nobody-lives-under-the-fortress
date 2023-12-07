@@ -18,13 +18,3 @@ public class DialogueNodeData
     public string Music;
     public Vector2 Position;
 }
-public enum NodeType
-{
-    Text,
-    Trial,
-    TrialLose,
-    TrialWin,
-    End,
-    Stipulation,
-    Gift,
-}

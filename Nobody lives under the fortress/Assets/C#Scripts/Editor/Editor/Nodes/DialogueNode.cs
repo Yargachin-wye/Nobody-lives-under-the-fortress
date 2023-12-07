@@ -11,9 +11,10 @@ namespace Subtegral.DialogueSystem.Editor
     {
         public int Id;
         public string DialogueText;
-        public string GUID;
-        public string Type;
+        public NodeType Type;
+        public List<string> Stipulations;
         public int Trial;
+        public string Gift;
         public string Bg;
         public string Sound;
         public string Music;
