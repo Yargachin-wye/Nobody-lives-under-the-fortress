@@ -139,18 +139,19 @@ namespace Subtegral.DialogueSystem.Editor
             return compatiblePorts;
         }
 
-        public void CreateNewDialogueNode(NodeType nodeName, string text, List<string> stipulations, int trial, string gift, string bg, string sound, string music, Vector2 position)
+        public void CreateNewDialogueNode(NodeType nodeName, bool isRepeatable, string text, List<string> stipulations, int trial, string gift, string bg, string sound, string music, Vector2 position)
         {
-            DialogueNode node = CreateNode(nodeName, text, stipulations, trial, gift, bg, sound, music, position);
+            DialogueNode node = CreateNode(nodeName, isRepeatable, text, stipulations, trial, gift, bg, sound, music, position);
             AddElement(node);
         }
 
-        public DialogueNode CreateNode(NodeType nodeName, string text, List<string> stipulations, int trial, string gift, string bg, string sound, string music, Vector2 position)
+        public DialogueNode CreateNode(NodeType nodeName, bool isRepeatable, string text, List<string> stipulations, int trial, string gift, string bg, string sound, string music, Vector2 position)
         {
             var tempDialogueNode = new DialogueNode()
             {
                 /*title = nodeName,*/
                 Id = this.nodes.ToList().Cast<DialogueNode>().ToList().Count,
+                IsRepeatable = isRepeatable,
                 DialogueText = text,
                 Type = nodeName,
                 Stipulations = stipulations,
@@ -172,6 +173,11 @@ namespace Subtegral.DialogueSystem.Editor
             tempDialogueNode.RefreshPorts();
             tempDialogueNode.SetPosition(new Rect(position,
                 DefaultNodeSize)); //To-Do: implement screen center instantiation positioning
+
+            CreateCheckboxElement(tempDialogueNode.IsRepeatable, tempDialogueNode, evt =>
+            {
+                tempDialogueNode.IsRepeatable = evt;
+            });
 
             CreateTextElement("Text:", tempDialogueNode, tempDialogueNode.DialogueText, evt =>
             {
@@ -202,7 +208,7 @@ namespace Subtegral.DialogueSystem.Editor
             }
             else if (tempDialogueNode.Type == NodeType.Gift)
             {
-                CreateCheckboxElements(new List<string>{ tempDialogueNode.Gift }, tempDialogueNode, evt =>
+                CreateCheckboxElements(new List<string> { tempDialogueNode.Gift }, tempDialogueNode, evt =>
                 {
                     tempDialogueNode.Gift = evt.ToArray()[0];
                 });
@@ -250,6 +256,22 @@ namespace Subtegral.DialogueSystem.Editor
                     break;
             }
         }
+        private void CreateCheckboxElement(bool isRepeatable, DialogueNode node, Action<bool> onCheckboxValueChanged)
+        {
+            var checkboxElement = new VisualElement();
+            var checkbox = new Toggle("IsRepeatable");
+            checkbox.style.fontSize = 14;
+
+            checkbox.value = isRepeatable;
+
+            checkboxElement.Add(checkbox);
+            node.mainContainer.Add(checkboxElement);
+            checkbox.RegisterValueChangedCallback(evt =>
+            {
+                onCheckboxValueChanged?.Invoke(evt.newValue);
+            });
+            
+        }
         private void CreateCheckboxElements(List<string> existsPool, DialogueNode node, Action<List<string>> onCheckboxValueChanged)
         {
             var selectedElements = new List<string>();
@@ -279,7 +301,7 @@ namespace Subtegral.DialogueSystem.Editor
                     {
                         selectedElements.Remove(currentElement);
                     }
-                    
+
                     onCheckboxValueChanged?.Invoke(selectedElements);
                 });
             }
@@ -365,6 +387,7 @@ namespace Subtegral.DialogueSystem.Editor
             {
                 Id = 0,
                 title = "STARTNODE",
+                IsRepeatable = true,
                 DialogueText = "STARTNODE",
                 Type = NodeType.Text,
                 Trial = -1,

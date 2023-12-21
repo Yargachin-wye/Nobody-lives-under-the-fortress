@@ -8,6 +8,7 @@ public class DialogueNodeData
 {
     public int Id;
     public List<int> OutIds;
+    public bool IsRepeatable;
     public string DialogueText;
     public NodeType Type;
     public string[] Stipulations;

@@ -34,6 +34,7 @@ namespace Subtegral.DialogueSystem.Editor
         DialogueNodeData StartNodeData = new DialogueNodeData()
         {
             Id = 0,
+            IsRepeatable = true,
             DialogueText = "STARTNODE",
             Type = NodeType.Text,
             Stipulations = new string[0],
@@ -86,6 +87,7 @@ namespace Subtegral.DialogueSystem.Editor
                 dialogueContainerObject.DialogueNodeData.Add(new DialogueNodeData
                 {
                     Id = node.Id,
+                    IsRepeatable = node.IsRepeatable,
                     DialogueText = node.DialogueText,
                     Type = node.Type,
                     Stipulations = node.Stipulations.ToArray(),
@@ -182,7 +184,7 @@ namespace Subtegral.DialogueSystem.Editor
         {
             foreach (var perNode in _dialogueContainer.DialogueNodeData)
             {
-                var tempNode = _graphView.CreateNode(perNode.Type, perNode.DialogueText, perNode.Stipulations.ToList(), perNode.Trial, perNode.Gift, perNode.Bg, perNode.Sound, perNode.Music, Vector2.zero);
+                var tempNode = _graphView.CreateNode(perNode.Type, perNode.IsRepeatable, perNode.DialogueText, perNode.Stipulations.ToList(), perNode.Trial, perNode.Gift, perNode.Bg, perNode.Sound, perNode.Music, Vector2.zero);
                 tempNode.Id = perNode.Id;
                 _graphView.AddElement(tempNode);
 

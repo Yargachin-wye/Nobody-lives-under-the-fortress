@@ -10,6 +10,7 @@ namespace Subtegral.DialogueSystem.Editor
     public class DialogueNode : Node
     {
         public int Id;
+        public bool IsRepeatable;
         public string DialogueText;
         public NodeType Type;
         public List<string> Stipulations;

@@ -15,6 +15,7 @@ public class Сontroler : MonoBehaviour
     [SerializeField] private GameObject _button;
 
     private List<Message> messagesList = new List<Message>();
+    private Dictionary<int,bool> UnRepeatable = new Dictionary<int, bool>();
 
     List<DialogueNodeData> dataList = new List<DialogueNodeData>();
 
@@ -40,7 +41,11 @@ public class Сontroler : MonoBehaviour
         dataList = dataContainer.dataList;
         foreach (var data in dataList)
         {
-            messagesList.Add(new Message(data.Id, data.OutIds, data.DialogueText, data.Type, data.Trial, data.Bg, data.Sound, data.Music));
+            messagesList.Add(new Message(data.Id, data.OutIds, data.IsRepeatable, data.DialogueText, data.Type, data.Trial, data.Bg, data.Sound, data.Music));
+            if (!data.IsRepeatable)
+            {
+                UnRepeatable.Add(data.Id, false);
+            }
         }
     }
     public void SetMessage(int id)
@@ -102,6 +107,17 @@ public class Сontroler : MonoBehaviour
             {
                 return;
             }
+            if (UnRepeatable.ContainsKey(tId))
+            {
+                if (UnRepeatable[tId])
+                {
+                    return;
+                }
+                else
+                {
+                    UnRepeatable[tId] = true;
+                }
+            }
 
             var msg = messagesList[tId];
             if (message.Type == NodeType.Trial)
@@ -121,6 +137,7 @@ public class Message
 {
     public int Id;
     public List<int> OutIds;
+    public bool IsRepeatable;
     public string Text;
     public NodeType Type;
     public int Trial;
@@ -128,10 +145,11 @@ public class Message
     public AudioClip Sound;
     public AudioClip Music;
 
-    public Message(int id, List<int> transitionIds, string text, NodeType type, int trail, string background, string sound, string music)
+    public Message(int id, List<int> transitionIds, bool isRepeatable, string text, NodeType type, int trail, string background, string sound, string music)
     {
         Id = id;
         OutIds = transitionIds;
+        IsRepeatable = isRepeatable;
         Text = text;
         Type = type;
         Trial = trail;
