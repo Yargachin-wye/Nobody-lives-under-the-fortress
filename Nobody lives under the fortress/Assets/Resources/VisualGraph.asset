@@ -12,38 +12,363 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
   m_Name: VisualGraph
   m_EditorClassIdentifier: 
-  stipulationPool: {fileID: 11400000, guid: 0e2a4a813f9bca249887da0209922165, type: 2}
+  stipulationPool: {fileID: 0}
   NodeLinks:
   - BaseNodeGUID: 0
     TargetNodeGUID: 1
   - BaseNodeGUID: 1
-    TargetNodeGUID: 6
-  - BaseNodeGUID: 1
-    TargetNodeGUID: 7
-  - BaseNodeGUID: 2
-    TargetNodeGUID: 4
-  - BaseNodeGUID: 2
-    TargetNodeGUID: 5
-  - BaseNodeGUID: 3
-    TargetNodeGUID: 1
-  - BaseNodeGUID: 4
-    TargetNodeGUID: 3
-  - BaseNodeGUID: 5
-    TargetNodeGUID: 1
-  - BaseNodeGUID: 6
     TargetNodeGUID: 2
+  - BaseNodeGUID: 2
+    TargetNodeGUID: 3
+  - BaseNodeGUID: 3
+    TargetNodeGUID: 4
+  - BaseNodeGUID: 4
+    TargetNodeGUID: 5
+  - BaseNodeGUID: 5
+    TargetNodeGUID: 6
+  - BaseNodeGUID: 6
+    TargetNodeGUID: 7
   - BaseNodeGUID: 7
-    TargetNodeGUID: 1
-  - BaseNodeGUID: 8
-    TargetNodeGUID: 1
-  - BaseNodeGUID: 1
     TargetNodeGUID: 8
+  - BaseNodeGUID: 8
+    TargetNodeGUID: 9
+  - BaseNodeGUID: 9
+    TargetNodeGUID: 10
+  - BaseNodeGUID: 10
+    TargetNodeGUID: 11
+  - BaseNodeGUID: 11
+    TargetNodeGUID: 12
+  - BaseNodeGUID: 12
+    TargetNodeGUID: 14
+  - BaseNodeGUID: 12
+    TargetNodeGUID: 13
+  - BaseNodeGUID: 13
+    TargetNodeGUID: 15
+  - BaseNodeGUID: 15
+    TargetNodeGUID: 16
+  - BaseNodeGUID: 15
+    TargetNodeGUID: 17
+  - BaseNodeGUID: 16
+    TargetNodeGUID: 18
+  - BaseNodeGUID: 17
+    TargetNodeGUID: 48
+  - BaseNodeGUID: 18
+    TargetNodeGUID: 19
+  - BaseNodeGUID: 19
+    TargetNodeGUID: 20
+  - BaseNodeGUID: 20
+    TargetNodeGUID: 21
+  - BaseNodeGUID: 21
+    TargetNodeGUID: 22
+  - BaseNodeGUID: 22
+    TargetNodeGUID: 23
+  - BaseNodeGUID: 23
+    TargetNodeGUID: 24
+  - BaseNodeGUID: 23
+    TargetNodeGUID: 25
+  - BaseNodeGUID: 23
+    TargetNodeGUID: 26
+  - BaseNodeGUID: 23
+    TargetNodeGUID: 27
+  - BaseNodeGUID: 23
+    TargetNodeGUID: 28
+  - BaseNodeGUID: 24
+    TargetNodeGUID: 29
+  - BaseNodeGUID: 25
+    TargetNodeGUID: 29
+  - BaseNodeGUID: 26
+    TargetNodeGUID: 29
+  - BaseNodeGUID: 27
+    TargetNodeGUID: 29
+  - BaseNodeGUID: 28
+    TargetNodeGUID: 29
+  - BaseNodeGUID: 29
+    TargetNodeGUID: 30
+  - BaseNodeGUID: 29
+    TargetNodeGUID: 31
+  - BaseNodeGUID: 29
+    TargetNodeGUID: 32
+  - BaseNodeGUID: 29
+    TargetNodeGUID: 33
+  - BaseNodeGUID: 29
+    TargetNodeGUID: 34
+  - BaseNodeGUID: 30
+    TargetNodeGUID: 35
+  - BaseNodeGUID: 31
+    TargetNodeGUID: 35
+  - BaseNodeGUID: 32
+    TargetNodeGUID: 35
+  - BaseNodeGUID: 33
+    TargetNodeGUID: 35
+  - BaseNodeGUID: 34
+    TargetNodeGUID: 35
+  - BaseNodeGUID: 35
+    TargetNodeGUID: 36
+  - BaseNodeGUID: 35
+    TargetNodeGUID: 37
+  - BaseNodeGUID: 35
+    TargetNodeGUID: 38
+  - BaseNodeGUID: 35
+    TargetNodeGUID: 39
+  - BaseNodeGUID: 35
+    TargetNodeGUID: 40
+  - BaseNodeGUID: 36
+    TargetNodeGUID: 41
+  - BaseNodeGUID: 37
+    TargetNodeGUID: 41
+  - BaseNodeGUID: 38
+    TargetNodeGUID: 41
+  - BaseNodeGUID: 39
+    TargetNodeGUID: 41
+  - BaseNodeGUID: 40
+    TargetNodeGUID: 41
+  - BaseNodeGUID: 41
+    TargetNodeGUID: 42
+  - BaseNodeGUID: 41
+    TargetNodeGUID: 43
+  - BaseNodeGUID: 41
+    TargetNodeGUID: 44
+  - BaseNodeGUID: 41
+    TargetNodeGUID: 45
+  - BaseNodeGUID: 41
+    TargetNodeGUID: 46
+  - BaseNodeGUID: 42
+    TargetNodeGUID: 47
+  - BaseNodeGUID: 43
+    TargetNodeGUID: 47
+  - BaseNodeGUID: 44
+    TargetNodeGUID: 47
+  - BaseNodeGUID: 45
+    TargetNodeGUID: 47
+  - BaseNodeGUID: 46
+    TargetNodeGUID: 47
+  - BaseNodeGUID: 47
+    TargetNodeGUID: 49
+  - BaseNodeGUID: 47
+    TargetNodeGUID: 50
+  - BaseNodeGUID: 47
+    TargetNodeGUID: 51
+  - BaseNodeGUID: 47
+    TargetNodeGUID: 52
+  - BaseNodeGUID: 47
+    TargetNodeGUID: 53
+  - BaseNodeGUID: 48
+    TargetNodeGUID: 16
+  - BaseNodeGUID: 49
+    TargetNodeGUID: 54
+  - BaseNodeGUID: 50
+    TargetNodeGUID: 54
+  - BaseNodeGUID: 51
+    TargetNodeGUID: 54
+  - BaseNodeGUID: 52
+    TargetNodeGUID: 54
+  - BaseNodeGUID: 53
+    TargetNodeGUID: 54
+  - BaseNodeGUID: 54
+    TargetNodeGUID: 55
+  - BaseNodeGUID: 54
+    TargetNodeGUID: 56
+  - BaseNodeGUID: 54
+    TargetNodeGUID: 57
+  - BaseNodeGUID: 54
+    TargetNodeGUID: 58
+  - BaseNodeGUID: 54
+    TargetNodeGUID: 59
+  - BaseNodeGUID: 55
+    TargetNodeGUID: 60
+  - BaseNodeGUID: 56
+    TargetNodeGUID: 60
+  - BaseNodeGUID: 57
+    TargetNodeGUID: 60
+  - BaseNodeGUID: 58
+    TargetNodeGUID: 60
+  - BaseNodeGUID: 59
+    TargetNodeGUID: 60
+  - BaseNodeGUID: 60
+    TargetNodeGUID: 61
+  - BaseNodeGUID: 60
+    TargetNodeGUID: 62
+  - BaseNodeGUID: 60
+    TargetNodeGUID: 63
+  - BaseNodeGUID: 60
+    TargetNodeGUID: 64
+  - BaseNodeGUID: 60
+    TargetNodeGUID: 65
+  - BaseNodeGUID: 61
+    TargetNodeGUID: 66
+  - BaseNodeGUID: 62
+    TargetNodeGUID: 66
+  - BaseNodeGUID: 63
+    TargetNodeGUID: 66
+  - BaseNodeGUID: 64
+    TargetNodeGUID: 66
+  - BaseNodeGUID: 65
+    TargetNodeGUID: 66
+  - BaseNodeGUID: 66
+    TargetNodeGUID: 67
+  - BaseNodeGUID: 66
+    TargetNodeGUID: 68
+  - BaseNodeGUID: 66
+    TargetNodeGUID: 69
+  - BaseNodeGUID: 66
+    TargetNodeGUID: 70
+  - BaseNodeGUID: 66
+    TargetNodeGUID: 71
+  - BaseNodeGUID: 67
+    TargetNodeGUID: 72
+  - BaseNodeGUID: 68
+    TargetNodeGUID: 72
+  - BaseNodeGUID: 69
+    TargetNodeGUID: 72
+  - BaseNodeGUID: 70
+    TargetNodeGUID: 72
+  - BaseNodeGUID: 71
+    TargetNodeGUID: 72
+  - BaseNodeGUID: 72
+    TargetNodeGUID: 73
+  - BaseNodeGUID: 72
+    TargetNodeGUID: 74
+  - BaseNodeGUID: 72
+    TargetNodeGUID: 77
+  - BaseNodeGUID: 72
+    TargetNodeGUID: 76
+  - BaseNodeGUID: 72
+    TargetNodeGUID: 75
+  - BaseNodeGUID: 73
+    TargetNodeGUID: 78
+  - BaseNodeGUID: 74
+    TargetNodeGUID: 78
+  - BaseNodeGUID: 75
+    TargetNodeGUID: 78
+  - BaseNodeGUID: 76
+    TargetNodeGUID: 78
+  - BaseNodeGUID: 77
+    TargetNodeGUID: 78
+  - BaseNodeGUID: 78
+    TargetNodeGUID: 79
+  - BaseNodeGUID: 78
+    TargetNodeGUID: 80
+  - BaseNodeGUID: 78
+    TargetNodeGUID: 81
+  - BaseNodeGUID: 78
+    TargetNodeGUID: 82
+  - BaseNodeGUID: 78
+    TargetNodeGUID: 83
+  - BaseNodeGUID: 79
+    TargetNodeGUID: 84
+  - BaseNodeGUID: 80
+    TargetNodeGUID: 84
+  - BaseNodeGUID: 81
+    TargetNodeGUID: 84
+  - BaseNodeGUID: 82
+    TargetNodeGUID: 84
+  - BaseNodeGUID: 83
+    TargetNodeGUID: 84
+  - BaseNodeGUID: 84
+    TargetNodeGUID: 85
+  - BaseNodeGUID: 84
+    TargetNodeGUID: 86
+  - BaseNodeGUID: 84
+    TargetNodeGUID: 87
+  - BaseNodeGUID: 84
+    TargetNodeGUID: 88
+  - BaseNodeGUID: 84
+    TargetNodeGUID: 89
+  - BaseNodeGUID: 85
+    TargetNodeGUID: 90
+  - BaseNodeGUID: 86
+    TargetNodeGUID: 90
+  - BaseNodeGUID: 87
+    TargetNodeGUID: 90
+  - BaseNodeGUID: 88
+    TargetNodeGUID: 90
+  - BaseNodeGUID: 89
+    TargetNodeGUID: 90
+  - BaseNodeGUID: 90
+    TargetNodeGUID: 91
+  - BaseNodeGUID: 91
+    TargetNodeGUID: 94
+  - BaseNodeGUID: 94
+    TargetNodeGUID: 95
+  - BaseNodeGUID: 95
+    TargetNodeGUID: 98
+  - BaseNodeGUID: 95
+    TargetNodeGUID: 97
+  - BaseNodeGUID: 95
+    TargetNodeGUID: 118
+  - BaseNodeGUID: 96
+    TargetNodeGUID: 107
+  - BaseNodeGUID: 97
+    TargetNodeGUID: 109
+  - BaseNodeGUID: 98
+    TargetNodeGUID: 101
+  - BaseNodeGUID: 98
+    TargetNodeGUID: 100
+  - BaseNodeGUID: 98
+    TargetNodeGUID: 99
+  - BaseNodeGUID: 98
+    TargetNodeGUID: 107
+  - BaseNodeGUID: 99
+    TargetNodeGUID: 102
+  - BaseNodeGUID: 99
+    TargetNodeGUID: 103
+  - BaseNodeGUID: 100
+    TargetNodeGUID: 102
+  - BaseNodeGUID: 100
+    TargetNodeGUID: 104
+  - BaseNodeGUID: 101
+    TargetNodeGUID: 102
+  - BaseNodeGUID: 101
+    TargetNodeGUID: 105
+  - BaseNodeGUID: 102
+    TargetNodeGUID: 107
+  - BaseNodeGUID: 103
+    TargetNodeGUID: 108
+  - BaseNodeGUID: 104
+    TargetNodeGUID: 106
+  - BaseNodeGUID: 104
+    TargetNodeGUID: 107
+  - BaseNodeGUID: 105
+    TargetNodeGUID: 107
+  - BaseNodeGUID: 106
+    TargetNodeGUID: 105
+  - BaseNodeGUID: 106
+    TargetNodeGUID: 102
+  - BaseNodeGUID: 108
+    TargetNodeGUID: 107
+  - BaseNodeGUID: 108
+    TargetNodeGUID: 100
+  - BaseNodeGUID: 108
+    TargetNodeGUID: 101
+  - BaseNodeGUID: 109
+    TargetNodeGUID: 110
+  - BaseNodeGUID: 109
+    TargetNodeGUID: 111
+  - BaseNodeGUID: 110
+    TargetNodeGUID: 114
+  - BaseNodeGUID: 110
+    TargetNodeGUID: 115
+  - BaseNodeGUID: 111
+    TargetNodeGUID: 112
+  - BaseNodeGUID: 111
+    TargetNodeGUID: 107
+  - BaseNodeGUID: 112
+    TargetNodeGUID: 116
+  - BaseNodeGUID: 114
+    TargetNodeGUID: 107
+  - BaseNodeGUID: 116
+    TargetNodeGUID: 107
+  - BaseNodeGUID: 118
+    TargetNodeGUID: 96
   DialogueNodeData:
   - Id: 1
-    OutIds: 060000000700000008000000
+    OutIds: 02000000
     IsRepeatable: 1
-    DialogueText: "\u041D\u0430\u0447\u0430\u043B\u043E.\n\u0416\u043E\u043F\u0430
-      \u0421\u041E\u0421\u0410\u0422\u042C!"
+    DialogueText: "\u0412\u044B \u0431\u044B\u043B\u0438 \u0443\u0441\u043F\u0435\u0448\u043D\u044B\u043C,
+      \u0443 \u0432\u0430\u0441 \u0431\u044B\u043B\u043E \u0432\u0441\u0435,\n\u0447\u0435\u0433\u043E
+      \u0445\u043E\u0442\u0435\u043B\u043E\u0441\u044C \u0431\u044B \u043E\u0431\u044B\u0447\u043D\u043E\u043C\u0443
+      \u0447\u0435\u043B\u043E\u0432\u0435\u043A\u0443 \u0438 \u0434\u0430\u0436\u0435
+      \u043D\u0435\u043C\u043D\u043E\u0433\u043E \u0431\u043E\u043B\u044C\u0448\u0435."
     Type: 0
     Stipulations: []
     Trial: -1
@@ -51,35 +376,213 @@ MonoBehaviour:
     Bg: 
     Sound: 
     Music: 
-    Position: {x: 327, y: 128}
+    Position: {x: 393, y: 101}
   - Id: 2
-    OutIds: 0400000005000000
+    OutIds: 03000000
     IsRepeatable: 1
-    DialogueText: "\u0418\u0441\u043F\u044B\u0442\u0430\u043D\u0438\u0435."
-    Type: 1
-    Stipulations: []
-    Trial: 50
-    Gift: 
-    Bg: bg2
-    Sound: 
-    Music: 
-    Position: {x: 814, y: 128}
-  - Id: 3
-    OutIds: 01000000
-    IsRepeatable: 1
-    DialogueText: "\u041A\u043E\u043D\u0435\u0446."
+    DialogueText: "\u041D\u043E \u044D\u0442\u043E\u043C\u0443 \u043D\u0435 \u0441\u0443\u0436\u0434\u0435\u043D\u043E
+      \u0431\u044B\u043B\u043E \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0442\u044C\u0441\u044F
+      \u0432\u0435\u0447\u043D\u043E.\n\u0421\u043B\u0443\u0447\u0438\u043B\u0441\u044F
+      \u0433\u043B\u043E\u0431\u0430\u043B\u044C\u043D\u044B\u0439 \u044D\u043A\u043E\u043D\u043E\u043C\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+      \u043A\u0440\u0438\u0437\u0438\u0441, \u0432\u0430\u0441 \u043E\u043D \u043A\u043E\u0441\u043D\u0443\u043B\u0441\u044F
+      \u0441\u0438\u043B\u044C\u043D\u0435\u0435 \u0447\u0435\u043C \u043E\u0441\u0442\u0430\u043B\u044C\u043D\u044B\u0445."
     Type: 0
     Stipulations: []
     Trial: -1
     Gift: 
-    Bg: firstBG
+    Bg: 
     Sound: 
     Music: 
-    Position: {x: 1277, y: -21}
-  - Id: 4
-    OutIds: 03000000
+    Position: {x: 830, y: 101}
+  - Id: 3
+    OutIds: 04000000
     IsRepeatable: 1
-    DialogueText: "\u041F\u043E\u0431\u0435\u0434\u0430."
+    DialogueText: "\u0412\u044B \u043F\u043E\u0442\u0435\u0440\u044F\u043B\u0438
+      \u0432\u0441\u0435 \u0447\u0442\u043E \u0443 \u0432\u0430\u0441 \u0431\u044B\u043B\u043E."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 1402, y: 101}
+  - Id: 4
+    OutIds: 05000000
+    IsRepeatable: 1
+    DialogueText: "\u0412 \u043E\u0442\u0447\u0430\u044F\u043D\u0438\u0438 \u043F\u0440\u043E\u0434\u0430\u0432\u0430\u044F
+      \u0432\u0441\u0451 \u043D\u0430\u0436\u0438\u0442\u043E\u0435 \u0432\u044B
+      \u0434\u043E\u0431\u0440\u0430\u043B\u0438\u0441\u044C \u0434\u043E \u0441\u0430\u043C\u044B\u0445
+      \u0441\u0442\u0430\u0440\u044B\u0445\n\u0432\u0435\u0449\u0435\u0439 \u0432\u0430\u0448\u0435\u0439
+      \u0441\u0435\u043C\u044C\u0438 \u0438 \u043D\u0430\u0442\u044B\u043A\u0430\u0435\u0442\u0435\u0441\u044C
+      \u043D\u0430 \u0441\u0442\u0430\u0440\u044B\u0439 \u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439
+      \u0444\u043E\u043B\u0438\u0430\u043D\u0442,\n\u043A\u043E\u0442\u043E\u0440\u044B\u0439
+      \u0434\u0430\u0432\u043D\u043E \u043F\u0440\u0438\u043D\u0430\u0434\u043B\u0435\u0436\u0430\u043B
+      \u0432\u0430\u0448\u0438\u043C \u043F\u043E\u0442\u043E\u043C\u043A\u0430\u043C.\r\n"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 1645, y: 101}
+  - Id: 5
+    OutIds: 06000000
+    IsRepeatable: 1
+    DialogueText: "\u0412 \u0432\u0435\u0442\u0445\u043E\u043C \u0441\u0442\u0430\u0440\u043E\u043C
+      \u0444\u043E\u043B\u0438\u0430\u043D\u0442\u0435 \u0432\u044B \u0432\u044B\u0447\u0438\u0442\u0430\u043B\u0438
+      \u0438\u0441\u0442\u043E\u0440\u0438\u044E,\n\u043A\u043E\u0442\u043E\u0440\u0430\u044F
+      \u043F\u043E\u0441\u0435\u043B\u0438\u043B\u0430 \u043D\u0430\u0434\u0435\u0436\u0434\u0443
+      \u0432 \u0432\u0430\u0448\u0435\u043C \u0441\u0435\u0440\u0434\u0446\u0435."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 2124, y: 101}
+  - Id: 6
+    OutIds: 07000000
+    IsRepeatable: 1
+    DialogueText: "\u042D\u0442\u0430 \u0438\u0441\u0442\u043E\u0440\u0438\u044F
+      \u0433\u043B\u0430\u0441\u0438\u043B\u0430, \u0447\u0442\u043E \u0432 \u043E\u0434\u043D\u043E\u043C
+      \u0438\u0437 \u0434\u0440\u0435\u0432\u043D\u0438\u0445 \u0437\u0430\u043C\u043A\u043E\u0432
+      \u0437\u0430\u0442\u0435\u0440\u044F\u043B\u0441\u044F\n\u043C\u0430\u0433\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+      \u0430\u0440\u0442\u0435\u0444\u0430\u043A\u0442, \u0438\u0437\u0432\u0435\u0441\u0442\u043D\u044B\u0439
+      \u043A\u0430\u043A \u201C\u0414\u043E\u0431\u0440\u043E\u0435 \u043F\u0438\u0432\u043E
+      \u0436\u0438\u0437\u043D\u0438\u201D."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 2477, y: 101}
+  - Id: 7
+    OutIds: 08000000
+    IsRepeatable: 1
+    DialogueText: "\u042D\u0442\u043E \u0440\u0430\u0439\u0441\u043A\u043E\u0435
+      \u043F\u043E\u0439\u043B\u043E \u043F\u043E\u0437\u0432\u043E\u043B\u044F\u0435\u0442
+      \u0438\u0441\u043F\u043E\u043B\u043D\u0438\u0442\u044C \u043B\u044E\u0431\u043E\u0435
+      \u0432\u0430\u0448\u0435 \u0436\u0435\u043B\u0430\u043D\u0438\u0435.\n\u041F\u043E\u043D\u044F\u0442\u044C
+      \u0433\u0434\u0435 \u043E\u043D \u043D\u0430\u0445\u043E\u0434\u0438\u0442\u0441\u044F
+      \u0432\u0430\u043C \u0443\u0434\u0430\u043B\u043E\u0441\u044C \u0441\u0440\u0430\u0437\u0443
+      \u0432\u044B \u043F\u0440\u043E\u0441\u0442\u043E \u0443\u0441\u043D\u0443\u043B\u0438,\n\u043F\u043E\u043A\u0430
+      \u0447\u0438\u0442\u0430\u043B\u0438, \u0438 \u0432\u0430\u043C \u043F\u0440\u0438\u0441\u043D\u0438\u043B\u043E\u0441\u044C
+      \u0447\u0442\u043E \u0432\u044B \u0441\u043F\u0438\u0441\u0430\u043B\u0438\u0441\u044C
+      \u0441 \u043A\u043B\u0430\u0434\u043C\u0435\u043D\u043E\u043C \u0438 \u043E\u043D
+      \u0441\u043A\u0438\u043D\u0443\u043B \u0432\u0430\u043C \u043A\u043E\u043E\u0440\u0434\u0438\u043D\u0430\u0442\u044B."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 2914, y: 101}
+  - Id: 8
+    OutIds: 09000000
+    IsRepeatable: 1
+    DialogueText: "\u0441 \u043F\u0440\u043E\u0431\u0443\u0436\u0434\u0435\u043D\u0438\u0435\u043C
+      \u0432 \u0432\u0430\u0448 \u043C\u043E\u0437\u0433 \u043F\u043B\u043E\u0442\u043D\u043E
+      \u0437\u0430\u0441\u0435\u043B\u0430 \u043C\u044B\u0441\u043B\u044C \u043E
+      \u0442\u043E\u043C \u0447\u0442\u043E \u043A\u043E\u043E\u0440\u0434\u0438\u043D\u0430\u0442\u044B
+      \u0432\u0435\u0440\u043D\u044B,\n\u0438 \u0432\u0430\u043C \u043D\u0443\u0436\u043D\u043E
+      \u043E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u0441\u044F \u0442\u0443\u0434\u0430
+      \u0447\u0442\u043E\u0431\u044B \u0442\u0430\u043C \u043D\u0438 \u0431\u044B\u043B\u043E.\r\n\u042D\u0442\u043E
+      \u0447\u0443\u0432\u0441\u0442\u0432\u043E \u0431\u044B\u043B\u043E \u043F\u043E\u0445\u043E\u0436\u0435
+      \u043D\u0430 \u0430\u0442\u0435\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043A\u0443\u044E
+      \u0437\u0430\u0446\u0438\u043A\u043B\u0435\u043D\u043D\u043E\u0441\u0442\u044C,\n\u0447\u0442\u043E-\u0442\u043E
+      \u0441 \u043E\u0442\u0442\u0435\u043D\u043A\u0430\u043C\u0438 \u0448\u0438\u0437\u043E\u0444\u0440\u0435\u043D\u0438\u0438,
+      \u043D\u043E \u0432\u044B \u0431\u044B\u043B\u0438 \u043D\u0435 \u0432 \u0441\u0438\u043B\u0430\u0445
+      \u0441\u043E\u043F\u0440\u043E\u0442\u0438\u0432\u043B\u044F\u0442\u044C\u0441\u044F."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 3516, y: 101}
+  - Id: 9
+    OutIds: 0a000000
+    IsRepeatable: 1
+    DialogueText: "\u0412 \u0438\u0442\u043E\u0433\u0435 \u0432\u044B \u043E\u0442\u043F\u0440\u0430\u0432\u0438\u043B\u0438\u0441\u044C
+      \u043D\u0430 \u0443\u043A\u0430\u0437\u0430\u043D\u043D\u043E\u0435 \u043C\u0435\u0441\u0442\u043E.\r\n\u0418
+      \u043E\u043A\u043E\u043B\u043E \u043A\u0430\u043A\u043E\u0439-\u0442\u043E
+      \u0437\u0430\u0431\u0440\u043E\u0448\u043A\u0438, \u0432 \u043B\u0435\u0441\u0443,
+      \u0432\u044B \u043D\u0430\u0448\u043B\u0438 \u0434\u0440\u0435\u0432\u043D\u0438\u0439
+      \u0430\u0440\u0442\u0435\u0444\u0430\u043A\u0442.\r"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 4033, y: 101}
+  - Id: 10
+    OutIds: 0b000000
+    IsRepeatable: 1
+    DialogueText: "\u0412\u044B \u043D\u0435 \u0441\u0442\u0430\u043B\u0438 \u043C\u0435\u0434\u043B\u0438\u0442\u044C
+      \u0438 \u043F\u0440\u0438\u0441\u0442\u0443\u043F\u0438\u043B\u0438 \u043A
+      \u0443\u043F\u043E\u0442\u0440\u0435\u0431\u043B\u0435\u043D\u0438\u044E\n\u043F\u0440\u044F\u043C\u043E
+      \u043D\u0430 \u043C\u0435\u0441\u0442\u0435."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 4475, y: 101}
+  - Id: 11
+    OutIds: 0c000000
+    IsRepeatable: 1
+    DialogueText: "\u041D\u043E \u043A\u043E\u0433\u0434\u0430 \u0432\u044B \u0432\u044B\u043F\u0438\u043B\u0438
+      \u0432\u0441\u0451 \u0434\u043E \u0434\u043D\u0430, \u043E\u043A\u0430\u0437\u0430\u043B\u043E\u0441\u044C,\n\u0447\u0442\u043E
+      \u0432\u0430\u0441 \u043D\u0430\u0435\u0431\u0430\u043B\u0438 \u0438 \u0432\u044B
+      \u0432\u044B\u043F\u0438\u043B\u0438 \u0430\u0440\u0442\u0435\u0444\u0430\u043A\u0442
+      \u201C\u0417\u043B\u043E\u0431\u043D\u0430\u044F \u0432\u043E\u0434\u043A\u0430
+      \u0441\u043C\u0435\u0440\u0442\u0438\u201D,\n\u0442\u0435\u043F\u0435\u0440\u044C
+      \u0432\u0430\u0448\u0430 \u0436\u0438\u0437\u043D\u044C \u043F\u0440\u0435\u0432\u0440\u0430\u0442\u0438\u043B\u0430\u0441\u044C
+      \u0432 \u0441\u0443\u0449\u0438\u0439 \u043A\u043E\u0448\u043C\u0430\u0440\n\u0438
+      \u041B\u0430\u0432\u043A\u0440\u0430\u0444\u0442\u0438\u0430\u043D\u0441\u043A\u0438\u0439
+      \u0443\u0436\u0430\u0441."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 4808, y: 101}
+  - Id: 12
+    OutIds: 0e0000000d000000
+    IsRepeatable: 1
+    DialogueText: "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u043F\u0435\u0440\u0435\u0432\u0430\u0440\u0438\u0442\u044C
+      \u0432\u0441\u0451,\n\u0447\u0442\u043E \u0442\u043E\u043B\u044C\u043A\u043E  
+      \u0447\u0442\u043E \u043F\u0440\u043E\u0438\u0437\u043E\u0448\u043B\u043E."
+    Type: 1
+    Stipulations: []
+    Trial: 10
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 5242, y: 101}
+  - Id: 13
+    OutIds: 0f000000
+    IsRepeatable: 1
+    DialogueText: "\u0412\u044B \u043E\u0441\u043E\u0437\u043D\u0430\u0451\u0442\u0435,
+      \u0447\u0442\u043E \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u044F \u0441\u0442\u0430\u043B\u0430
+      \u0435\u0449\u0451 \u0445\u0443\u0436\u0435,\n\u0447\u0435\u043C \u0431\u044B\u043B\u0430.
+      \u0420\u0430\u0437 \u0443\u0436 \u043D\u0435\u0447\u0435\u0433\u043E \u0442\u0435\u0440\u044F\u0442\u044C\n\u043F\u043E\u0447\u0435\u043C\u0443
+      \u0431\u044B \u043D\u0435 \u043F\u043E\u043F\u0440\u043E\u0431\u043E\u0432\u0430\u0442\u044C
+      \u0432\u0441\u0451  \u0438\u0441\u043F\u0440\u0430\u0432\u0438\u0442\u044C."
     Type: 3
     Stipulations: []
     Trial: -1
@@ -87,51 +590,33 @@ MonoBehaviour:
     Bg: 
     Sound: 
     Music: 
-    Position: {x: 1020, y: -21}
-  - Id: 5
-    OutIds: 01000000
+    Position: {x: 5487, y: 43}
+  - Id: 14
+    OutIds: 
     IsRepeatable: 1
-    DialogueText: "\u041F\u043E\u0440\u0430\u0436\u0435\u043D\u0438\u0435."
+    DialogueText: "\u0412\u0430\u0448 \u0436\u0430\u043B\u043A\u0438\u0439 \u043C\u043E\u0437\u0433
+      \u043D\u0435 \u0441\u043F\u0440\u0430\u0432\u0438\u043B\u0441\u044F \u0441\r\n\u043D\u0430\u0445\u043B\u044B\u043D\u0443\u0432\u0448\u0438\u043C
+      \u043F\u043E\u0442\u043E\u043A\r\n\u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u0438.\r\n\u0412\u044B
+      \u0443\u043C\u0435\u0440\u043B\u0438 \u043E\u0442 \u0438\u043D\u0441\u0443\u043B\u044C\u0442\u0430
+      \u0436\u043E\u043F\u044B."
     Type: 2
     Stipulations: []
     Trial: -1
     Gift: 
-    Bg: firstBG
-    Sound: 
-    Music: 
-    Position: {x: 1049, y: 372}
-  - Id: 6
-    OutIds: 02000000
-    IsRepeatable: 1
-    DialogueText: text1.
-    Type: 6
-    Stipulations:
-    - war bow
-    Trial: -1
-    Gift: war bow
     Bg: 
     Sound: 
     Music: 
-    Position: {x: 577, y: 104}
-  - Id: 7
-    OutIds: 01000000
+    Position: {x: 5487, y: 392}
+  - Id: 15
+    OutIds: 1000000011000000
     IsRepeatable: 1
-    DialogueText: text2.
-    Type: 5
-    Stipulations:
-    - sward
-    - war bow
-    - kill Niger
-    Trial: -1
-    Gift: sward
-    Bg: 
-    Sound: 
-    Music: 
-    Position: {x: 577, y: 471}
-  - Id: 8
-    OutIds: 01000000
-    IsRepeatable: 0
-    DialogueText: UnRep
+    DialogueText: "\u0412\u044B \u043E\u0441\u043C\u0430\u0442\u0440\u0438\u0432\u0430\u0435\u0442\u0435\u0441\u044C
+      \u0438 \u0437\u0430\u043C\u0435\u0447\u0430\u0435\u0442\u0435, \u0447\u0442\u043E
+      \u0437\u0430\u0431\u0440\u043E\u0448\u043A\u0430\r\n\u043E\u043A\u043E\u043B\u043E
+      \u043A\u043E\u0442\u043E\u0440\u043E\u0439 \u0432\u044B \u043D\u0430\u0445\u043E\u0434\u0438\u043B\u0438\u0441\u044C
+      -\r\n\u043D\u0430 \u0441\u0430\u043C\u043E\u043C \u0434\u0435\u043B\u0435 \u043D\u0435
+      \u0437\u0430\u0431\u0440\u043E\u0448\u043A\u0430, \u0430\r\n\u043E\u0433\u0440\u043E\u043C\u043D\u044B\u0439
+      \u0434\u0440\u0435\u0432\u043D\u0438\u0439 \u0437\u0430\u043C\u043E\u043A."
     Type: 0
     Stipulations: []
     Trial: -1
@@ -139,6 +624,1358 @@ MonoBehaviour:
     Bg: 
     Sound: 
     Music: 
-    Position: {x: 345, y: 512}
+    Position: {x: 5826, y: 43}
+  - Id: 16
+    OutIds: 12000000
+    IsRepeatable: 1
+    DialogueText: "\u041F\u043E\u0434\u043E\u0439\u0442\u0438 \u043A \u0437\u0430\u043C\u043A\u0443"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 6170, y: -43}
+  - Id: 17
+    OutIds: 30000000
+    IsRepeatable: 1
+    DialogueText: "\u0423\u0431\u0435\u0436\u0430\u0442\u044C \u0434\u043E\u043C\u043E\u0439"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 6170, y: 362}
+  - Id: 18
+    OutIds: 13000000
+    IsRepeatable: 1
+    DialogueText: "\u0412\u043D\u0443\u0442\u0440\u0438 \u0432\u0430\u0441 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0435\u0442\n\u0440\u043E\u0441\u043A\u043E\u0448\u043D\u043E\u0433\u043E
+      \u0432\u0438\u0434\u0430 \u043F\u043E\u043C\u0435\u0449\u0435\u043D\u0438\u0435.\n\u0415\u0433\u043E
+      \u0430\u0440\u0445\u0438\u0442\u0435\u043A\u0442\u0443\u0440\u0430 \u043F\u043E\u0440\u0430\u0436\u0430\u0435\u0442 
+      \u0432\u043E\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435,\n\u0437\u0430\u0441\u0442\u0430\u0432\u043B\u044F\u044F
+      \u0437\u0430\u0434\u0443\u043C\u0430\u0442\u044C \u043E \u0442\u043E\u043C,
+      \u043A\u0430\u043A \u043C\u043E\u0433 \u0442\u0430\u043A\u043E\u0439\n\u0432\u0435\u043B\u0438\u043A\u043E\u043B\u0435\u043F\u043D\u044B\u0439
+      \u043F\u0430\u043C\u044F\u0442\u043D\u0438\u043A  \u0434\u0440\u0435\u0432\u043D\u043E\u0441\u0442\u0438
+      \u043E\u043A\u0430\u0437\u0430\u0442\u044C\u0441\u044F \u0432\u0441\u0435\u043C\u0438\n\u0437\u0430\u0431\u044B\u0442\u044B\u043C
+      \u0438 \u0431\u0440\u043E\u0448\u0435\u043D\u043D\u044B\u043C."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 6379, y: -43}
+  - Id: 19
+    OutIds: 14000000
+    IsRepeatable: 1
+    DialogueText: "\u0412\u044B \u0437\u0430\u043C\u0435\u0447\u0430\u0435\u0442\u0435
+      \u043F\u0440\u043E\u0445\u043E\u0434 \u0441\r\n\u043D\u0435\u043F\u043E\u043D\u044F\u0442\u043D\u043E\u0439
+      \u043D\u0430\u0434\u043F\u0438\u0441\u044C\u044E \u0432 \u0441\u0442\u043E\u0440\u043E\u043D\u0435.\r\n\u0422\u0443\u0441\u043A\u043B\u043E\u0435
+      \u0441\u0432\u0435\u0447\u0435\u043D\u0438\u0435 \u043E\u0431\u0440\u0430\u043C\u043B\u044F\u044E\u0449\u0435\u0435
+      \u0435\u0433\u043E, \u043A\u0430\u043A \u0431\u044B\r\n\u0437\u0430\u043C\u0430\u043D\u0438\u0432\u0430\u0435\u0442
+      \u0432\u0430\u0441 \u0432\u043D\u0443\u0442\u0440\u044C \u043A\u043E\u043C\u043D\u0430\u0442\u044B."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 6772, y: -43}
+  - Id: 20
+    OutIds: 15000000
+    IsRepeatable: 1
+    DialogueText: "\u0412\u044B \u0437\u0430\u0445\u043E\u0434\u0438\u0442\u0435
+      \u0432\u043D\u0443\u0442\u0440\u044C \u0438 \u0437\u0430\u043C\u0435\u0447\u0430\u0435\u0442\u0435
+      \u0447\u0442\u043E \u043D\u0430 \u043A\u0430\u043C\u0435\u043D\u043D\u043E\u0439
+      \u043F\u043B\u0438\u0442\u0435\n\u043D\u0430\u0440\u0438\u0441\u043E\u0432\u0430\u043D\u044B
+      \u0440\u0430\u0437\u043D\u044B\u0435 \u0432\u0438\u0434\u044B \u0441\u0440\u0435\u0434\u043D\u0435\u0432\u0435\u043A\u043E\u0432\u043E\u0433\u043E
+      \u043E\u0440\u0443\u0436\u0438\u0435.\r"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 7104, y: -43}
+  - Id: 21
+    OutIds: 16000000
+    IsRepeatable: 1
+    DialogueText: "\u041F\u043E\u0434\u0441\u043E\u0437\u043D\u0430\u043D\u0438\u0435
+      \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u0442 \u0432\u0430\u043C,\r\n\u0447\u0442\u043E
+      \u044D\u0442\u043E \u0440\u0430\u0437\u0434\u0430\u0442\u0447\u0438\u043A \u043E\u0440\u0443\u0436\u0438\u044F.\r\n\u041D\u0435\u043F\u043B\u043E\u0445\u043E
+      \u0431\u044B \u0431\u044B\u043B\u043E \u0438\u043C\r\n\u0432\u043E\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C\u0441\u044F
+      \u043F\u043E\u0442\u043E\u043C\u0443 \u0447\u0442\u043E \u0432\u044B\r\n\u0434\u0430\u0436\u0435
+      \u043F\u0435\u0440\u0446\u043E\u0432\u043A\u0443 \u0441 \u0441\u043E\u0431\u043E\u0439
+      \u043D\u0435\r\n\u0432\u0437\u044F\u043B\u0438."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 7496, y: -43}
+  - Id: 22
+    OutIds: 17000000
+    IsRepeatable: 1
+    DialogueText: "\u041D\u0430\u0447\u0430\u0442\u044C \u0442\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 7737, y: -43}
+  - Id: 23
+    OutIds: 18000000190000001a0000001b0000001c000000
+    IsRepeatable: 1
+    DialogueText: "\u0412\u044B\u0431\u0435\u0440\u0435\u0442\u0435 \u0432\u043E\u0437\u0440\u0430\u0441\u0442:"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 7953, y: -43}
+  - Id: 24
+    OutIds: 1d000000
+    IsRepeatable: 1
+    DialogueText: "\u043C\u0435\u043D\u0435\u0435 14 \u0438\u043B\u0438 \u043C\u0435\u043D\u044C\u0448\u0435"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 8203, y: -43}
+  - Id: 25
+    OutIds: 1d000000
+    IsRepeatable: 1
+    DialogueText: "\u043E\u0442 15 \u0434\u043E 18"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 8203, y: 237}
+  - Id: 26
+    OutIds: 1d000000
+    IsRepeatable: 1
+    DialogueText: "\u043E\u0442 18 \u0434\u043E 25"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 8203, y: 797}
+  - Id: 27
+    OutIds: 1d000000
+    IsRepeatable: 1
+    DialogueText: "\u043E\u0442 25 \u0434\u043E 40"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 8203, y: 517}
+  - Id: 28
+    OutIds: 1d000000
+    IsRepeatable: 1
+    DialogueText: "\u0431\u043E\u043B\u0435\u0435 40"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 8203, y: 1077}
+  - Id: 29
+    OutIds: 1e0000001f000000200000002100000022000000
+    IsRepeatable: 1
+    DialogueText: "\u0415\u0441\u043B\u0438 \u043A\u0442\u043E-\u0442\u043E \u043E\u0441\u043A\u043E\u0440\u0431\u043B\u044F\u0435\u0442
+      \u0432\u0430\u0441 \u0432 \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u0438
+      \u043B\u044E\u0434\u0435\u0439 \u0438\u043B\u0438 \u043D\u0430 \u0440\u0430\u0431\u043E\u0442\u0435,
+      \u0432\u044B \u0431\u044B \u0434\u0430\u043B\u0438 \u043E\u0442\u043F\u043E\u0440?"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 8453, y: -43}
+  - Id: 30
+    OutIds: 23000000
+    IsRepeatable: 1
+    DialogueText: "\u0434\u0430"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 9009, y: -43}
+  - Id: 31
+    OutIds: 23000000
+    IsRepeatable: 1
+    DialogueText: "\u043D\u0435\u0442"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 9009, y: 237}
+  - Id: 32
+    OutIds: 23000000
+    IsRepeatable: 1
+    DialogueText: "\u043D\u0435 \u0437\u043D\u0430\u044E"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 9009, y: 517}
+  - Id: 33
+    OutIds: 23000000
+    IsRepeatable: 1
+    DialogueText: "\u043D\u0438\u043A\u0442\u043E \u0438 \u043D\u0435 \u043F\u043E\u0434\u0443\u043C\u0430\u0435\u0442
+      \u043E\u0441\u043A\u043E\u0440\u0431\u0438\u0442\u044C \u043C\u0435\u043D\u044F."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 9009, y: 797}
+  - Id: 34
+    OutIds: 23000000
+    IsRepeatable: 1
+    DialogueText: "\u044F \u0431\u044B \u043D\u0430\u0448\u0451\u043B \u043C\u0438\u0440\u043D\u043E\u0435
+      \u0440\u0435\u0448\u0435\u043D\u0438\u0435 \u043A\u043E\u043D\u0444\u043B\u0438\u043A\u0442\u0430."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 9009, y: 1077}
+  - Id: 35
+    OutIds: 2400000025000000260000002700000028000000
+    IsRepeatable: 1
+    DialogueText: "\u041A\u0430\u043A\u043E\u0439 \u0436\u0430\u043D\u0440 \u043C\u0443\u0437\u044B\u043A\u0438
+      \u0432\u044B \u043F\u0440\u0435\u0434\u043F\u043E\u0447\u0438\u0442\u0430\u0435\u0442\u0435
+      ?"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 9338, y: -43}
+  - Id: 36
+    OutIds: 29000000
+    IsRepeatable: 1
+    DialogueText: "\u041A\u043B\u0430\u0441\u0441\u0438\u043A\u0430"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 9698, y: -43}
+  - Id: 37
+    OutIds: 29000000
+    IsRepeatable: 1
+    DialogueText: "\u0420\u043E\u043A"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 9698, y: 252}
+  - Id: 38
+    OutIds: 29000000
+    IsRepeatable: 1
+    DialogueText: "\u0420\u0435\u043F"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 9698, y: 532}
+  - Id: 39
+    OutIds: 29000000
+    IsRepeatable: 1
+    DialogueText: "\u042D\u043B\u0435\u0442\u0440\u043E\u043D\u0449\u0438\u043D\u0430"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 9698, y: 812}
+  - Id: 40
+    OutIds: 29000000
+    IsRepeatable: 1
+    DialogueText: "\u0412\u0441\u0451 \u0438 \u0441\u0440\u0430\u0437\u0443"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 9698, y: 1092}
+  - Id: 41
+    OutIds: 2a0000002b0000002c0000002d0000002e000000
+    IsRepeatable: 1
+    DialogueText: "\u0415\u0441\u043B\u0438 \u0432\u044B \u0441\u0442\u043E\u043B\u043A\u043D\u0443\u043B\u0438\u0441\u044C
+      \u0441 \u043A\u0435\u043C-\u0442\u043E \u0443 \u043A\u043E\u0433\u043E \u0443\u0436\u0430\u0441\u043D\u044B\u0439
+      \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440, \u0432\u044B \u0431\u044B:"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 10002, y: -43}
+  - Id: 42
+    OutIds: 2f000000
+    IsRepeatable: 1
+    DialogueText: "\u041D\u0435 \u043E\u0431\u0449\u0430\u044E\u0441\u044C \u0441
+      \u0442\u0430\u043A\u0438\u043C\u0438,\n\u043D\u0435 \u0442\u0440\u0430\u0447\u0443
+      \u043D\u0430 \u043D\u0438\u0445 \u0441\u0432\u043E\u0451 \u0432\u0440\u0435\u043C\u044F."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 10536, y: -43}
+  - Id: 43
+    OutIds: 2f000000
+    IsRepeatable: 1
+    DialogueText: "\u041F\u043E\u0441\u0442\u0430\u0432\u043B\u044E \u0435\u0433\u043E
+      \u043D\u0430 \u043C\u0435\u0441\u0442\u043E."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 10536, y: 237}
+  - Id: 44
+    OutIds: 2f000000
+    IsRepeatable: 1
+    DialogueText: "\u0423 \u043C\u0435\u043D\u044F \u0444\u0435\u0442\u0438\u0448
+      \u043D\u0430\n\u0443\u0436\u0430\u0441\u043D\u044B\u0439 \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 10536, y: 517}
+  - Id: 45
+    OutIds: 2f000000
+    IsRepeatable: 1
+    DialogueText: "\u041D\u0435 \u043E\u0431\u0440\u0430\u0449\u0430\u043B(\u0430)
+      \u0431\u044B \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u0435."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 10536, y: 812}
+  - Id: 46
+    OutIds: 2f000000
+    IsRepeatable: 1
+    DialogueText: "\u041F\u0443\u043A-\u043C\u0435\u043A, \u0437\u0430\u0432\u0438\u0441\u0438\u0442
+      \u043E\u0442 \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u0438."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 10536, y: 1092}
+  - Id: 47
+    OutIds: 3100000032000000330000003400000035000000
+    IsRepeatable: 1
+    DialogueText: "\u0422\u0440\u0443\u0434\u043D\u043E \u043B\u0438 \u0432\u0430\u043C
+      \u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0432 \u0433\u043B\u0430\u0437\u0430
+      \u0434\u0440\u0443\u0433\u0438\u043C \u043B\u044E\u0434\u044F\u043C/\u0436\u0438\u0432\u043E\u0442\u043D\u044B\u043C
+      ?"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 10830, y: -43}
+  - Id: 48
+    OutIds: 10000000
+    IsRepeatable: 1
+    DialogueText: "\u041C\u044B \u043D\u0430\u0445\u0443\u044F \u0438\u0433\u0440\u0443
+      \u0434\u0435\u043B\u0430\u043B\u0438 ?"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 6350, y: 362}
+  - Id: 49
+    OutIds: 36000000
+    IsRepeatable: 1
+    DialogueText: "\u0414\u0430(\u043F\u0438\u0437\u0434\u0430)"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 11312, y: -43}
+  - Id: 50
+    OutIds: 36000000
+    IsRepeatable: 1
+    DialogueText: "\u041D\u0435\u0442(\u043F\u0438\u0437\u0434\u0430)"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 11312, y: 237}
+  - Id: 51
+    OutIds: 36000000
+    IsRepeatable: 1
+    DialogueText: "\u0442\u0440\u0443\u0434\u043D\u043E \u043C\u043D\u0435 \u043E\u0442\u0432\u0435\u0447\u0430\u0442\u044C
+      \u043D\u0430 \u044D\u0442\u0438 \u0432\u043E\u043F\u0440\u043E\u0441\u044B
+      \u0435\u0431\u0430\u043D\u044B\u0435.\n\u0410 \u0433\u043B\u0430\u0437\u0430
+      \u044F \u0431\u044B \u043F\u0440\u043E\u0441\u0442\u043E \u0432\u044B\u0434\u0430\u0432\u0438\u043B(\u0430)."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 11312, y: 517}
+  - Id: 52
+    OutIds: 36000000
+    IsRepeatable: 1
+    DialogueText: "\u201C\u042F \u0447\u0430\u0441\u0442\u043E \u0432\u0438\u0436\u0443
+      \u0441\u0442\u0440\u0430\u0445\n\u0432 \u0441\u043C\u043E\u0442\u0440\u044F\u0449\u0438\u0445
+      \u043D\u0430 \u043C\u0435\u043D\u044F \u0433\u043B\u0430\u0437\u0430\u0445\u201D."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 11312, y: 812}
+  - Id: 53
+    OutIds: 36000000
+    IsRepeatable: 1
+    DialogueText: "\u042F \u0436\u0438\u0432\u043E\u0442\u043D\u043E\u0435."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 11312, y: 1107}
+  - Id: 54
+    OutIds: 3700000038000000390000003a0000003b000000
+    IsRepeatable: 1
+    DialogueText: "\u041F\u043E\u043A\u0430\u043A\u0430\u043B(\u0430) \u0441\u0435\u0433\u043E\u0434\u043D\u044F
+      ?"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 11853, y: -43}
+  - Id: 55
+    OutIds: 3c000000
+    IsRepeatable: 1
+    DialogueText: "\u0434\u0430"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 12115, y: -43}
+  - Id: 56
+    OutIds: 3c000000
+    IsRepeatable: 1
+    DialogueText: "\u043D\u0435\u0442"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 12115, y: 237}
+  - Id: 57
+    OutIds: 3c000000
+    IsRepeatable: 1
+    DialogueText: "\u0421\u0435\u0439\u0447\u0430\u0441 \u0441\u0440\u0443"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 12115, y: 517}
+  - Id: 58
+    OutIds: 3c000000
+    IsRepeatable: 1
+    DialogueText: "\u0414\u0435\u0432\u043E\u0447\u043A\u0438 \u043D\u0435 \u043A\u0430\u043A\u0430\u044E\u0442"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 12115, y: 812}
+  - Id: 59
+    OutIds: 3c000000
+    IsRepeatable: 1
+    DialogueText: "\u042F \u0442\u0440\u0430\u0445\u043D\u0443\u043B \u043A\u0430\u043A\u0442\u0443\u0441"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 12115, y: 1092}
+  - Id: 60
+    OutIds: 3d0000003e0000003f0000004000000041000000
+    IsRepeatable: 1
+    DialogueText: "\u0427\u0438\u0442\u0430\u0442\u044C \u0433\u043E\u043B\u043E\u0441\u043E\u043C\u0443
+      \u0414\u0443\u0434\u044F:\n\u041A\u0430\u043A \u0442\u044B \u0441\u0447\u0438\u0442\u0430\u0435\u0448\u044C,
+      \u041B\u0435\u043D\u0438\u043D \u2013 \u044D\u0442\u043E \u0433\u0440\u0438\u0431?"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 12431, y: -43}
+  - Id: 61
+    OutIds: 42000000
+    IsRepeatable: 1
+    DialogueText: "\u0434\u0430"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 12776, y: -43}
+  - Id: 62
+    OutIds: 42000000
+    IsRepeatable: 1
+    DialogueText: "\u041A\u0430\u043A\u043E\u0433\u043E \u0447\u0451\u0440\u0442\u0430
+      \u043C\u044B \u043F\u0435\u0440\u0435\u0448\u043B\u0438 \u043D\u0430 \u0442\u044B?"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 12776, y: 237}
+  - Id: 63
+    OutIds: 42000000
+    IsRepeatable: 1
+    DialogueText: "\u041B\u0435\u043D\u0438\u043D \u043F\u043E\u0431\u0435\u0434\u0443
+      \u0434\u0435\u043B\u0430\u043B!"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 12776, y: 517}
+  - Id: 64
+    OutIds: 42000000
+    IsRepeatable: 1
+    DialogueText: "\u041B\u0435\u043D\u0438\u043D \u0445\u0443\u0435\u0442\u0443
+      \u0434\u0435\u043B\u0430\u043B!"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 12776, y: 797}
+  - Id: 65
+    OutIds: 42000000
+    IsRepeatable: 1
+    DialogueText: "\u042F \u0438\u0437 \u0432\u0440\u0435\u043C\u0435\u043D\u043D\u043E\u0439
+      \u043B\u0438\u043D\u0438\u0438 \u0432 \u043A\u043E\u0442\u043E\u0440\u043E\u0439
+      \u041B\u0435\u043D\u0438\u043D \u0435\u0449\u0451 \u043D\u0435 \u0440\u043E\u0434\u0438\u043B\u0441\u044F"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 12776, y: 1077}
+  - Id: 66
+    OutIds: 4300000044000000450000004600000047000000
+    IsRepeatable: 1
+    DialogueText: "\u0412\u044B\u0431\u0435\u0440\u0438 \u0441\u0430\u043C\u043E\u0435
+      \u0441\u043C\u0435\u0448\u043D\u043E\u0435 \u0441\u043B\u043E\u0432\u043E:"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 13289, y: -43}
+  - Id: 67
+    OutIds: 48000000
+    IsRepeatable: 0
+    DialogueText: "\u0416\u043E\u043F\u0430"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 13588, y: -43}
+  - Id: 68
+    OutIds: 48000000
+    IsRepeatable: 1
+    DialogueText: "\u041F\u0438\u0441\u044C\u043A\u0430"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 13588, y: 237}
+  - Id: 69
+    OutIds: 48000000
+    IsRepeatable: 0
+    DialogueText: "\u041A\u0430\u043A\u0430\u0448\u043A\u0430"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 13588, y: 797}
+  - Id: 70
+    OutIds: 48000000
+    IsRepeatable: 1
+    DialogueText: "\u041A\u0430\u0440\u0431\u044E\u0440\u0430\u0442\u043E\u0440"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 13588, y: 517}
+  - Id: 71
+    OutIds: 48000000
+    IsRepeatable: 1
+    DialogueText: "\u0421\u0430\u0441"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 13588, y: 1077}
+  - Id: 72
+    OutIds: 490000004a0000004d0000004c0000004b000000
+    IsRepeatable: 1
+    DialogueText: "\u0417\u0430\u043A\u043B\u044E\u0447\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439
+      \u0432\u043E\u043F\u0440\u043E\u0441:\n\u043E\u043A\u0430\u0437\u0430\u0432\u0448\u0438\u0441\u044C
+      \u043F\u0435\u0440\u0435\u0434 \u041F\u0443\u0442\u0438\u043D\u044B\u043C,
+      \u0447\u0442\u043E \u0432\u044B \u0435\u043C\u0443 \u0441\u043A\u0430\u0436\u0435\u0442\u0435?"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 13936, y: -43}
+  - Id: 73
+    OutIds: 4e000000
+    IsRepeatable: 1
+    DialogueText: "\u0417\u0434\u0440\u0430\u0441\u0442\u0435"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 14312, y: -43}
+  - Id: 74
+    OutIds: 4e000000
+    IsRepeatable: 1
+    DialogueText: "\u0421\u043A\u0430\u0436\u0443 \u0447\u0442\u043E\u0431\u044B
+      \u043D\u0430\u0437\u043D\u0430\u0447\u0438\u043B \u043C\u0435\u043D\u044F \u043F\u0440\u0435\u0434\u0441\u0435\u0434\u0430\u0442\u0435\u043B\u0435\u043C
+      \u043F\u0440\u0430\u0432\u0438\u0442\u0435\u043B\u044C\u0441\u0442\u0432\u0430,\n\u0435\u0441\u043B\u0438
+      \u043E\u043D \u0441\u043D\u043E\u0432\u0430 \u043F\u043E\u0431\u0435\u0434\u0438\u0442
+      \u0432 \u043C\u0430\u0440\u0442\u0435 2019 \u0433\u043E\u0434\u0430.\n\u042F
+      \u0434\u043E\u043B\u0436\u0435\u043D \u0431\u044B\u0442\u044C \u043F\u0440\u0435\u0434\u0441\u0435\u0434\u0430\u0442\u0435\u043B\u0435\u043C
+      \u043F\u0440\u0430\u0432\u0438\u0442\u0435\u043B\u044C\u0441\u0442\u0432!"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 14312, y: 237}
+  - Id: 75
+    OutIds: 4e000000
+    IsRepeatable: 1
+    DialogueText: "\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\u043E\u0432\u0438\u0447
+      \u041F\u0443\u0442\u0438\u043D, \u0443\u0445\u043E\u0434\u0438\u0442\u0435."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 14312, y: 547}
+  - Id: 76
+    OutIds: 4e000000
+    IsRepeatable: 1
+    DialogueText: "\u0422\u042B. \u043D\u0435 \u0437\u0430\u0435\u0431\u0430\u043B\u0441\u044F
+      ?..."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 14312, y: 827}
+  - Id: 77
+    OutIds: 4e000000
+    IsRepeatable: 1
+    DialogueText: "\u043F\u0430\u0441\u0438\u0431\u0430\u2026 \u0437\u0430\u2026
+      \u0442\u043E \u0447\u0442\u043E \u0443\u0440\u043E\u043D\u0438\u043B\u0438
+      \u0437\u0430\u043F\u0430\u0434 <3."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 14312, y: 1107}
+  - Id: 78
+    OutIds: 4f00000050000000510000005200000053000000
+    IsRepeatable: 1
+    DialogueText: "(\u0435\u0449\u0451 \u043E\u0434\u0438\u043D \u0432\u043E\u043F\u0440\u043E\u0441\u0438\u043A)
+      \u0432\u044B\u0431\u0435\u0440\u0435\u0442\u0435 \u0432\u0430\u0448 \u043F\u043E\u043B:"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 14852, y: -43}
+  - Id: 79
+    OutIds: 54000000
+    IsRepeatable: 1
+    DialogueText: "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 15248, y: -43}
+  - Id: 80
+    OutIds: 54000000
+    IsRepeatable: 1
+    DialogueText: "\u0416\u0435\u043D\u0441\u043A\u0438\u0439"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 15248, y: 237}
+  - Id: 81
+    OutIds: 54000000
+    IsRepeatable: 1
+    DialogueText: "\u041F\u0430\u0440\u043A\u0435\u0442"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 15248, y: 527}
+  - Id: 82
+    OutIds: 54000000
+    IsRepeatable: 1
+    DialogueText: "\u0422\u043E\u0440\u0447\u0451\u043A"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 15248, y: 807}
+  - Id: 83
+    OutIds: 54000000
+    IsRepeatable: 1
+    DialogueText: "\u0413\u0435\u043D\u0434\u0435\u0440\u043D\u043E \u0435\u0431\u0443\u0449\u0438\u0439
+      \u044D\u0442\u043E\u0442 \u0442\u0435\u0441\u0442!!!"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 15248, y: 1095}
+  - Id: 84
+    OutIds: 5500000056000000570000005800000059000000
+    IsRepeatable: 1
+    DialogueText: "\u0420\u0430\u0441\u0448\u0438\u0444\u0440\u043E\u0432\u043A\u0430
+      :"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 15526, y: -43}
+  - Id: 85
+    OutIds: 5a000000
+    IsRepeatable: 1
+    DialogueText: "\u0412\u0430\u043C \u0434\u043E\u0441\u0442\u0430\u0451\u0442\u0441\u044F
+      \u043C\u0435\u0447.\r \u0412\u044B \u0442\u0451\u043C\u043D\u044B\u0439 \u043C\u0435\u0447\u043D\u0438\u043A.\nC\u043A\u043E\u0440\u0435\u0435
+      \u0432\u0441\u0435\u0433\u043E \u0442\u044B \u0436\u0438\u0432\u0451\u0448\u044C
+      \u0441 \u043C\u0430\u043C\u043E\u0439 \u043D\u043E \u0432 \u0434\u0443\u0448\u0435
+      \u0442\u044B \u0442\u0451\u043C\u043D\u044B\u0439 \u043C\u0435\u0447\u043D\u0438\u043A,\n\u0443\u043D\u0438\u0447\u0442\u043E\u0436\u0430\u044E\u0449\u0438\u0439
+      \u0434\u0435\u043C\u043E\u043D\u043E\u0432. \u0421\u0432\u043E\u044E \u043D\u0435\u0440\u0435\u0430\u043B\u0438\u0437\u043E\u0432\u0430\u043D\u043D\u0443\u044E
+      \u043D\u0430\u0442\u0443\u0440\u0443 \u0442\u044B \u0440\u0430\u0441\u043A\u0440\u044B\u0432\u0430\u0435\u0448\u044C
+      \u0432 \u0438\u043D\u0442\u0435\u0440\u043D\u0435\u0442\u0438\u043A\u0435,\n\u043E\u0442\u044B\u0433\u0440\u044B\u0432\u0430\u044F\u0441\u044C
+      \u043D\u0430 \u0440\u0430\u043D\u0434\u043E\u043C\u043D\u044B\u0445 \u043B\u044E\u0434\u044F\u0445.
+      \u0422\u0430\u043A \u0447\u0442\u043E \u0434\u0435\u0440\u0436\u0438 \u0441\u0432\u043E\u0439
+      \u043C\u0435\u0447 \u0438 \u0438\u0434\u0438 \u0441\u0442\u0430\u0432\u044C
+      \u0432\u0441\u0435\u0445 \u043D\u0430 \u043C\u0435\u0441\u0442\u043E."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 15738, y: -43}
+  - Id: 86
+    OutIds: 5a000000
+    IsRepeatable: 1
+    DialogueText: "\u0412\u0430\u043C \u0434\u043E\u0441\u0442\u0430\u0451\u0442\u0441\u044F
+      \u041B\u0443\u043A.\r \u0412\u044B \u0422\u0435\u0440\u043F\u0438\u043B\u0430.\r\n\u201C\u041C\u043D\u043E\u0433\u043E
+      \u0441\u0442\u0435\u0440\u043F\u0435\u043B \u0441\u0435\u0433\u043E\u0434\u043D\u044F
+      ?\u201D \u2013 \u0431\u0443\u0434\u044C \u0443 \u0442\u0435\u0431\u044F \u0436\u0435\u043D\u0430,
+      \u0442\u043E \u043F\u043E \u0432\u0435\u0447\u0435\u0440\u0430\u043C \u043F\u043E\u0441\u043B\u0435
+      \u0440\u0430\u0431\u043E\u0442\u044B (\u0431\u0443\u0434\u044C \u0443 \u0442\u0435\u0431\u044F
+      \u0440\u0430\u0431\u043E\u0442\u0430)\n\u043E\u043D\u0430 \u0431\u044B \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u043B\u0430
+      \u0442\u0435\u0431\u044F \u0438\u043C\u0435\u043D\u043D\u043E \u0441 \u044D\u0442\u043E\u0439
+      \u0444\u0440\u0430\u0437\u043E\u0439.\r\n\u0442\u0432\u043E\u0439 \u0441\u043B\u0430\u0431\u044B\u0439
+      \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440 \u043D\u0435 \u043F\u043E\u0437\u0432\u043E\u043B\u044F\u0435\u0442
+      \u043C\u043D\u0435 \u0432\u044B\u0434\u0430\u0442\u044C \u0442\u0435\u0431\u0435
+      \u0447\u0442\u043E-\u0442\u043E \u043A\u0440\u043E\u043C\u0435 \u043B\u0443\u043A\u0430.\n\u043F\u043E\u044D\u0442\u043E\u043C\u0443
+      \u0438\u0434\u0438 \u0438 \u0443\u0447\u0438\u0441\u044C \u043F\u043E\u0441\u0442\u043E\u044F\u0442\u044C
+      \u0437\u0430 \u0441\u0435\u0431\u044F. \u041D\u0443 \u0438\u043B\u0438 \u043C\u043E\u0436\u0435\u0448\u044C
+      \u0443\u0434\u0430\u043B\u0438\u0442\u044C \u044D\u0442\u0443 \u0438\u0433\u0440\u0443
+      \u0438 \u043F\u043E\u043F\u043B\u0430\u043A\u0430\u0442\u044C."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 15738, y: 285}
+  - Id: 87
+    OutIds: 5a000000
+    IsRepeatable: 1
+    DialogueText: "\u0412\u0430\u043C \u0434\u043E\u0441\u0442\u0430\u0451\u0442\u0441\u044F
+      \u041A\u043E\u043F\u044C\u0451. \u0422\u044B \u043F\u0440\u043E\u0441\u0442\u043E
+      \u043E\u0431\u044B\u0447\u043D\u044B\u0439 \u0447\u0435\u043B\u043E\u0432\u0435\u043A.\r\n\u041D\u0430\u0441\u0442\u043E\u043B\u044C\u043A\u043E
+      \u043E\u0431\u044B\u0447\u043D\u044B\u0439 \u0447\u0442\u043E \u0441\u043B\u0438\u0432\u0430\u0435\u0448\u044C\u0441\u044F
+      \u0441 \u0432\u043E\u0437\u0434\u0443\u0445\u043E\u043C.\n\u0422\u044B \u0438\u0437
+      \u0442\u0435\u0445 \u0447\u044C\u0451 \u0438\u043C\u044F \u044F \u043D\u0438\u043A\u043E\u0433\u0434\u0430
+      \u043D\u0435 \u0437\u0430\u043F\u043E\u043C\u043D\u044E. \u0410 \u0434\u043B\u044F
+      \u0442\u0430\u043A\u043E\u0433\u043E \u043D\u043E\u0440\u043C\u0438\u0441\u0430
+      \u043F\u043E\u0434\u0445\u043E\u0434\u0438\u0442 \u0442\u043E\u043B\u044C\u043A\u043E
+      \u043A\u043E\u043F\u044C\u0451.\n\u041A\u0430\u043A \u0433\u043B\u0430\u0441\u0438\u0442
+      \u043D\u0430\u0440\u043E\u0434\u043D\u0430\u044F \u043C\u0443\u0434\u0440\u043E\u0441\u0442\u044C
+      \u201C\u0442\u044B \u043C\u043E\u0436\u0435\u0448\u044C \u0432\u0441\u044E
+      \u0436\u0438\u0437\u043D\u044C \u0442\u0440\u0435\u043D\u0438\u0440\u043E\u0432\u0430\u0442\u044C\u0441\u044F,\n\u043A\u0440\u0435\u0441\u0442\u044C\u044F\u043D\u0438\u043D
+      \u0441 \u043A\u043E\u043F\u044C\u0451\u043C \u0442\u0435\u0431\u044F \u043F\u0440\u043E\u0441\u0442\u043E
+      \u0437\u0430\u0442\u044B\u043A\u0430\u0435\u0442\u201D. \u0414\u0435\u0440\u0436\u0438
+      \u0441\u0432\u043E\u0451 \u043E\u0440\u0443\u0436\u0435\u0435 \u0438 \u043D\u0435
+      \u043F\u043E\u0434\u0432\u0435\u0434\u0438 \u043C\u0435\u043D\u044F."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 15738, y: 625}
+  - Id: 88
+    OutIds: 5a000000
+    IsRepeatable: 1
+    DialogueText: "\u0412\u0430\u043C \u0434\u043E\u0441\u0442\u0430\u0451\u0442\u0441\u044F
+      \u0412\u043E\u043B\u0448\u0435\u0431\u043D\u044B\u0439 \u043F\u043E\u0441\u043E\u0445.
+      \u0412\u044B \u0423\u0447\u0451\u043D\u044B\u0439 \u0432 \u0433\u043E\u0432\u043D\u0435
+      \u043C\u043E\u0447\u0451\u043D\u044B\u0439.\r\n\u041C\u043D\u0435 \u0440\u0435\u0430\u043B\u044C\u043D\u043E
+      \u043B\u0435\u043D\u044C \u043F\u0440\u0438\u0434\u0443\u043C\u044B\u0432\u0430\u0442\u044C
+      \u0440\u0430\u0441\u0448\u0438\u0444\u0440\u043E\u0432\u043A\u0443, \u0434\u043E\u0445\u0443\u044F
+      \u0443\u043C\u043D\u044B\u0439 \u0442\u0438\u043F\u0430,\n\u0432\u043E\u0442
+      \u0438 \u043F\u0440\u0438\u0434\u0443\u043C\u0430\u0439 \u0441\u0430\u043C
+      \u0441\u0435\u0431\u0435 \u0440\u0430\u0441\u0448\u0438\u0444\u0440\u043E\u0432\u043A\u0443.
+      \u0414\u0440\u0430\u0442\u044C\u0441\u044F \u0431\u0443\u0434\u0435\u0448\u044C
+      \u043F\u043E\u0441\u043E\u0445\u043E\u043C,\n\u044F \u0431\u044B \u0442\u0435\u0431\u0435
+      \u0438\u043C \u043F\u043E \u0431\u0430\u0448\u043D\u0435 \u043D\u0430\u0441\u0442\u0443\u0447\u0430\u043B,
+      \u043D\u043E \u043C\u043D\u0435 \u043B\u0435\u043D\u044C."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 15738, y: 965}
+  - Id: 89
+    OutIds: 5a000000
+    IsRepeatable: 1
+    DialogueText: "\u0412\u0430\u043C \u0434\u043E\u0441\u0442\u0430\u044E\u0442\u0441\u044F
+      \u0417\u0435\u043B\u044C\u044F.\u0412\u044B \u0428\u0438\u0437\u043E\u0439\u0434.\r\n\u201C\u041F\u0418\u0421\u042F,
+      \u041F\u041E\u041F\u0410, \u041F\u0418\u0421\u042F, \u041F\u041E\u041F\u0410,
+      \u0425\u0418\u0425\u0418\u0425\u0418\u0425\u0418\u0425\u0418\u0425\u0418\u201D.\r\n\u042F
+      \u0434\u0430\u0436\u0435 \u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u043E\u0431\u044A\u044F\u0441\u043D\u044F\u0442\u044C
+      \u0442\u0435\u0431\u0435 \u043D\u0438\u0447\u0435\u0433\u043E \u043D\u0435
+      \u0431\u0443\u0434\u0443,\n\u043F\u0440\u043E\u0441\u0442\u043E \u0431\u0435\u0440\u0438
+      \u0432\u043E\u0442 \u044D\u0442\u0438 \u0437\u0435\u043B\u044C\u044F \u0438
+      \u043A\u0438\u0434\u0430\u0439 \u0438\u0445 \u0432\u043E \u0432\u0441\u0435\u0445
+      \u043A\u043E\u0433\u043E \u0432\u0438\u0434\u0438\u0448\u044C. \u041F\u0438\u0437\u0434\u0443\u0439
+      \u043E\u0442\u0441\u044E\u0434\u0430."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 15738, y: 1290}
+  - Id: 90
+    OutIds: 5b000000
+    IsRepeatable: 1
+    DialogueText: "\u0412\u044B \u0432\u043E\u0437\u0432\u0440\u0430\u0449\u0430\u0435\u0442\u0435\u0441\u044C
+      \u0432 \u0433\u043B\u0430\u0432\u043D\u044B\u0439\r \u0445\u043E\u043B \u0441
+      \u043E\u0440\u0443\u0436\u0435\u0435\u043C."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 16510, y: -43}
+  - Id: 91
+    OutIds: 5e000000
+    IsRepeatable: 1
+    DialogueText: "\u041D\u0443\u0436\u043D\u043E \u0441 \u0447\u0435\u0433\u043E-\u0442\u043E
+      \u043D\u0430\u0447\u0430\u0442\u044C \u043F\u043E\u0438\u0441\u043A\u0438 \u0440\u0435\u0448\u0435\u043D\u0438\u044F
+      \u043D\u0430\u0448\u0435\u0439 \u043F\u0440\u043E\u0431\u043B\u0435\u043C\u043C\u044B "
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 16842, y: -43}
+  - Id: 94
+    OutIds: 5f000000
+    IsRepeatable: 1
+    DialogueText: "\u041D\u0438\u0447\u0435\u043C \u043D\u0435 \u0437\u0430\u043D\u0438\u043C\u0430\u0442\u044C\u0441\u044F,\r
+      \u043F\u0438\u043D\u0430\u0442\u044C \u0445\u0443\u0438."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 17696, y: 18}
+  - Id: 95
+    OutIds: 620000006100000076000000
+    IsRepeatable: 1
+    DialogueText: "\u0417\u0430\u0439\u0442\u0438 \u0432 \u043A\u0430\u0447\u0430\u043B\u043A\u0443
+      \u0437\u0430\u043C\u043A\u0430"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 18017, y: 18}
+  - Id: 96
+    OutIds: 6b000000
+    IsRepeatable: 1
+    DialogueText: "\u0422\u0435\u043F\u0435\u0440\u044C \u0432\u0430\u0448\u0438
+      \u043D\u043E\u0433\u0438 \u0441\u0438\u043B\u044C\u043D\u044B, \u043D\u043E\r
+      \u0432\u0435\u0441\u044F\u0442 \u0431\u043E\u043B\u044C\u0448\u0435 \u0447\u0435\u043C
+      \u0440\u0430\u043D\u044C\u0448\u0435, \u0442\u0430\u043A\r \u0447\u0442\u043E
+      \u0431\u0435\u0433\u0430\u0442\u044C \u0431\u044B\u0441\u0442\u0440\u0435\u0435
+      \u0432\u044B \u043D\u0435\r \u0441\u0442\u0430\u043D\u0435\u0442\u0435."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 18498, y: -2932}
+  - Id: 97
+    OutIds: 6d000000
+    IsRepeatable: 0
+    DialogueText: "\u041D\u0430\u0447\u0430\u0442\u044C \u043A\u0430\u0447\u0430\u0442\u044C
+      \u0440\u0443\u043A\u0438"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 18239, y: -1512}
+  - Id: 98
+    OutIds: 6500000064000000630000006b000000
+    IsRepeatable: 0
+    DialogueText: "\u041D\u0430\u0447\u0430\u0442\u044C \u043A\u0430\u0447\u0430\u0442\u044C
+      \u0436\u043E\u043F\u0443"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 18239, y: -323}
+  - Id: 99
+    OutIds: 6600000067000000
+    IsRepeatable: 1
+    DialogueText: "\u041F\u0440\u0438\u0441\u0438\u0434\u0430\u0442\u044C 10 \u0440\u0430\u0437"
+    Type: 1
+    Stipulations: []
+    Trial: 10
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 18566, y: -1036}
+  - Id: 100
+    OutIds: 6600000068000000
+    IsRepeatable: 1
+    DialogueText: "\u043F\u0440\u0438\u0441\u0438\u0434\u0430\u0442\u044C 50 \u0440\u0430\u0437"
+    Type: 1
+    Stipulations: []
+    Trial: 50
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 18565, y: -695}
+  - Id: 101
+    OutIds: 6600000069000000
+    IsRepeatable: 0
+    DialogueText: "\u041F\u0440\u0438\u0441\u0438\u0434\u0430\u0442\u044C 100 \u0440\u0430\u0437"
+    Type: 1
+    Stipulations: []
+    Trial: 90
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 18566, y: -323}
+  - Id: 102
+    OutIds: 6b000000
+    IsRepeatable: 1
+    DialogueText: "\u0423 \u0432\u0430\u0441 \u0441\u043B\u0443\u0447\u0438\u043B\u0430\u0441\u044C
+      \u0441\u0443\u0434\u043E\u0440\u043E\u0433\u0430 \u0438\r \u043E\u0442\u043D\u044F\u043B\u0430\u0441\u044C
+      \u043E\u0434\u043D\u0430 \u043D\u043E\u0433\u0430."
+    Type: 2
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 18772, y: -274}
+  - Id: 103
+    OutIds: 6c000000
+    IsRepeatable: 1
+    DialogueText: "\u0412\u044B \u043D\u0435\u043C\u043D\u043E\u0433\u043E \u0443\u0441\u0442\u0430\u043B\u0438"
+    Type: 3
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 18826, y: -1036}
+  - Id: 104
+    OutIds: 6a0000006b000000
+    IsRepeatable: 1
+    DialogueText: "\u0412\u044B \u0441\u0438\u043B\u044C\u043D\u043E \u0443\u0441\u0442\u0430\u043B\u0438"
+    Type: 3
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 18807, y: -695}
+  - Id: 105
+    OutIds: 6b000000
+    IsRepeatable: 1
+    DialogueText: "\u0432\u044B \u043A\u043E\u043D\u043A\u0440\u0435\u0442\u043D\u043E
+      \u0437\u0430\u0435\u0431\u0430\u043B\u0438\u0441\u044C"
+    Type: 3
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 19297, y: -301}
+  - Id: 106
+    OutIds: 6900000066000000
+    IsRepeatable: 1
+    DialogueText: "\u041F\u0440\u0438\u0441\u0435\u0434\u0430\u0442\u044C \u0435\u0449\u0451
+      50 \u0440\u0430\u0437"
+    Type: 1
+    Stipulations: []
+    Trial: 50
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 19084, y: -695}
+  - Id: 107
+    OutIds: 
+    IsRepeatable: 1
+    DialogueText: "\u0412\u0435\u0440\u043D\u0443\u0442\u0441\u044F \u043D\u0430\u0437\u0430\u0434"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 19832, y: -1036}
+  - Id: 108
+    OutIds: 6b0000006400000065000000
+    IsRepeatable: 1
+    DialogueText: "\u0421\u043B\u0438\u0448\u043A\u043E\u043C \u043C\u0430\u043B\u043E
+      \u0442\u0440\u0435\u043D\u0435\u0440\u043E\u0432\u043E\u043A"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 19084, y: -1036}
+  - Id: 109
+    OutIds: 6e0000006f000000
+    IsRepeatable: 1
+    DialogueText: "\u0422\u0435\u043F\u0435\u0440\u044C \u0434\u0440\u043E\u0447\u0438\u0442\u044C
+      \u043C\u043E\u0436\u043D\u043E \u0431\u044B\u0441\u0442\u0440\u0435\u0435\r
+      \u0447\u0435\u043C \u0440\u0430\u043D\u044C\u0448\u0435"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 18475, y: -1512}
+  - Id: 110
+    OutIds: 7200000073000000
+    IsRepeatable: 1
+    DialogueText: "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u043D\u0430\u0441\u0440\u0430\u0442\u044C
+      \u0432 \u0448\u0442\u0430\u043D\u044B \u043E\u0442 \u0440\u0430\u0434\u043E\u0441\u0442\u0438"
+    Type: 1
+    Stipulations: []
+    Trial: 50
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 18790, y: -2342}
+  - Id: 111
+    OutIds: 700000006b000000
+    IsRepeatable: 1
+    DialogueText: "\u0417\u0430\u0434\u0443\u043C\u0430\u0442\u044C\u0441\u044F \u0437\u0430\u0447\u0435\u043C
+      \u043D\u0443\u0436\u043D\u044B \u0440\u043A\u0443\u0438"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 18826, y: -1512}
+  - Id: 112
+    OutIds: 74000000
+    IsRepeatable: 1
+    DialogueText: "\u0420\u0430\u0437\u043E\u0447\u0430\u0440\u043E\u0432\u0430\u0442\u044C\u0441\u044F
+      \u0432 \u0436\u0438\u0437\u043D\u0438 \u0438 \r\u043F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F
+      \u0443\u043C\u0435\u0440\u0435\u0442\u044C"
+    Type: 1
+    Stipulations: []
+    Trial: 90
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 19063, y: -1821}
+  - Id: 114
+    OutIds: 6b000000
+    IsRepeatable: 1
+    DialogueText: "\u0412\u044B \u043E\u0431\u043E\u0441\u0440\u0430\u043B\u0438
+      \u0432\u0441\u0435 \u0448\u0442\u0430\u043D\u044B.\r \u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E."
+    Type: 3
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 19088, y: -2455}
+  - Id: 115
+    OutIds: 
+    IsRepeatable: 1
+    DialogueText: "\u041D\u0438\u0447\u0435\u0433\u043E \u043D\u0435 \u0432\u044B\u0448\u043B\u043E,
+      \u0432\u044B \u0441\u0442\u0435\u0441\u043D\u044F\u0435\u0442\u0435\u0441\u044C."
+    Type: 2
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 19088, y: -2155}
+  - Id: 116
+    OutIds: 6b000000
+    IsRepeatable: 1
+    DialogueText: "\u0412\u044B \u0443\u043C\u0435\u0440\u043B\u0438."
+    Type: 3
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 19404, y: -2155}
+  - Id: 118
+    OutIds: 60000000
+    IsRepeatable: 1
+    DialogueText: "\u041D\u0430\u0447\u0430\u0442\u044C \u043A\u0430\u0447\u0430\u0442\u044C
+      \u043D\u043E\u0433\u0438"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 18261, y: -2932}
   ExposedProperties: []
   CommentBlockData: []
