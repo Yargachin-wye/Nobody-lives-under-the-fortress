@@ -207,7 +207,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1550205426}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.22373244
+  m_Size: 0.22373247
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1702,6 +1702,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _animatorMenager: {fileID: 1378555191}
   _soundMenager: {fileID: 1430230262}
+  _saveSystem: {fileID: 1087573983}
   _sentMessagesContainer: {fileID: 1934857228}
   _interactiveMessagesContainer: {fileID: 1221461333}
   _button: {fileID: 8774295385069276060, guid: 0b1286285f4d15d48aa9e02e6f50cfec, type: 3}
@@ -2868,6 +2869,9 @@ MonoBehaviour:
   profile:
     profileName: 
     lastNode: 0
+    stipulations:
+    - key: 
+      value: 0
 --- !u!4 &1087573984
 Transform:
   m_ObjectHideFlags: 0
@@ -3399,8 +3403,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 385.00006, y: 0}
-  m_SizeDelta: {x: 770.0001, y: 0}
+  m_AnchoredPosition: {x: 385, y: 0}
+  m_SizeDelta: {x: 770, y: 0}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1221461335
 MonoBehaviour:
@@ -4794,7 +4798,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1731764637}
   m_Direction: 0
   m_Value: 0
-  m_Size: 0.99999994
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

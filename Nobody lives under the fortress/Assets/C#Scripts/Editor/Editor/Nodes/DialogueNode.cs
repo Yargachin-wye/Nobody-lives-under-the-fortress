@@ -19,6 +19,6 @@ namespace Subtegral.DialogueSystem.Editor
         public string Bg;
         public string Sound;
         public string Music;
-        public bool EntyPoint = false;
+        public bool EntryPoint = false;
     }
 }

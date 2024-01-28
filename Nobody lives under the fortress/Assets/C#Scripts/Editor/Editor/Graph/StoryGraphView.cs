@@ -395,7 +395,7 @@ namespace Subtegral.DialogueSystem.Editor
                 Bg = "",
                 Sound = "",
                 Music = "",
-                EntyPoint = true
+                EntryPoint = true
             };
 
             var generatedPort = GetPortInstance(nodeCache, Direction.Output);

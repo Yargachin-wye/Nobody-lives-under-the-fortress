@@ -81,9 +81,10 @@ namespace Subtegral.DialogueSystem.Editor
         {
             if (!Edges.Any()) return false;
             var connectedSockets = Edges.Where(x => x.input.node != null).ToArray();
-            
-            foreach (var node in Nodes.Where(node => !node.EntyPoint))
+            int ID = 1;
+            foreach (var node in Nodes.Where(node => !node.EntryPoint))
             {
+                node.Id = ID;
                 dialogueContainerObject.DialogueNodeData.Add(new DialogueNodeData
                 {
                     Id = node.Id,
@@ -98,10 +99,7 @@ namespace Subtegral.DialogueSystem.Editor
                     Music = node.Music,
                     Position = node.GetPosition().position
                 });
-                foreach (var element in node.Stipulations.ToArray())
-                {
-                    Debug.Log(element);
-                }
+                ID++;
             }
             dialogueContainerObject.DialogueNodeData = dialogueContainerObject.DialogueNodeData.OrderBy(node => node.Id).ToList();
 
@@ -110,7 +108,7 @@ namespace Subtegral.DialogueSystem.Editor
             {
                 var outputNode = (connectedSockets[i].output.node as DialogueNode);
                 var inputNode = (connectedSockets[i].input.node as DialogueNode);
-                int outputNodeId = outputNode.EntyPoint ? 0 : outputNode.Id;
+                int outputNodeId = outputNode.EntryPoint ? 0 : outputNode.Id;
 
                 dialogueContainerObject.NodeLinks.Add(new NodeLinkData
                 {
@@ -166,10 +164,10 @@ namespace Subtegral.DialogueSystem.Editor
         /// </summary>
         private void ClearGraph()
         {
-            Nodes.Find(x => x.EntyPoint).Id = _dialogueContainer.NodeLinks[0].BaseNodeGUID;
+            Nodes.Find(x => x.EntryPoint).Id = _dialogueContainer.NodeLinks[0].BaseNodeGUID;
             foreach (var perNode in Nodes)
             {
-                if (perNode.EntyPoint) continue;
+                if (perNode.EntryPoint) continue;
                 Edges.Where(x => x.input.node == perNode).ToList()
                     .ForEach(edge => _graphView.RemoveElement(edge));
                 _graphView.RemoveElement(perNode);
