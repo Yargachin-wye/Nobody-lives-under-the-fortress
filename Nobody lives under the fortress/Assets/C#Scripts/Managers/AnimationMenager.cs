@@ -23,6 +23,8 @@ public class AnimationMenager : MonoBehaviour
     private bool isAutoScrolling = false;
     public int trialNum = -1;
 
+    private IEnumerator coroutineTwist;
+
     public static AnimationMenager instaince;
     private void Awake()
     {
@@ -53,7 +55,14 @@ public class AnimationMenager : MonoBehaviour
     public void StartTwister()
     {
         trialNum = -1;
-        StartCoroutine(TwistAnimation());
+        coroutineTwist = TwistAnimation();
+        StartCoroutine(coroutineTwist);
+    }
+    public void StopTwister()
+    {
+        StopCoroutine(coroutineTwist);
+        trialNum = Random.Range(0, 100);
+        _TrialPanel.SetActive(false);
     }
     private IEnumerator TwistAnimation()
     {

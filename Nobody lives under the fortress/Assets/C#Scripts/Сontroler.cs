@@ -148,8 +148,9 @@ public class Сontroler : MonoBehaviour
                     goto Skip;
                 }
             }
-            if (msg.Type == NodeType.Stipulation)
+            else if (msg.Type == NodeType.Stipulation)
             {
+
                 foreach (var stipulation in msg.Stipulations)
                 {
                     if (_saveSystem.GetGift(stipulation) < 1)
@@ -157,10 +158,39 @@ public class Сontroler : MonoBehaviour
                 }
             }
 
+            if (message.Id == 24)
+            {
+                string str = BigestGift();
+                if (msg.Gift != str)
+                {
+                    goto Skip;
+                }
+            }
             UIMenager.instaince.SetInteractiveMessage(msg.Text, msg.Type, tId, msg.Trial);
             Skip:;
         }
         UIMenager.instaince.UpdateHight();
+    }
+    private string BigestGift()
+    {
+        string str = "spear";
+        if (_saveSystem.GetGift("bow" + "_c") > _saveSystem.GetGift(str + "_c"))
+        {
+            str = "bow";
+        }
+        if (_saveSystem.GetGift("staff" + "_c") > _saveSystem.GetGift(str + "_c"))
+        {
+            str = "staff";
+        }
+        if (_saveSystem.GetGift("potions" + "_c") > _saveSystem.GetGift(str + "_c"))
+        {
+            str = "potions";
+        }
+        if (_saveSystem.GetGift("sword" + "_c") > _saveSystem.GetGift(str + "_c"))
+        {
+            str = "sword";
+        }
+        return str;
     }
 }
 public class Message

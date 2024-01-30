@@ -26,13 +26,10 @@ public class UIMenager : MonoBehaviour
     [SerializeField] private GameObject _mobilePanel;
     [SerializeField] private GameObject _PCPanel;
 
-    [SerializeField] private Image _oldMobileBG;
-    [SerializeField] private Image _newMobileBG;
-    [SerializeField] private Image _oldPCBG;
-    [SerializeField] private Image _newPCBG;
+    [SerializeField] private Image _oldBG;
+    [SerializeField] private Image _newBG;
 
-    [SerializeField] private int _mobileFontSize;
-    [SerializeField] private int _PCFontSize;
+    [SerializeField] private int fontSize = 50;
 
     [SerializeField] private AnimationMenager animationMenager;
 
@@ -44,8 +41,8 @@ public class UIMenager : MonoBehaviour
     private List<GameObject> anactiveMessages = new List<GameObject>();
     private List<GameObject> interactiveMessages = new List<GameObject>();
 
-    private int fontSize = 0;
-    public static bool AndroidUI => Application.platform == RuntimePlatform.Android;
+    
+    // public static bool AndroidUI => Application.platform == RuntimePlatform.Android;
     private void Awake()
     {
         if (instaince != null)
@@ -62,29 +59,8 @@ public class UIMenager : MonoBehaviour
 
         _trialAnimationRect.gameObject.SetActive(true);
         _trialAnimationPanel.gameObject.SetActive(false);
-
-        if (AndroidUI)
-        {
-            _trialAnimationRect.localScale = Vector3.one * 2;
-            _mobilePanel.SetActive(true);
-            _PCPanel.SetActive(false);
-            animationMenager.oldImageBG = _oldMobileBG;
-            animationMenager.newImageBG = _newMobileBG;
-            _messagerRect.localPosition = new Vector2(0, 0);
-            _messagerRect.sizeDelta = new Vector2(-300.5f, 0);
-            fontSize = _mobileFontSize;
-        }
-        else
-        {
-            _trialAnimationRect.localScale = Vector3.one * 1.5f;
-            _mobilePanel.SetActive(false);
-            _PCPanel.SetActive(true);
-            animationMenager.oldImageBG = _oldPCBG;
-            animationMenager.newImageBG = _newPCBG;
-            _messagerRect.localPosition = new Vector2(-425, 0);
-            _messagerRect.sizeDelta = new Vector2(-1150, 0);
-            fontSize = _PCFontSize;
-        }
+        animationMenager.oldImageBG = _oldBG;
+        animationMenager.newImageBG = _newBG;
     }
     public void OffActivButtons()
     {

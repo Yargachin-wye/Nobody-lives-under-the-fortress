@@ -165,16 +165,17 @@ namespace Subtegral.DialogueSystem.Editor
         private void ClearGraph()
         {
             Nodes.Find(x => x.EntryPoint).Id = _dialogueContainer.NodeLinks[0].BaseNodeGUID;
-            foreach (var perNode in Nodes)
+            var nodesToRemove = Nodes.Where(node => !node.EntryPoint).ToList();
+
+            foreach (var perNode in nodesToRemove)
             {
-                if (perNode.EntryPoint) continue;
                 Edges.Where(x => x.input.node == perNode).ToList()
                     .ForEach(edge => _graphView.RemoveElement(edge));
                 _graphView.RemoveElement(perNode);
             }
+
             _graphView.SetNextNodeIDToZero();
         }
-
         /// <summary>
         /// Create All serialized nodes and assign their guid and dialogue text to them
         /// </summary>
@@ -191,21 +192,37 @@ namespace Subtegral.DialogueSystem.Editor
             }
         }
 
+        
+        private void AddExposedProperties()
+        {
+            _graphView.ClearBlackBoardAndExposedProperties();
+            var exposedPropertiesDict = _dialogueContainer.ExposedProperties.ToDictionary(prop => prop.PropertyName);
+
+            foreach (var exposedProperty in exposedPropertiesDict.Values)
+            {
+                _graphView.AddPropertyToBlackBoard(exposedProperty);
+            }
+        }
         private void ConnectDialogueNodes()
         {
-            for (var i = 0; i < Nodes.Count; i++)
+            var nodeDictionary = Nodes.ToDictionary(node => node.Id);
+            var nodeDataDictionary = _dialogueContainer.DialogueNodeData.ToDictionary(data => data.Id);
+
+            foreach (var node in Nodes)
             {
-                var k = i; //Prevent access to modified closure
-                var connections = _dialogueContainer.NodeLinks.Where(x => x.BaseNodeGUID == Nodes[k].Id).ToList();
-                for (var j = 0; j < connections.Count(); j++)
+                var connections = _dialogueContainer.NodeLinks.Where(link => link.BaseNodeGUID == node.Id).ToList();
+
+                for (var j = 0; j < connections.Count; j++)
                 {
                     var targetNodeGUID = connections[j].TargetNodeGUID;
-                    var targetNode = Nodes.First(x => x.Id == targetNodeGUID);
-                    LinkNodesTogether(Nodes[i].outputContainer[j].Q<Port>(), (Port)targetNode.inputContainer[0]);
 
-                    targetNode.SetPosition(new Rect(
-                        _dialogueContainer.DialogueNodeData.First(x => x.Id == targetNodeGUID).Position,
-                        _graphView.DefaultNodeSize));
+                    if (nodeDictionary.TryGetValue(targetNodeGUID, out var targetNode) &&
+                        nodeDataDictionary.TryGetValue(targetNodeGUID, out var targetNodeData))
+                    {
+                        LinkNodesTogether(node.outputContainer[j].Q<Port>(), (Port)targetNode.inputContainer[0]);
+
+                        targetNode.SetPosition(new Rect(targetNodeData.Position, _graphView.DefaultNodeSize));
+                    }
                 }
             }
         }
@@ -217,18 +234,10 @@ namespace Subtegral.DialogueSystem.Editor
                 output = outputSocket,
                 input = inputSocket
             };
+
             tempEdge?.input.Connect(tempEdge);
             tempEdge?.output.Connect(tempEdge);
             _graphView.Add(tempEdge);
-        }
-
-        private void AddExposedProperties()
-        {
-            _graphView.ClearBlackBoardAndExposedProperties();
-            foreach (var exposedProperty in _dialogueContainer.ExposedProperties)
-            {
-                _graphView.AddPropertyToBlackBoard(exposedProperty);
-            }
         }
     }
     

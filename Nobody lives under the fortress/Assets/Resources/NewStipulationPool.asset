@@ -13,8 +13,17 @@ MonoBehaviour:
   m_Name: NewStipulationPool
   m_EditorClassIdentifier: 
   _pool:
-  - sward
-  - war bow
-  - kill Niger
-  - jopa
-  - spore
+  - sword_c
+  - spear_c
+  - bow_c
+  - staff_c
+  - potions_c
+  - spear
+  - bow
+  - staff
+  - potions
+  - sword
+  - bartenders_note
+  - spirits_conversation
+  - man
+  - woman

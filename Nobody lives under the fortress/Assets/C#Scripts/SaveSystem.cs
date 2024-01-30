@@ -78,6 +78,7 @@ public class SaveSystem : MonoBehaviour
                 stipulation.value++;
             }
         }
+        SaveProfile();
     }
     public int GetGift(string str)
     {

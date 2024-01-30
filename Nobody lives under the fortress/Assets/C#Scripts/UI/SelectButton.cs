@@ -26,7 +26,7 @@ public class SelectButton : MonoBehaviour
         {
             _image.color = _ñolorLoss;
         }
-        else if (type == NodeType.TrialLose)
+        else if (type == NodeType.TrialWin)
         {
             _image.color = _ñolorWin;
         }
