@@ -23,8 +23,6 @@ public class UIMenager : MonoBehaviour
     [SerializeField] private GameObject _interactiveMessagePrefab;
 
     [SerializeField] private GameObject _scrollerView;
-    [SerializeField] private GameObject _mobilePanel;
-    [SerializeField] private GameObject _PCPanel;
 
     [SerializeField] private Image _oldBG;
     [SerializeField] private Image _newBG;
