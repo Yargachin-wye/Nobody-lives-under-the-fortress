@@ -31,7 +31,7 @@ public class UIMenager : MonoBehaviour
 
     [SerializeField] private AnimationMenager animationMenager;
 
-    [SerializeField] public static int maxAnactiveMessages = 25;
+    [SerializeField] public int maxAnactiveMessages = 15;
 
     private VerticalLayoutGroup messagerrLayout;
     private VerticalLayoutGroup interactiveLayout;
@@ -97,7 +97,7 @@ public class UIMenager : MonoBehaviour
 
         anactiveMessages.Add(obj);
 
-        if (interactiveMessages.Count >= maxAnactiveMessages)
+        if (_anactiveMessagesContainer.childCount >= maxAnactiveMessages)
         {
             anactiveMessages.Remove(anactiveMessages[0]);
             Destroy(_anactiveMessagesContainer.GetChild(0).gameObject);

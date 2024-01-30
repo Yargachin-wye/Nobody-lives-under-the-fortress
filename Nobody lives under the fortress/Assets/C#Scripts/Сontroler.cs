@@ -69,9 +69,10 @@ public class Сontroler : MonoBehaviour
     }
     public IEnumerator SelectMessage()
     {
+        UIMenager.instaince.DestroyActivButtons();
         yield return null;
         //UIMenager.instaince.OffActivButtons();
-        UIMenager.instaince.DestroyActivButtons();
+        
         Message message = messagesList[ID];
         bool lose = false;
 
