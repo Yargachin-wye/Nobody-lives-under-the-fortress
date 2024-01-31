@@ -20,6 +20,8 @@ public class SaveSystem : MonoBehaviour
     {
         filePath = Path.Combine(Application.dataPath, "Resources/" + profileName + ".json");
 
+        CreateNewProfile();
+        /*
         if (File.Exists(filePath))
         {
             Debug.Log("Exists");
@@ -30,8 +32,9 @@ public class SaveSystem : MonoBehaviour
             Debug.Log("Unexists");
             CreateNewProfile();
         }
-
+        */
     }
+    
     void OnApplicationFocus(bool hasFocus)
     {
 

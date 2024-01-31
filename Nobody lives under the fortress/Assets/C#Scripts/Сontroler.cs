@@ -15,6 +15,7 @@ public class Сontroler : MonoBehaviour
     [SerializeField] private Transform _interactiveMessagesContainer;
 
     [SerializeField] private GameObject _button;
+    [SerializeField] private int _testMessageId = 0;
 
     private List<Message> messagesList = new List<Message>();
     private Dictionary<int, bool> UnRepeatable = new Dictionary<int, bool>();
@@ -69,10 +70,10 @@ public class Сontroler : MonoBehaviour
     }
     public IEnumerator SelectMessage()
     {
-        UIMenager.instaince.DestroyActivButtons();
         yield return null;
+        UIMenager.instaince.DestroyActivButtons();
         //UIMenager.instaince.OffActivButtons();
-        
+
         Message message = messagesList[ID];
         bool lose = false;
 
@@ -159,7 +160,7 @@ public class Сontroler : MonoBehaviour
                 }
             }
 
-            if (message.Id == 24)
+            if (message.Id == _testMessageId)
             {
                 string str = BigestGift();
                 if (msg.Gift != str)
