@@ -5,13 +5,14 @@ using UnityEngine;
 
 public class SoundMenager : MonoBehaviour
 {
-    
+
     [SerializeField] private AudioSource sourceAmbiance;
     [SerializeField] private AudioSource sourceUI;
     [SerializeField] private AudioSource sourceMusic;
     [SerializeField] private AudioClip winSound;
     [SerializeField] private AudioClip loseSound;
     [SerializeField] private AudioClip[] steps;
+    [SerializeField] private AudioClip[] stepsGreen;
     float volumeAmbient => sourceAmbiance.volume;
     float volumeUI => sourceUI.volume;
     float volumeMusic => sourceMusic.volume;
@@ -38,7 +39,7 @@ public class SoundMenager : MonoBehaviour
     {
         PlayClip(sourceUI, volumeUI, loseSound);
     }
-    
+
     public AudioClip GetStep()
     {
         int i = 0;
@@ -46,7 +47,18 @@ public class SoundMenager : MonoBehaviour
         {
             i = Random.Range(0, steps.Length);
         } while (lastStepSound == i);
+        lastStepSound = i;
         return steps[i];
+    }
+    public AudioClip GetGreenSteps()
+    {
+        int i = 0;
+        do
+        {
+            i = Random.Range(0, stepsGreen.Length);
+        } while (lastStepSound == i);
+        lastStepSound = i;
+        return stepsGreen[i];
     }
     public void PlaySound(AudioClip audioClip)
     {

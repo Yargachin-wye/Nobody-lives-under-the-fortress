@@ -16,28 +16,10 @@ public class SaveSystem : MonoBehaviour
 
     [SerializeField] public Profile profile;
     string filePath;
+
     private void Awake()
     {
         filePath = Path.Combine(Application.dataPath, "Resources/" + profileName + ".json");
-
-        CreateNewProfile();
-        /*
-        if (File.Exists(filePath))
-        {
-            Debug.Log("Exists");
-            LoadProfile();
-        }
-        else
-        {
-            Debug.Log("Unexists");
-            CreateNewProfile();
-        }
-        */
-    }
-    
-    void OnApplicationFocus(bool hasFocus)
-    {
-
     }
 
     void OnApplicationPause(bool pauseStatus)
@@ -51,12 +33,13 @@ public class SaveSystem : MonoBehaviour
     public void CreateNewProfile()
     {
         Debug.Log(stipulationPool.pool[0]);
+        availableStipulationPool = new Dictionary<string, int>();
         foreach (var st in stipulationPool.pool)
         {
             Debug.Log(st);
             availableStipulationPool.Add(st, 0);
         }
-        profile = new Profile(profileName, 0, availableStipulationPool);
+        profile = new Profile(profileName, 0, availableStipulationPool, new List<int>());
         SaveProfile();
     }
 
@@ -67,6 +50,11 @@ public class SaveSystem : MonoBehaviour
     }
     public void LoadProfile()
     {
+        if (File.Exists(filePath))
+        {
+            CreateNewProfile();
+        }
+        else
         {
             string str = File.ReadAllText(filePath);
             profile = JsonUtility.FromJson<Profile>(str);
@@ -102,11 +90,12 @@ public class Profile
     public string profileName;
     public int lastNode;
     public List<Stipulation> stipulations;
-
-    public Profile(string ProfileName, int LastNode, Dictionary<string, int> AvailableStipulationPool)
+    public List<int> unrepeatable;
+    public Profile(string ProfileName, int LastNode, Dictionary<string, int> AvailableStipulationPool, List<int> UnRepeatable)
     {
         profileName = ProfileName;
         lastNode = LastNode;
+        unrepeatable = UnRepeatable;
 
         stipulations = new List<Stipulation>();
         foreach (var kvp in AvailableStipulationPool)

@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Profiling;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class Сontroler : MonoBehaviour
 {
@@ -15,10 +16,11 @@ public class Сontroler : MonoBehaviour
     [SerializeField] private Transform _interactiveMessagesContainer;
 
     [SerializeField] private GameObject _button;
+    [SerializeField] private GameObject _buttonRestart;
+    [SerializeField] private GameObject _buttonTelegram;
     [SerializeField] private int _testMessageId = 0;
 
     private List<Message> messagesList = new List<Message>();
-    private Dictionary<int, bool> UnRepeatable = new Dictionary<int, bool>();
 
     List<DialogueNodeData> dataList = new List<DialogueNodeData>();
 
@@ -31,11 +33,14 @@ public class Сontroler : MonoBehaviour
             Debug.LogError("instaince != null");
         }
         instaince = this;
+        _buttonRestart.SetActive(false);
+        _buttonTelegram.SetActive(false);
     }
     private void Start()
     {
         Load();
-        SetMessage(0);
+        _saveSystem.LoadProfile();
+        SetMessage(_saveSystem.profile.lastNode);
     }
     public void Load()
     {
@@ -57,26 +62,27 @@ public class Сontroler : MonoBehaviour
                 data.Sound,
                 data.Music
                 ));
-            if (!data.IsRepeatable)
-            {
-                UnRepeatable.Add(data.Id, false);
-            }
         }
     }
     public void SetMessage(int id)
     {
         ID = id;
+        _saveSystem.profile.lastNode = id;
         StartCoroutine(SelectMessage());
     }
     public IEnumerator SelectMessage()
     {
         yield return null;
         UIMenager.instaince.DestroyActivButtons();
-        //UIMenager.instaince.OffActivButtons();
 
         Message message = messagesList[ID];
         bool lose = false;
 
+        if(message.Type == NodeType.End)
+        {
+            _buttonRestart.SetActive(true);
+            _buttonTelegram.SetActive(true);
+        }
         if (message.Type == NodeType.Gift)
         {
             _saveSystem.AddGift(message.Gift);
@@ -121,7 +127,10 @@ public class Сontroler : MonoBehaviour
     }
     private void SetNewMessages(Message message, bool lose)
     {
-
+        if (!message.IsRepeatable && !_saveSystem.profile.unrepeatable.Contains(message.Id))
+        {
+            _saveSystem.profile.unrepeatable.Add(message.Id);
+        }
         for (int i = 0; i < message.OutIds.Count; i++)
         {
             int tId = message.OutIds[i];
@@ -129,19 +138,12 @@ public class Сontroler : MonoBehaviour
             {
                 goto Skip;
             }
-            if (UnRepeatable.ContainsKey(tId))
-            {
-                if (UnRepeatable[tId])
-                {
-                    goto Skip;
-                }
-                else
-                {
-                    UnRepeatable[tId] = true;
-                }
-            }
-
             var msg = messagesList[tId];
+
+            if (!msg.IsRepeatable && _saveSystem.profile.unrepeatable.Contains(tId))
+            {
+                goto Skip;
+            }
 
             if (message.Type == NodeType.Trial)
             {
@@ -192,7 +194,19 @@ public class Сontroler : MonoBehaviour
         {
             str = "sword";
         }
+        Debug.Log(str);
         return str;
+    }
+    public void OpenExternalURL(string url)
+    {
+        Application.OpenURL(url);
+    }
+    public void Restart()
+    {
+        _buttonRestart.SetActive(false);
+        _buttonTelegram.SetActive(false);
+        _saveSystem.CreateNewProfile();
+        SetMessage(_saveSystem.profile.lastNode);
     }
 }
 public class Message
@@ -229,6 +243,10 @@ public class Message
         if (sound == "step")
         {
             Sound = SoundMenager.instaince.GetStep();
+        }
+        else if(sound == "greenStep")
+        {
+            Sound = SoundMenager.instaince.GetGreenSteps();
         }
         else
         {
