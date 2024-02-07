@@ -207,7 +207,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1550205426}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.22373247
+  m_Size: 0.22373244
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1655,7 +1655,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.031372562, g: 0.40599075, b: 0.6901961, a: 1}
+  m_Color: {r: 0.031372562, g: 0.42745098, b: 0.6901961, a: 0.78431374}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1808,7 +1808,7 @@ MonoBehaviour:
   _button: {fileID: 8774295385069276060, guid: 0b1286285f4d15d48aa9e02e6f50cfec, type: 3}
   _buttonRestart: {fileID: 1975411809}
   _buttonTelegram: {fileID: 480412693}
-  _testMessageId: 207
+  _testMessageId: 201
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -5043,7 +5043,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1731764637}
   m_Direction: 0
   m_Value: 1
-  m_Size: 0.99999994
+  m_Size: 0.99999976
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6467,7 +6467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6901961, g: 0.03529412, b: 0.03137255, a: 1}
+  m_Color: {r: 0.6901961, g: 0.03529412, b: 0.03137255, a: 0.78431374}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
