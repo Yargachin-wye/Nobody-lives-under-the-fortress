@@ -1808,7 +1808,7 @@ MonoBehaviour:
   _button: {fileID: 8774295385069276060, guid: 0b1286285f4d15d48aa9e02e6f50cfec, type: 3}
   _buttonRestart: {fileID: 1975411809}
   _buttonTelegram: {fileID: 480412693}
-  _testMessageId: 208
+  _testMessageId: 207
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -5043,7 +5043,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1731764637}
   m_Direction: 0
   m_Value: 1
-  m_Size: 0.9999998
+  m_Size: 0.99999994
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

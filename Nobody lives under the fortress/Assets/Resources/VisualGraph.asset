@@ -15,23 +15,23 @@ MonoBehaviour:
   stipulationPool: {fileID: 11400000, guid: 0e2a4a813f9bca249887da0209922165, type: 2}
   NodeLinks:
   - BaseNodeGUID: 0
-    TargetNodeGUID: 233
+    TargetNodeGUID: 227
   - BaseNodeGUID: 1
     TargetNodeGUID: 2
   - BaseNodeGUID: 2
     TargetNodeGUID: 3
   - BaseNodeGUID: 3
-    TargetNodeGUID: 216
+    TargetNodeGUID: 211
   - BaseNodeGUID: 4
     TargetNodeGUID: 6
   - BaseNodeGUID: 5
-    TargetNodeGUID: 220
+    TargetNodeGUID: 215
   - BaseNodeGUID: 6
-    TargetNodeGUID: 222
+    TargetNodeGUID: 328
   - BaseNodeGUID: 6
-    TargetNodeGUID: 7
+    TargetNodeGUID: 326
   - BaseNodeGUID: 7
-    TargetNodeGUID: 212
+    TargetNodeGUID: 8
   - BaseNodeGUID: 8
     TargetNodeGUID: 9
   - BaseNodeGUID: 9
@@ -41,515 +41,521 @@ MonoBehaviour:
   - BaseNodeGUID: 11
     TargetNodeGUID: 12
   - BaseNodeGUID: 12
-    TargetNodeGUID: 13
-  - BaseNodeGUID: 13
+    TargetNodeGUID: 169
+  - BaseNodeGUID: 12
+    TargetNodeGUID: 170
+  - BaseNodeGUID: 12
+    TargetNodeGUID: 172
+  - BaseNodeGUID: 12
+    TargetNodeGUID: 171
+  - BaseNodeGUID: 12
     TargetNodeGUID: 173
   - BaseNodeGUID: 13
-    TargetNodeGUID: 174
+    TargetNodeGUID: 180
   - BaseNodeGUID: 13
-    TargetNodeGUID: 176
+    TargetNodeGUID: 179
   - BaseNodeGUID: 13
-    TargetNodeGUID: 175
+    TargetNodeGUID: 163
   - BaseNodeGUID: 13
-    TargetNodeGUID: 177
+    TargetNodeGUID: 181
+  - BaseNodeGUID: 13
+    TargetNodeGUID: 164
   - BaseNodeGUID: 14
-    TargetNodeGUID: 184
+    TargetNodeGUID: 289
   - BaseNodeGUID: 14
-    TargetNodeGUID: 183
+    TargetNodeGUID: 290
   - BaseNodeGUID: 14
-    TargetNodeGUID: 167
+    TargetNodeGUID: 291
   - BaseNodeGUID: 14
-    TargetNodeGUID: 185
+    TargetNodeGUID: 292
   - BaseNodeGUID: 14
-    TargetNodeGUID: 168
+    TargetNodeGUID: 293
   - BaseNodeGUID: 15
-    TargetNodeGUID: 298
+    TargetNodeGUID: 294
   - BaseNodeGUID: 15
-    TargetNodeGUID: 299
+    TargetNodeGUID: 182
   - BaseNodeGUID: 15
-    TargetNodeGUID: 300
+    TargetNodeGUID: 208
   - BaseNodeGUID: 15
-    TargetNodeGUID: 301
+    TargetNodeGUID: 209
   - BaseNodeGUID: 15
-    TargetNodeGUID: 302
+    TargetNodeGUID: 210
   - BaseNodeGUID: 16
-    TargetNodeGUID: 303
+    TargetNodeGUID: 184
+  - BaseNodeGUID: 16
+    TargetNodeGUID: 183
   - BaseNodeGUID: 16
     TargetNodeGUID: 186
   - BaseNodeGUID: 16
-    TargetNodeGUID: 213
+    TargetNodeGUID: 185
   - BaseNodeGUID: 16
-    TargetNodeGUID: 214
-  - BaseNodeGUID: 16
-    TargetNodeGUID: 215
-  - BaseNodeGUID: 17
-    TargetNodeGUID: 188
-  - BaseNodeGUID: 17
     TargetNodeGUID: 187
   - BaseNodeGUID: 17
-    TargetNodeGUID: 190
+    TargetNodeGUID: 60
   - BaseNodeGUID: 17
-    TargetNodeGUID: 189
-  - BaseNodeGUID: 17
-    TargetNodeGUID: 191
+    TargetNodeGUID: 304
   - BaseNodeGUID: 18
-    TargetNodeGUID: 61
-  - BaseNodeGUID: 18
-    TargetNodeGUID: 313
+    TargetNodeGUID: 301
   - BaseNodeGUID: 19
-    TargetNodeGUID: 310
+    TargetNodeGUID: 33
+  - BaseNodeGUID: 19
+    TargetNodeGUID: 21
   - BaseNodeGUID: 20
-    TargetNodeGUID: 34
+    TargetNodeGUID: 33
   - BaseNodeGUID: 20
     TargetNodeGUID: 22
   - BaseNodeGUID: 21
-    TargetNodeGUID: 34
-  - BaseNodeGUID: 21
     TargetNodeGUID: 23
   - BaseNodeGUID: 22
-    TargetNodeGUID: 24
+    TargetNodeGUID: 228
+  - BaseNodeGUID: 22
+    TargetNodeGUID: 60
+  - BaseNodeGUID: 22
+    TargetNodeGUID: 304
   - BaseNodeGUID: 23
-    TargetNodeGUID: 234
+    TargetNodeGUID: 60
   - BaseNodeGUID: 23
-    TargetNodeGUID: 61
+    TargetNodeGUID: 20
   - BaseNodeGUID: 23
-    TargetNodeGUID: 313
+    TargetNodeGUID: 32
+  - BaseNodeGUID: 23
+    TargetNodeGUID: 304
   - BaseNodeGUID: 24
-    TargetNodeGUID: 61
+    TargetNodeGUID: 305
   - BaseNodeGUID: 24
-    TargetNodeGUID: 21
-  - BaseNodeGUID: 24
-    TargetNodeGUID: 33
-  - BaseNodeGUID: 24
-    TargetNodeGUID: 313
+    TargetNodeGUID: 27
   - BaseNodeGUID: 25
-    TargetNodeGUID: 314
+    TargetNodeGUID: 26
   - BaseNodeGUID: 25
+    TargetNodeGUID: 60
+  - BaseNodeGUID: 25
+    TargetNodeGUID: 304
+  - BaseNodeGUID: 26
     TargetNodeGUID: 28
   - BaseNodeGUID: 26
-    TargetNodeGUID: 27
-  - BaseNodeGUID: 26
-    TargetNodeGUID: 61
-  - BaseNodeGUID: 26
-    TargetNodeGUID: 313
-  - BaseNodeGUID: 27
-    TargetNodeGUID: 29
+    TargetNodeGUID: 59
   - BaseNodeGUID: 27
     TargetNodeGUID: 60
+  - BaseNodeGUID: 27
+    TargetNodeGUID: 304
   - BaseNodeGUID: 28
-    TargetNodeGUID: 61
-  - BaseNodeGUID: 28
-    TargetNodeGUID: 313
+    TargetNodeGUID: 58
   - BaseNodeGUID: 29
-    TargetNodeGUID: 59
+    TargetNodeGUID: 17
   - BaseNodeGUID: 30
-    TargetNodeGUID: 18
-  - BaseNodeGUID: 31
+    TargetNodeGUID: 35
+  - BaseNodeGUID: 30
     TargetNodeGUID: 36
   - BaseNodeGUID: 31
-    TargetNodeGUID: 37
+    TargetNodeGUID: 39
+  - BaseNodeGUID: 31
+    TargetNodeGUID: 18
+  - BaseNodeGUID: 31
+    TargetNodeGUID: 29
+  - BaseNodeGUID: 31
+    TargetNodeGUID: 60
   - BaseNodeGUID: 32
-    TargetNodeGUID: 40
+    TargetNodeGUID: 33
   - BaseNodeGUID: 32
-    TargetNodeGUID: 19
-  - BaseNodeGUID: 32
-    TargetNodeGUID: 30
-  - BaseNodeGUID: 32
-    TargetNodeGUID: 61
-  - BaseNodeGUID: 33
     TargetNodeGUID: 34
   - BaseNodeGUID: 33
-    TargetNodeGUID: 35
+    TargetNodeGUID: 60
+  - BaseNodeGUID: 33
+    TargetNodeGUID: 304
   - BaseNodeGUID: 34
-    TargetNodeGUID: 61
-  - BaseNodeGUID: 34
-    TargetNodeGUID: 313
+    TargetNodeGUID: 311
   - BaseNodeGUID: 35
-    TargetNodeGUID: 320
+    TargetNodeGUID: 37
   - BaseNodeGUID: 36
-    TargetNodeGUID: 38
+    TargetNodeGUID: 37
   - BaseNodeGUID: 37
     TargetNodeGUID: 38
   - BaseNodeGUID: 38
-    TargetNodeGUID: 39
+    TargetNodeGUID: 40
   - BaseNodeGUID: 39
+    TargetNodeGUID: 32
+  - BaseNodeGUID: 39
+    TargetNodeGUID: 20
+  - BaseNodeGUID: 39
+    TargetNodeGUID: 19
+  - BaseNodeGUID: 40
     TargetNodeGUID: 41
   - BaseNodeGUID: 40
-    TargetNodeGUID: 33
-  - BaseNodeGUID: 40
-    TargetNodeGUID: 21
-  - BaseNodeGUID: 40
-    TargetNodeGUID: 20
+    TargetNodeGUID: 43
   - BaseNodeGUID: 41
     TargetNodeGUID: 42
-  - BaseNodeGUID: 41
-    TargetNodeGUID: 44
   - BaseNodeGUID: 42
-    TargetNodeGUID: 43
+    TargetNodeGUID: 56
   - BaseNodeGUID: 43
-    TargetNodeGUID: 57
+    TargetNodeGUID: 67
   - BaseNodeGUID: 44
-    TargetNodeGUID: 68
+    TargetNodeGUID: 45
+  - BaseNodeGUID: 44
+    TargetNodeGUID: 310
+  - BaseNodeGUID: 44
+    TargetNodeGUID: 57
   - BaseNodeGUID: 45
     TargetNodeGUID: 46
   - BaseNodeGUID: 45
-    TargetNodeGUID: 319
-  - BaseNodeGUID: 45
-    TargetNodeGUID: 58
-  - BaseNodeGUID: 46
     TargetNodeGUID: 47
   - BaseNodeGUID: 46
-    TargetNodeGUID: 48
+    TargetNodeGUID: 155
   - BaseNodeGUID: 47
-    TargetNodeGUID: 159
+    TargetNodeGUID: 312
   - BaseNodeGUID: 48
-    TargetNodeGUID: 321
+    TargetNodeGUID: 51
   - BaseNodeGUID: 49
-    TargetNodeGUID: 52
+    TargetNodeGUID: 53
+  - BaseNodeGUID: 50
+    TargetNodeGUID: 57
   - BaseNodeGUID: 50
     TargetNodeGUID: 54
   - BaseNodeGUID: 51
-    TargetNodeGUID: 58
-  - BaseNodeGUID: 51
-    TargetNodeGUID: 55
+    TargetNodeGUID: 156
   - BaseNodeGUID: 52
-    TargetNodeGUID: 160
+    TargetNodeGUID: 57
+  - BaseNodeGUID: 52
+    TargetNodeGUID: 54
   - BaseNodeGUID: 53
-    TargetNodeGUID: 58
-  - BaseNodeGUID: 53
-    TargetNodeGUID: 55
+    TargetNodeGUID: 52
   - BaseNodeGUID: 54
-    TargetNodeGUID: 53
-  - BaseNodeGUID: 55
+    TargetNodeGUID: 48
+  - BaseNodeGUID: 54
     TargetNodeGUID: 49
-  - BaseNodeGUID: 55
-    TargetNodeGUID: 50
-  - BaseNodeGUID: 55
-    TargetNodeGUID: 318
-  - BaseNodeGUID: 55
-    TargetNodeGUID: 58
-  - BaseNodeGUID: 56
-    TargetNodeGUID: 227
-  - BaseNodeGUID: 56
-    TargetNodeGUID: 62
-  - BaseNodeGUID: 57
-    TargetNodeGUID: 68
-  - BaseNodeGUID: 58
-    TargetNodeGUID: 225
-  - BaseNodeGUID: 60
-    TargetNodeGUID: 61
-  - BaseNodeGUID: 60
-    TargetNodeGUID: 313
-  - BaseNodeGUID: 61
-    TargetNodeGUID: 225
-  - BaseNodeGUID: 62
-    TargetNodeGUID: 65
-  - BaseNodeGUID: 63
-    TargetNodeGUID: 64
-  - BaseNodeGUID: 65
-    TargetNodeGUID: 66
-  - BaseNodeGUID: 66
-    TargetNodeGUID: 228
-  - BaseNodeGUID: 67
-    TargetNodeGUID: 311
-  - BaseNodeGUID: 67
+  - BaseNodeGUID: 54
     TargetNodeGUID: 309
+  - BaseNodeGUID: 54
+    TargetNodeGUID: 57
+  - BaseNodeGUID: 55
+    TargetNodeGUID: 221
+  - BaseNodeGUID: 55
+    TargetNodeGUID: 61
+  - BaseNodeGUID: 56
+    TargetNodeGUID: 67
+  - BaseNodeGUID: 57
+    TargetNodeGUID: 219
+  - BaseNodeGUID: 59
+    TargetNodeGUID: 60
+  - BaseNodeGUID: 59
+    TargetNodeGUID: 304
+  - BaseNodeGUID: 60
+    TargetNodeGUID: 219
+  - BaseNodeGUID: 61
+    TargetNodeGUID: 64
+  - BaseNodeGUID: 62
+    TargetNodeGUID: 63
+  - BaseNodeGUID: 64
+    TargetNodeGUID: 65
+  - BaseNodeGUID: 65
+    TargetNodeGUID: 222
+  - BaseNodeGUID: 66
+    TargetNodeGUID: 302
+  - BaseNodeGUID: 66
+    TargetNodeGUID: 300
+  - BaseNodeGUID: 66
+    TargetNodeGUID: 224
   - BaseNodeGUID: 67
-    TargetNodeGUID: 230
+    TargetNodeGUID: 219
   - BaseNodeGUID: 68
-    TargetNodeGUID: 225
+    TargetNodeGUID: 99
   - BaseNodeGUID: 69
-    TargetNodeGUID: 100
+    TargetNodeGUID: 70
   - BaseNodeGUID: 70
-    TargetNodeGUID: 71
-  - BaseNodeGUID: 71
+    TargetNodeGUID: 72
+  - BaseNodeGUID: 72
     TargetNodeGUID: 73
   - BaseNodeGUID: 73
     TargetNodeGUID: 74
   - BaseNodeGUID: 74
-    TargetNodeGUID: 75
+    TargetNodeGUID: 219
   - BaseNodeGUID: 75
-    TargetNodeGUID: 225
+    TargetNodeGUID: 245
   - BaseNodeGUID: 76
-    TargetNodeGUID: 251
+    TargetNodeGUID: 78
   - BaseNodeGUID: 77
-    TargetNodeGUID: 79
-  - BaseNodeGUID: 78
-    TargetNodeGUID: 82
+    TargetNodeGUID: 81
+  - BaseNodeGUID: 79
+    TargetNodeGUID: 80
   - BaseNodeGUID: 80
     TargetNodeGUID: 81
   - BaseNodeGUID: 81
-    TargetNodeGUID: 82
+    TargetNodeGUID: 270
   - BaseNodeGUID: 82
-    TargetNodeGUID: 279
+    TargetNodeGUID: 75
   - BaseNodeGUID: 83
-    TargetNodeGUID: 76
-  - BaseNodeGUID: 84
+    TargetNodeGUID: 90
+  - BaseNodeGUID: 83
     TargetNodeGUID: 91
+  - BaseNodeGUID: 83
+    TargetNodeGUID: 159
   - BaseNodeGUID: 84
-    TargetNodeGUID: 92
-  - BaseNodeGUID: 84
-    TargetNodeGUID: 163
+    TargetNodeGUID: 85
   - BaseNodeGUID: 85
-    TargetNodeGUID: 86
+    TargetNodeGUID: 159
   - BaseNodeGUID: 86
-    TargetNodeGUID: 163
+    TargetNodeGUID: 87
   - BaseNodeGUID: 87
     TargetNodeGUID: 88
-  - BaseNodeGUID: 88
+  - BaseNodeGUID: 87
     TargetNodeGUID: 89
   - BaseNodeGUID: 88
-    TargetNodeGUID: 90
-  - BaseNodeGUID: 89
-    TargetNodeGUID: 231
-  - BaseNodeGUID: 90
-    TargetNodeGUID: 232
-  - BaseNodeGUID: 91
-    TargetNodeGUID: 273
-  - BaseNodeGUID: 91
-    TargetNodeGUID: 271
-  - BaseNodeGUID: 92
-    TargetNodeGUID: 93
-  - BaseNodeGUID: 93
-    TargetNodeGUID: 99
-  - BaseNodeGUID: 94
-    TargetNodeGUID: 254
-  - BaseNodeGUID: 94
-    TargetNodeGUID: 253
-  - BaseNodeGUID: 95
-    TargetNodeGUID: 254
-  - BaseNodeGUID: 95
-    TargetNodeGUID: 97
-  - BaseNodeGUID: 96
-    TargetNodeGUID: 253
-  - BaseNodeGUID: 96
-    TargetNodeGUID: 254
-  - BaseNodeGUID: 97
-    TargetNodeGUID: 96
-  - BaseNodeGUID: 97
-    TargetNodeGUID: 98
-  - BaseNodeGUID: 98
-    TargetNodeGUID: 254
-  - BaseNodeGUID: 98
-    TargetNodeGUID: 253
-  - BaseNodeGUID: 99
-    TargetNodeGUID: 253
-  - BaseNodeGUID: 99
-    TargetNodeGUID: 97
-  - BaseNodeGUID: 99
-    TargetNodeGUID: 254
-  - BaseNodeGUID: 100
     TargetNodeGUID: 225
-  - BaseNodeGUID: 101
-    TargetNodeGUID: 257
-  - BaseNodeGUID: 102
+  - BaseNodeGUID: 89
+    TargetNodeGUID: 226
+  - BaseNodeGUID: 90
+    TargetNodeGUID: 264
+  - BaseNodeGUID: 90
+    TargetNodeGUID: 262
+  - BaseNodeGUID: 91
+    TargetNodeGUID: 92
+  - BaseNodeGUID: 92
+    TargetNodeGUID: 98
+  - BaseNodeGUID: 93
+    TargetNodeGUID: 248
+  - BaseNodeGUID: 93
+    TargetNodeGUID: 247
+  - BaseNodeGUID: 94
+    TargetNodeGUID: 248
+  - BaseNodeGUID: 94
+    TargetNodeGUID: 96
+  - BaseNodeGUID: 95
+    TargetNodeGUID: 247
+  - BaseNodeGUID: 95
+    TargetNodeGUID: 248
+  - BaseNodeGUID: 96
+    TargetNodeGUID: 95
+  - BaseNodeGUID: 96
+    TargetNodeGUID: 97
+  - BaseNodeGUID: 97
+    TargetNodeGUID: 248
+  - BaseNodeGUID: 97
+    TargetNodeGUID: 247
+  - BaseNodeGUID: 98
+    TargetNodeGUID: 247
+  - BaseNodeGUID: 98
+    TargetNodeGUID: 96
+  - BaseNodeGUID: 98
+    TargetNodeGUID: 248
+  - BaseNodeGUID: 99
+    TargetNodeGUID: 219
+  - BaseNodeGUID: 329
+    TargetNodeGUID: 330
+  - BaseNodeGUID: 100
+    TargetNodeGUID: 101
+  - BaseNodeGUID: 100
     TargetNodeGUID: 103
+  - BaseNodeGUID: 101
+    TargetNodeGUID: 324
+  - BaseNodeGUID: 101
+    TargetNodeGUID: 323
   - BaseNodeGUID: 102
+    TargetNodeGUID: 153
+  - BaseNodeGUID: 102
+    TargetNodeGUID: 162
+  - BaseNodeGUID: 103
+    TargetNodeGUID: 325
+  - BaseNodeGUID: 104
+    TargetNodeGUID: 106
+  - BaseNodeGUID: 104
     TargetNodeGUID: 105
-  - BaseNodeGUID: 103
-    TargetNodeGUID: 333
-  - BaseNodeGUID: 103
-    TargetNodeGUID: 332
-  - BaseNodeGUID: 104
-    TargetNodeGUID: 157
-  - BaseNodeGUID: 104
-    TargetNodeGUID: 166
   - BaseNodeGUID: 105
-    TargetNodeGUID: 334
+    TargetNodeGUID: 161
   - BaseNodeGUID: 106
-    TargetNodeGUID: 108
-  - BaseNodeGUID: 106
-    TargetNodeGUID: 107
+    TargetNodeGUID: 154
   - BaseNodeGUID: 107
-    TargetNodeGUID: 165
+    TargetNodeGUID: 334
+  - BaseNodeGUID: 334
+    TargetNodeGUID: 108
   - BaseNodeGUID: 108
-    TargetNodeGUID: 158
-  - BaseNodeGUID: 109
+    TargetNodeGUID: 109
+  - BaseNodeGUID: 108
     TargetNodeGUID: 110
+  - BaseNodeGUID: 109
+    TargetNodeGUID: 332
   - BaseNodeGUID: 110
-    TargetNodeGUID: 111
+    TargetNodeGUID: 332
   - BaseNodeGUID: 111
-    TargetNodeGUID: 112
-  - BaseNodeGUID: 111
-    TargetNodeGUID: 113
+    TargetNodeGUID: 252
   - BaseNodeGUID: 112
-    TargetNodeGUID: 270
+    TargetNodeGUID: 333
   - BaseNodeGUID: 113
-    TargetNodeGUID: 270
+    TargetNodeGUID: 332
   - BaseNodeGUID: 114
-    TargetNodeGUID: 260
+    TargetNodeGUID: 332
   - BaseNodeGUID: 115
-    TargetNodeGUID: 116
-  - BaseNodeGUID: 117
-    TargetNodeGUID: 270
-  - BaseNodeGUID: 118
-    TargetNodeGUID: 270
-  - BaseNodeGUID: 119
-    TargetNodeGUID: 121
-  - BaseNodeGUID: 119
     TargetNodeGUID: 117
-  - BaseNodeGUID: 120
+  - BaseNodeGUID: 115
+    TargetNodeGUID: 113
+  - BaseNodeGUID: 116
+    TargetNodeGUID: 115
+  - BaseNodeGUID: 116
+    TargetNodeGUID: 114
+  - BaseNodeGUID: 117
+    TargetNodeGUID: 118
+  - BaseNodeGUID: 117
+    TargetNodeGUID: 113
+  - BaseNodeGUID: 118
     TargetNodeGUID: 119
   - BaseNodeGUID: 120
-    TargetNodeGUID: 118
+    TargetNodeGUID: 241
   - BaseNodeGUID: 121
     TargetNodeGUID: 122
-  - BaseNodeGUID: 121
-    TargetNodeGUID: 117
   - BaseNodeGUID: 122
-    TargetNodeGUID: 123
+    TargetNodeGUID: 234
+  - BaseNodeGUID: 122
+    TargetNodeGUID: 233
+  - BaseNodeGUID: 122
+    TargetNodeGUID: 235
+  - BaseNodeGUID: 122
+    TargetNodeGUID: 236
+  - BaseNodeGUID: 122
+    TargetNodeGUID: 240
+  - BaseNodeGUID: 122
+    TargetNodeGUID: 239
+  - BaseNodeGUID: 122
+    TargetNodeGUID: 237
+  - BaseNodeGUID: 123
+    TargetNodeGUID: 314
   - BaseNodeGUID: 124
-    TargetNodeGUID: 247
+    TargetNodeGUID: 125
   - BaseNodeGUID: 125
     TargetNodeGUID: 126
   - BaseNodeGUID: 126
-    TargetNodeGUID: 240
-  - BaseNodeGUID: 126
-    TargetNodeGUID: 239
-  - BaseNodeGUID: 126
-    TargetNodeGUID: 241
-  - BaseNodeGUID: 126
-    TargetNodeGUID: 242
-  - BaseNodeGUID: 126
-    TargetNodeGUID: 246
-  - BaseNodeGUID: 126
-    TargetNodeGUID: 245
-  - BaseNodeGUID: 126
-    TargetNodeGUID: 243
+    TargetNodeGUID: 127
   - BaseNodeGUID: 127
-    TargetNodeGUID: 323
+    TargetNodeGUID: 128
   - BaseNodeGUID: 128
     TargetNodeGUID: 129
   - BaseNodeGUID: 129
-    TargetNodeGUID: 130
+    TargetNodeGUID: 315
+  - BaseNodeGUID: 129
+    TargetNodeGUID: 316
   - BaseNodeGUID: 130
-    TargetNodeGUID: 131
+    TargetNodeGUID: 268
+  - BaseNodeGUID: 130
+    TargetNodeGUID: 316
   - BaseNodeGUID: 131
     TargetNodeGUID: 132
   - BaseNodeGUID: 132
     TargetNodeGUID: 133
+  - BaseNodeGUID: 132
+    TargetNodeGUID: 134
   - BaseNodeGUID: 133
-    TargetNodeGUID: 324
-  - BaseNodeGUID: 133
-    TargetNodeGUID: 325
+    TargetNodeGUID: 143
   - BaseNodeGUID: 134
-    TargetNodeGUID: 277
-  - BaseNodeGUID: 134
-    TargetNodeGUID: 325
+    TargetNodeGUID: 143
   - BaseNodeGUID: 135
-    TargetNodeGUID: 136
+    TargetNodeGUID: 142
   - BaseNodeGUID: 136
-    TargetNodeGUID: 137
-  - BaseNodeGUID: 136
-    TargetNodeGUID: 138
+    TargetNodeGUID: 142
   - BaseNodeGUID: 137
-    TargetNodeGUID: 147
+    TargetNodeGUID: 141
   - BaseNodeGUID: 138
-    TargetNodeGUID: 147
+    TargetNodeGUID: 141
   - BaseNodeGUID: 139
-    TargetNodeGUID: 146
+    TargetNodeGUID: 141
   - BaseNodeGUID: 140
-    TargetNodeGUID: 146
+    TargetNodeGUID: 141
   - BaseNodeGUID: 141
-    TargetNodeGUID: 145
+    TargetNodeGUID: 320
   - BaseNodeGUID: 142
-    TargetNodeGUID: 145
+    TargetNodeGUID: 140
+  - BaseNodeGUID: 142
+    TargetNodeGUID: 137
+  - BaseNodeGUID: 142
+    TargetNodeGUID: 138
+  - BaseNodeGUID: 142
+    TargetNodeGUID: 139
   - BaseNodeGUID: 143
-    TargetNodeGUID: 145
+    TargetNodeGUID: 136
+  - BaseNodeGUID: 143
+    TargetNodeGUID: 135
   - BaseNodeGUID: 144
     TargetNodeGUID: 145
-  - BaseNodeGUID: 145
-    TargetNodeGUID: 329
-  - BaseNodeGUID: 146
-    TargetNodeGUID: 144
-  - BaseNodeGUID: 146
-    TargetNodeGUID: 141
-  - BaseNodeGUID: 146
-    TargetNodeGUID: 142
-  - BaseNodeGUID: 146
-    TargetNodeGUID: 143
-  - BaseNodeGUID: 147
-    TargetNodeGUID: 140
-  - BaseNodeGUID: 147
-    TargetNodeGUID: 139
-  - BaseNodeGUID: 148
+  - BaseNodeGUID: 144
+    TargetNodeGUID: 146
+  - BaseNodeGUID: 144
+    TargetNodeGUID: 147
+  - BaseNodeGUID: 144
     TargetNodeGUID: 149
+  - BaseNodeGUID: 145
+    TargetNodeGUID: 148
+  - BaseNodeGUID: 146
+    TargetNodeGUID: 148
+  - BaseNodeGUID: 147
+    TargetNodeGUID: 148
   - BaseNodeGUID: 148
     TargetNodeGUID: 150
-  - BaseNodeGUID: 148
-    TargetNodeGUID: 151
-  - BaseNodeGUID: 148
-    TargetNodeGUID: 153
   - BaseNodeGUID: 149
-    TargetNodeGUID: 152
+    TargetNodeGUID: 148
   - BaseNodeGUID: 150
-    TargetNodeGUID: 152
+    TargetNodeGUID: 322
   - BaseNodeGUID: 151
-    TargetNodeGUID: 152
-  - BaseNodeGUID: 152
-    TargetNodeGUID: 154
+    TargetNodeGUID: 275
   - BaseNodeGUID: 153
     TargetNodeGUID: 152
   - BaseNodeGUID: 154
-    TargetNodeGUID: 331
+    TargetNodeGUID: 332
   - BaseNodeGUID: 155
-    TargetNodeGUID: 284
+    TargetNodeGUID: 57
+  - BaseNodeGUID: 155
+    TargetNodeGUID: 310
+  - BaseNodeGUID: 156
+    TargetNodeGUID: 54
+  - BaseNodeGUID: 156
+    TargetNodeGUID: 57
   - BaseNodeGUID: 157
-    TargetNodeGUID: 156
+    TargetNodeGUID: 99
   - BaseNodeGUID: 158
-    TargetNodeGUID: 270
+    TargetNodeGUID: 159
   - BaseNodeGUID: 159
-    TargetNodeGUID: 58
-  - BaseNodeGUID: 159
-    TargetNodeGUID: 319
+    TargetNodeGUID: 219
   - BaseNodeGUID: 160
-    TargetNodeGUID: 55
+    TargetNodeGUID: 111
   - BaseNodeGUID: 160
-    TargetNodeGUID: 58
-  - BaseNodeGUID: 161
-    TargetNodeGUID: 100
+    TargetNodeGUID: 112
   - BaseNodeGUID: 162
-    TargetNodeGUID: 163
+    TargetNodeGUID: 332
   - BaseNodeGUID: 163
-    TargetNodeGUID: 225
-  - BaseNodeGUID: 164
-    TargetNodeGUID: 114
-  - BaseNodeGUID: 164
-    TargetNodeGUID: 115
-  - BaseNodeGUID: 166
-    TargetNodeGUID: 270
-  - BaseNodeGUID: 167
-    TargetNodeGUID: 15
-  - BaseNodeGUID: 168
-    TargetNodeGUID: 15
-  - BaseNodeGUID: 169
-    TargetNodeGUID: 179
-  - BaseNodeGUID: 169
-    TargetNodeGUID: 178
-  - BaseNodeGUID: 169
-    TargetNodeGUID: 180
-  - BaseNodeGUID: 169
-    TargetNodeGUID: 181
-  - BaseNodeGUID: 169
-    TargetNodeGUID: 182
-  - BaseNodeGUID: 170
-    TargetNodeGUID: 169
-  - BaseNodeGUID: 171
-    TargetNodeGUID: 169
-  - BaseNodeGUID: 172
-    TargetNodeGUID: 169
-  - BaseNodeGUID: 173
-    TargetNodeGUID: 209
-  - BaseNodeGUID: 174
-    TargetNodeGUID: 209
-  - BaseNodeGUID: 175
-    TargetNodeGUID: 209
-  - BaseNodeGUID: 176
-    TargetNodeGUID: 209
-  - BaseNodeGUID: 177
-    TargetNodeGUID: 209
-  - BaseNodeGUID: 178
     TargetNodeGUID: 14
+  - BaseNodeGUID: 164
+    TargetNodeGUID: 14
+  - BaseNodeGUID: 165
+    TargetNodeGUID: 175
+  - BaseNodeGUID: 165
+    TargetNodeGUID: 174
+  - BaseNodeGUID: 165
+    TargetNodeGUID: 176
+  - BaseNodeGUID: 165
+    TargetNodeGUID: 177
+  - BaseNodeGUID: 165
+    TargetNodeGUID: 178
+  - BaseNodeGUID: 166
+    TargetNodeGUID: 165
+  - BaseNodeGUID: 167
+    TargetNodeGUID: 165
+  - BaseNodeGUID: 168
+    TargetNodeGUID: 165
+  - BaseNodeGUID: 169
+    TargetNodeGUID: 205
+  - BaseNodeGUID: 170
+    TargetNodeGUID: 205
+  - BaseNodeGUID: 171
+    TargetNodeGUID: 205
+  - BaseNodeGUID: 172
+    TargetNodeGUID: 205
+  - BaseNodeGUID: 173
+    TargetNodeGUID: 205
+  - BaseNodeGUID: 174
+    TargetNodeGUID: 13
+  - BaseNodeGUID: 175
+    TargetNodeGUID: 13
+  - BaseNodeGUID: 176
+    TargetNodeGUID: 13
+  - BaseNodeGUID: 177
+    TargetNodeGUID: 13
+  - BaseNodeGUID: 178
+    TargetNodeGUID: 13
   - BaseNodeGUID: 179
     TargetNodeGUID: 14
   - BaseNodeGUID: 180
@@ -557,433 +563,427 @@ MonoBehaviour:
   - BaseNodeGUID: 181
     TargetNodeGUID: 14
   - BaseNodeGUID: 182
-    TargetNodeGUID: 14
+    TargetNodeGUID: 16
   - BaseNodeGUID: 183
-    TargetNodeGUID: 15
+    TargetNodeGUID: 188
   - BaseNodeGUID: 184
-    TargetNodeGUID: 15
+    TargetNodeGUID: 188
   - BaseNodeGUID: 185
-    TargetNodeGUID: 15
+    TargetNodeGUID: 188
   - BaseNodeGUID: 186
-    TargetNodeGUID: 17
+    TargetNodeGUID: 188
   - BaseNodeGUID: 187
-    TargetNodeGUID: 192
+    TargetNodeGUID: 188
+  - BaseNodeGUID: 188
+    TargetNodeGUID: 189
+  - BaseNodeGUID: 188
+    TargetNodeGUID: 190
   - BaseNodeGUID: 188
     TargetNodeGUID: 192
-  - BaseNodeGUID: 189
-    TargetNodeGUID: 192
-  - BaseNodeGUID: 190
-    TargetNodeGUID: 192
-  - BaseNodeGUID: 191
-    TargetNodeGUID: 192
-  - BaseNodeGUID: 192
+  - BaseNodeGUID: 188
+    TargetNodeGUID: 191
+  - BaseNodeGUID: 188
     TargetNodeGUID: 193
-  - BaseNodeGUID: 192
+  - BaseNodeGUID: 189
+    TargetNodeGUID: 194
+  - BaseNodeGUID: 190
+    TargetNodeGUID: 194
+  - BaseNodeGUID: 191
     TargetNodeGUID: 194
   - BaseNodeGUID: 192
-    TargetNodeGUID: 196
-  - BaseNodeGUID: 192
-    TargetNodeGUID: 195
-  - BaseNodeGUID: 192
-    TargetNodeGUID: 197
+    TargetNodeGUID: 194
   - BaseNodeGUID: 193
-    TargetNodeGUID: 198
+    TargetNodeGUID: 194
   - BaseNodeGUID: 194
     TargetNodeGUID: 198
-  - BaseNodeGUID: 195
-    TargetNodeGUID: 198
-  - BaseNodeGUID: 196
-    TargetNodeGUID: 198
-  - BaseNodeGUID: 197
-    TargetNodeGUID: 198
-  - BaseNodeGUID: 198
-    TargetNodeGUID: 202
-  - BaseNodeGUID: 198
+  - BaseNodeGUID: 194
+    TargetNodeGUID: 195
+  - BaseNodeGUID: 194
+    TargetNodeGUID: 197
+  - BaseNodeGUID: 194
     TargetNodeGUID: 199
+  - BaseNodeGUID: 194
+    TargetNodeGUID: 196
+  - BaseNodeGUID: 195
+    TargetNodeGUID: 260
+  - BaseNodeGUID: 196
+    TargetNodeGUID: 260
+  - BaseNodeGUID: 197
+    TargetNodeGUID: 260
   - BaseNodeGUID: 198
-    TargetNodeGUID: 201
-  - BaseNodeGUID: 198
-    TargetNodeGUID: 203
-  - BaseNodeGUID: 198
-    TargetNodeGUID: 200
+    TargetNodeGUID: 260
   - BaseNodeGUID: 199
-    TargetNodeGUID: 268
+    TargetNodeGUID: 260
   - BaseNodeGUID: 200
-    TargetNodeGUID: 268
-  - BaseNodeGUID: 201
-    TargetNodeGUID: 268
-  - BaseNodeGUID: 202
-    TargetNodeGUID: 268
-  - BaseNodeGUID: 203
-    TargetNodeGUID: 268
-  - BaseNodeGUID: 204
-    TargetNodeGUID: 223
-  - BaseNodeGUID: 205
-    TargetNodeGUID: 223
-  - BaseNodeGUID: 206
-    TargetNodeGUID: 223
-  - BaseNodeGUID: 207
-    TargetNodeGUID: 223
-  - BaseNodeGUID: 208
-    TargetNodeGUID: 204
-  - BaseNodeGUID: 208
-    TargetNodeGUID: 205
-  - BaseNodeGUID: 208
-    TargetNodeGUID: 206
-  - BaseNodeGUID: 208
-    TargetNodeGUID: 250
-  - BaseNodeGUID: 208
-    TargetNodeGUID: 207
-  - BaseNodeGUID: 209
-    TargetNodeGUID: 211
-  - BaseNodeGUID: 209
-    TargetNodeGUID: 170
-  - BaseNodeGUID: 209
-    TargetNodeGUID: 210
-  - BaseNodeGUID: 209
-    TargetNodeGUID: 172
-  - BaseNodeGUID: 209
-    TargetNodeGUID: 171
-  - BaseNodeGUID: 210
-    TargetNodeGUID: 169
-  - BaseNodeGUID: 211
-    TargetNodeGUID: 169
-  - BaseNodeGUID: 212
-    TargetNodeGUID: 222
-  - BaseNodeGUID: 213
-    TargetNodeGUID: 17
-  - BaseNodeGUID: 214
-    TargetNodeGUID: 17
-  - BaseNodeGUID: 215
-    TargetNodeGUID: 17
-  - BaseNodeGUID: 216
-    TargetNodeGUID: 307
-  - BaseNodeGUID: 217
-    TargetNodeGUID: 219
-  - BaseNodeGUID: 218
     TargetNodeGUID: 217
-  - BaseNodeGUID: 219
+  - BaseNodeGUID: 201
+    TargetNodeGUID: 217
+  - BaseNodeGUID: 202
+    TargetNodeGUID: 217
+  - BaseNodeGUID: 203
+    TargetNodeGUID: 217
+  - BaseNodeGUID: 204
+    TargetNodeGUID: 200
+  - BaseNodeGUID: 204
+    TargetNodeGUID: 201
+  - BaseNodeGUID: 204
+    TargetNodeGUID: 202
+  - BaseNodeGUID: 204
+    TargetNodeGUID: 244
+  - BaseNodeGUID: 204
+    TargetNodeGUID: 203
+  - BaseNodeGUID: 205
+    TargetNodeGUID: 207
+  - BaseNodeGUID: 205
+    TargetNodeGUID: 166
+  - BaseNodeGUID: 205
+    TargetNodeGUID: 206
+  - BaseNodeGUID: 205
+    TargetNodeGUID: 168
+  - BaseNodeGUID: 205
+    TargetNodeGUID: 167
+  - BaseNodeGUID: 206
+    TargetNodeGUID: 165
+  - BaseNodeGUID: 207
+    TargetNodeGUID: 165
+  - BaseNodeGUID: 208
+    TargetNodeGUID: 16
+  - BaseNodeGUID: 209
+    TargetNodeGUID: 16
+  - BaseNodeGUID: 210
+    TargetNodeGUID: 16
+  - BaseNodeGUID: 211
+    TargetNodeGUID: 298
+  - BaseNodeGUID: 212
+    TargetNodeGUID: 214
+  - BaseNodeGUID: 213
+    TargetNodeGUID: 212
+  - BaseNodeGUID: 214
     TargetNodeGUID: 5
-  - BaseNodeGUID: 219
+  - BaseNodeGUID: 214
     TargetNodeGUID: 4
-  - BaseNodeGUID: 221
-    TargetNodeGUID: 8
-  - BaseNodeGUID: 222
-    TargetNodeGUID: 221
-  - BaseNodeGUID: 222
+  - BaseNodeGUID: 216
     TargetNodeGUID: 7
+  - BaseNodeGUID: 217
+    TargetNodeGUID: 218
+  - BaseNodeGUID: 218
+    TargetNodeGUID: 219
+  - BaseNodeGUID: 219
+    TargetNodeGUID: 220
+  - BaseNodeGUID: 219
+    TargetNodeGUID: 82
+  - BaseNodeGUID: 219
+    TargetNodeGUID: 83
+  - BaseNodeGUID: 219
+    TargetNodeGUID: 329
+  - BaseNodeGUID: 220
+    TargetNodeGUID: 31
+  - BaseNodeGUID: 220
+    TargetNodeGUID: 30
+  - BaseNodeGUID: 220
+    TargetNodeGUID: 44
+  - BaseNodeGUID: 220
+    TargetNodeGUID: 55
+  - BaseNodeGUID: 220
+    TargetNodeGUID: 265
+  - BaseNodeGUID: 221
+    TargetNodeGUID: 266
+  - BaseNodeGUID: 222
+    TargetNodeGUID: 242
+  - BaseNodeGUID: 222
+    TargetNodeGUID: 66
+  - BaseNodeGUID: 222
+    TargetNodeGUID: 223
+  - BaseNodeGUID: 223
+    TargetNodeGUID: 300
+  - BaseNodeGUID: 223
+    TargetNodeGUID: 302
   - BaseNodeGUID: 223
     TargetNodeGUID: 224
   - BaseNodeGUID: 224
-    TargetNodeGUID: 225
+    TargetNodeGUID: 300
+  - BaseNodeGUID: 224
+    TargetNodeGUID: 302
   - BaseNodeGUID: 225
-    TargetNodeGUID: 226
+    TargetNodeGUID: 159
   - BaseNodeGUID: 225
-    TargetNodeGUID: 83
-  - BaseNodeGUID: 225
-    TargetNodeGUID: 84
-  - BaseNodeGUID: 225
-    TargetNodeGUID: 101
-  - BaseNodeGUID: 226
-    TargetNodeGUID: 32
-  - BaseNodeGUID: 226
-    TargetNodeGUID: 31
-  - BaseNodeGUID: 226
-    TargetNodeGUID: 45
-  - BaseNodeGUID: 226
-    TargetNodeGUID: 56
-  - BaseNodeGUID: 226
-    TargetNodeGUID: 274
+    TargetNodeGUID: 91
   - BaseNodeGUID: 227
-    TargetNodeGUID: 275
+    TargetNodeGUID: 299
+  - BaseNodeGUID: 227
+    TargetNodeGUID: 295
   - BaseNodeGUID: 228
-    TargetNodeGUID: 248
-  - BaseNodeGUID: 228
-    TargetNodeGUID: 67
-  - BaseNodeGUID: 228
-    TargetNodeGUID: 229
-  - BaseNodeGUID: 229
-    TargetNodeGUID: 309
-  - BaseNodeGUID: 229
-    TargetNodeGUID: 311
-  - BaseNodeGUID: 229
-    TargetNodeGUID: 230
-  - BaseNodeGUID: 230
-    TargetNodeGUID: 309
-  - BaseNodeGUID: 230
-    TargetNodeGUID: 311
-  - BaseNodeGUID: 231
-    TargetNodeGUID: 163
-  - BaseNodeGUID: 231
-    TargetNodeGUID: 92
-  - BaseNodeGUID: 233
-    TargetNodeGUID: 308
-  - BaseNodeGUID: 233
-    TargetNodeGUID: 304
-  - BaseNodeGUID: 234
-    TargetNodeGUID: 35
-  - BaseNodeGUID: 234
     TargetNodeGUID: 34
-  - BaseNodeGUID: 235
-    TargetNodeGUID: 323
-  - BaseNodeGUID: 236
-    TargetNodeGUID: 323
-  - BaseNodeGUID: 237
-    TargetNodeGUID: 323
-  - BaseNodeGUID: 238
-    TargetNodeGUID: 323
-  - BaseNodeGUID: 239
-    TargetNodeGUID: 236
-  - BaseNodeGUID: 240
-    TargetNodeGUID: 235
-  - BaseNodeGUID: 241
-    TargetNodeGUID: 238
-  - BaseNodeGUID: 242
-    TargetNodeGUID: 237
-  - BaseNodeGUID: 243
-    TargetNodeGUID: 244
-  - BaseNodeGUID: 244
-    TargetNodeGUID: 317
-  - BaseNodeGUID: 244
-    TargetNodeGUID: 328
-  - BaseNodeGUID: 245
-    TargetNodeGUID: 312
-  - BaseNodeGUID: 246
-    TargetNodeGUID: 127
-  - BaseNodeGUID: 247
-    TargetNodeGUID: 125
-  - BaseNodeGUID: 248
-    TargetNodeGUID: 249
-  - BaseNodeGUID: 249
-    TargetNodeGUID: 311
-  - BaseNodeGUID: 249
-    TargetNodeGUID: 309
-  - BaseNodeGUID: 249
+  - BaseNodeGUID: 228
+    TargetNodeGUID: 33
+  - BaseNodeGUID: 229
+    TargetNodeGUID: 314
+  - BaseNodeGUID: 230
+    TargetNodeGUID: 314
+  - BaseNodeGUID: 231
+    TargetNodeGUID: 314
+  - BaseNodeGUID: 232
+    TargetNodeGUID: 314
+  - BaseNodeGUID: 233
     TargetNodeGUID: 230
-  - BaseNodeGUID: 250
-    TargetNodeGUID: 223
-  - BaseNodeGUID: 251
-    TargetNodeGUID: 252
-  - BaseNodeGUID: 251
-    TargetNodeGUID: 80
-  - BaseNodeGUID: 252
+  - BaseNodeGUID: 234
+    TargetNodeGUID: 229
+  - BaseNodeGUID: 235
+    TargetNodeGUID: 232
+  - BaseNodeGUID: 236
+    TargetNodeGUID: 231
+  - BaseNodeGUID: 237
+    TargetNodeGUID: 238
+  - BaseNodeGUID: 238
+    TargetNodeGUID: 308
+  - BaseNodeGUID: 238
+    TargetNodeGUID: 319
+  - BaseNodeGUID: 239
+    TargetNodeGUID: 303
+  - BaseNodeGUID: 240
+    TargetNodeGUID: 123
+  - BaseNodeGUID: 241
+    TargetNodeGUID: 121
+  - BaseNodeGUID: 242
+    TargetNodeGUID: 243
+  - BaseNodeGUID: 243
+    TargetNodeGUID: 302
+  - BaseNodeGUID: 243
+    TargetNodeGUID: 300
+  - BaseNodeGUID: 243
+    TargetNodeGUID: 224
+  - BaseNodeGUID: 244
+    TargetNodeGUID: 217
+  - BaseNodeGUID: 245
+    TargetNodeGUID: 246
+  - BaseNodeGUID: 245
+    TargetNodeGUID: 79
+  - BaseNodeGUID: 246
+    TargetNodeGUID: 76
+  - BaseNodeGUID: 246
     TargetNodeGUID: 77
-  - BaseNodeGUID: 252
-    TargetNodeGUID: 78
-  - BaseNodeGUID: 253
+  - BaseNodeGUID: 247
+    TargetNodeGUID: 93
+  - BaseNodeGUID: 247
     TargetNodeGUID: 94
+  - BaseNodeGUID: 248
+    TargetNodeGUID: 158
+  - BaseNodeGUID: 250
+    TargetNodeGUID: 107
+  - BaseNodeGUID: 330
+    TargetNodeGUID: 331
+  - BaseNodeGUID: 331
+    TargetNodeGUID: 251
+  - BaseNodeGUID: 251
+    TargetNodeGUID: 332
+  - BaseNodeGUID: 252
+    TargetNodeGUID: 120
   - BaseNodeGUID: 253
-    TargetNodeGUID: 95
+    TargetNodeGUID: 259
   - BaseNodeGUID: 254
-    TargetNodeGUID: 162
+    TargetNodeGUID: 259
+  - BaseNodeGUID: 255
+    TargetNodeGUID: 257
   - BaseNodeGUID: 256
-    TargetNodeGUID: 109
+    TargetNodeGUID: 257
   - BaseNodeGUID: 257
-    TargetNodeGUID: 258
+    TargetNodeGUID: 204
   - BaseNodeGUID: 258
     TargetNodeGUID: 259
   - BaseNodeGUID: 259
-    TargetNodeGUID: 270
+    TargetNodeGUID: 204
   - BaseNodeGUID: 260
-    TargetNodeGUID: 124
+    TargetNodeGUID: 253
+  - BaseNodeGUID: 260
+    TargetNodeGUID: 255
+  - BaseNodeGUID: 260
+    TargetNodeGUID: 256
+  - BaseNodeGUID: 260
+    TargetNodeGUID: 258
+  - BaseNodeGUID: 260
+    TargetNodeGUID: 254
   - BaseNodeGUID: 261
+    TargetNodeGUID: 74
+  - BaseNodeGUID: 332
+    TargetNodeGUID: 100
+  - BaseNodeGUID: 332
+    TargetNodeGUID: 250
+  - BaseNodeGUID: 332
+    TargetNodeGUID: 116
+  - BaseNodeGUID: 332
     TargetNodeGUID: 267
   - BaseNodeGUID: 262
-    TargetNodeGUID: 267
-  - BaseNodeGUID: 263
-    TargetNodeGUID: 265
-  - BaseNodeGUID: 264
-    TargetNodeGUID: 265
-  - BaseNodeGUID: 265
-    TargetNodeGUID: 208
-  - BaseNodeGUID: 266
-    TargetNodeGUID: 267
-  - BaseNodeGUID: 267
-    TargetNodeGUID: 208
-  - BaseNodeGUID: 268
-    TargetNodeGUID: 261
-  - BaseNodeGUID: 268
     TargetNodeGUID: 263
-  - BaseNodeGUID: 268
+  - BaseNodeGUID: 263
     TargetNodeGUID: 264
-  - BaseNodeGUID: 268
-    TargetNodeGUID: 266
-  - BaseNodeGUID: 268
-    TargetNodeGUID: 262
-  - BaseNodeGUID: 269
-    TargetNodeGUID: 75
-  - BaseNodeGUID: 270
-    TargetNodeGUID: 102
-  - BaseNodeGUID: 270
-    TargetNodeGUID: 256
-  - BaseNodeGUID: 270
-    TargetNodeGUID: 120
-  - BaseNodeGUID: 270
-    TargetNodeGUID: 276
-  - BaseNodeGUID: 271
-    TargetNodeGUID: 272
-  - BaseNodeGUID: 272
-    TargetNodeGUID: 273
-  - BaseNodeGUID: 273
-    TargetNodeGUID: 85
-  - BaseNodeGUID: 273
-    TargetNodeGUID: 87
-  - BaseNodeGUID: 274
-    TargetNodeGUID: 225
-  - BaseNodeGUID: 275
-    TargetNodeGUID: 63
-  - BaseNodeGUID: 275
+  - BaseNodeGUID: 264
+    TargetNodeGUID: 84
+  - BaseNodeGUID: 264
+    TargetNodeGUID: 86
+  - BaseNodeGUID: 265
+    TargetNodeGUID: 219
+  - BaseNodeGUID: 266
     TargetNodeGUID: 62
+  - BaseNodeGUID: 266
+    TargetNodeGUID: 61
+  - BaseNodeGUID: 267
+    TargetNodeGUID: 160
+  - BaseNodeGUID: 268
+    TargetNodeGUID: 269
+  - BaseNodeGUID: 269
+    TargetNodeGUID: 279
+  - BaseNodeGUID: 270
+    TargetNodeGUID: 306
+  - BaseNodeGUID: 270
+    TargetNodeGUID: 307
+  - BaseNodeGUID: 270
+    TargetNodeGUID: 69
+  - BaseNodeGUID: 271
+    TargetNodeGUID: 276
+  - BaseNodeGUID: 272
+    TargetNodeGUID: 271
+  - BaseNodeGUID: 273
+    TargetNodeGUID: 271
+  - BaseNodeGUID: 274
+    TargetNodeGUID: 271
+  - BaseNodeGUID: 275
+    TargetNodeGUID: 272
+  - BaseNodeGUID: 275
+    TargetNodeGUID: 273
+  - BaseNodeGUID: 275
+    TargetNodeGUID: 274
   - BaseNodeGUID: 276
-    TargetNodeGUID: 164
+    TargetNodeGUID: 277
   - BaseNodeGUID: 277
     TargetNodeGUID: 278
-  - BaseNodeGUID: 278
-    TargetNodeGUID: 288
   - BaseNodeGUID: 279
-    TargetNodeGUID: 315
+    TargetNodeGUID: 317
   - BaseNodeGUID: 279
-    TargetNodeGUID: 316
-  - BaseNodeGUID: 279
-    TargetNodeGUID: 70
+    TargetNodeGUID: 318
   - BaseNodeGUID: 280
-    TargetNodeGUID: 285
-  - BaseNodeGUID: 281
-    TargetNodeGUID: 280
-  - BaseNodeGUID: 282
-    TargetNodeGUID: 280
-  - BaseNodeGUID: 283
-    TargetNodeGUID: 280
-  - BaseNodeGUID: 284
     TargetNodeGUID: 281
-  - BaseNodeGUID: 284
+  - BaseNodeGUID: 281
     TargetNodeGUID: 282
-  - BaseNodeGUID: 284
+  - BaseNodeGUID: 282
     TargetNodeGUID: 283
-  - BaseNodeGUID: 285
+  - BaseNodeGUID: 283
     TargetNodeGUID: 286
+  - BaseNodeGUID: 283
+    TargetNodeGUID: 284
+  - BaseNodeGUID: 283
+    TargetNodeGUID: 285
+  - BaseNodeGUID: 284
+    TargetNodeGUID: 287
+  - BaseNodeGUID: 285
+    TargetNodeGUID: 287
   - BaseNodeGUID: 286
     TargetNodeGUID: 287
-  - BaseNodeGUID: 288
-    TargetNodeGUID: 326
-  - BaseNodeGUID: 288
-    TargetNodeGUID: 327
+  - BaseNodeGUID: 287
+    TargetNodeGUID: 288
   - BaseNodeGUID: 289
-    TargetNodeGUID: 290
+    TargetNodeGUID: 15
   - BaseNodeGUID: 290
-    TargetNodeGUID: 291
+    TargetNodeGUID: 15
   - BaseNodeGUID: 291
-    TargetNodeGUID: 292
+    TargetNodeGUID: 15
   - BaseNodeGUID: 292
-    TargetNodeGUID: 295
-  - BaseNodeGUID: 292
-    TargetNodeGUID: 293
-  - BaseNodeGUID: 292
-    TargetNodeGUID: 294
+    TargetNodeGUID: 15
   - BaseNodeGUID: 293
-    TargetNodeGUID: 296
+    TargetNodeGUID: 15
   - BaseNodeGUID: 294
-    TargetNodeGUID: 296
+    TargetNodeGUID: 16
   - BaseNodeGUID: 295
     TargetNodeGUID: 296
   - BaseNodeGUID: 296
-    TargetNodeGUID: 297
-  - BaseNodeGUID: 298
-    TargetNodeGUID: 16
-  - BaseNodeGUID: 299
-    TargetNodeGUID: 16
-  - BaseNodeGUID: 300
-    TargetNodeGUID: 16
-  - BaseNodeGUID: 301
-    TargetNodeGUID: 16
-  - BaseNodeGUID: 302
-    TargetNodeGUID: 16
-  - BaseNodeGUID: 303
-    TargetNodeGUID: 17
-  - BaseNodeGUID: 304
-    TargetNodeGUID: 305
-  - BaseNodeGUID: 305
     TargetNodeGUID: 1
-  - BaseNodeGUID: 306
-    TargetNodeGUID: 218
-  - BaseNodeGUID: 307
-    TargetNodeGUID: 306
-  - BaseNodeGUID: 308
-    TargetNodeGUID: 268
-  - BaseNodeGUID: 309
-    TargetNodeGUID: 69
-  - BaseNodeGUID: 310
+  - BaseNodeGUID: 297
+    TargetNodeGUID: 213
+  - BaseNodeGUID: 298
+    TargetNodeGUID: 297
+  - BaseNodeGUID: 299
+    TargetNodeGUID: 260
+  - BaseNodeGUID: 300
+    TargetNodeGUID: 68
+  - BaseNodeGUID: 301
+    TargetNodeGUID: 24
+  - BaseNodeGUID: 301
     TargetNodeGUID: 25
+  - BaseNodeGUID: 302
+    TargetNodeGUID: 157
+  - BaseNodeGUID: 303
+    TargetNodeGUID: 124
+  - BaseNodeGUID: 304
+    TargetNodeGUID: 39
+  - BaseNodeGUID: 304
+    TargetNodeGUID: 18
+  - BaseNodeGUID: 304
+    TargetNodeGUID: 29
+  - BaseNodeGUID: 304
+    TargetNodeGUID: 60
+  - BaseNodeGUID: 305
+    TargetNodeGUID: 60
+  - BaseNodeGUID: 305
+    TargetNodeGUID: 304
+  - BaseNodeGUID: 306
+    TargetNodeGUID: 261
+  - BaseNodeGUID: 307
+    TargetNodeGUID: 71
+  - BaseNodeGUID: 308
+    TargetNodeGUID: 303
+  - BaseNodeGUID: 309
+    TargetNodeGUID: 50
   - BaseNodeGUID: 310
-    TargetNodeGUID: 26
+    TargetNodeGUID: 48
+  - BaseNodeGUID: 310
+    TargetNodeGUID: 49
+  - BaseNodeGUID: 310
+    TargetNodeGUID: 309
+  - BaseNodeGUID: 310
+    TargetNodeGUID: 57
   - BaseNodeGUID: 311
-    TargetNodeGUID: 161
+    TargetNodeGUID: 60
+  - BaseNodeGUID: 311
+    TargetNodeGUID: 304
   - BaseNodeGUID: 312
-    TargetNodeGUID: 128
+    TargetNodeGUID: 57
+  - BaseNodeGUID: 312
+    TargetNodeGUID: 310
   - BaseNodeGUID: 313
-    TargetNodeGUID: 40
-  - BaseNodeGUID: 313
-    TargetNodeGUID: 19
-  - BaseNodeGUID: 313
-    TargetNodeGUID: 30
-  - BaseNodeGUID: 313
-    TargetNodeGUID: 61
-  - BaseNodeGUID: 314
-    TargetNodeGUID: 61
+    TargetNodeGUID: 131
   - BaseNodeGUID: 314
     TargetNodeGUID: 313
   - BaseNodeGUID: 315
-    TargetNodeGUID: 269
+    TargetNodeGUID: 130
   - BaseNodeGUID: 316
-    TargetNodeGUID: 72
+    TargetNodeGUID: 314
   - BaseNodeGUID: 317
-    TargetNodeGUID: 312
+    TargetNodeGUID: 280
   - BaseNodeGUID: 318
-    TargetNodeGUID: 51
+    TargetNodeGUID: 314
   - BaseNodeGUID: 319
-    TargetNodeGUID: 49
-  - BaseNodeGUID: 319
-    TargetNodeGUID: 50
-  - BaseNodeGUID: 319
-    TargetNodeGUID: 318
-  - BaseNodeGUID: 319
-    TargetNodeGUID: 58
+    TargetNodeGUID: 314
   - BaseNodeGUID: 320
-    TargetNodeGUID: 61
-  - BaseNodeGUID: 320
-    TargetNodeGUID: 313
+    TargetNodeGUID: 321
   - BaseNodeGUID: 321
-    TargetNodeGUID: 58
-  - BaseNodeGUID: 321
-    TargetNodeGUID: 319
+    TargetNodeGUID: 144
   - BaseNodeGUID: 322
-    TargetNodeGUID: 135
+    TargetNodeGUID: 151
   - BaseNodeGUID: 323
-    TargetNodeGUID: 322
+    TargetNodeGUID: 332
   - BaseNodeGUID: 324
-    TargetNodeGUID: 134
+    TargetNodeGUID: 102
   - BaseNodeGUID: 325
-    TargetNodeGUID: 323
-  - BaseNodeGUID: 326
-    TargetNodeGUID: 289
-  - BaseNodeGUID: 327
-    TargetNodeGUID: 323
-  - BaseNodeGUID: 328
-    TargetNodeGUID: 323
-  - BaseNodeGUID: 329
-    TargetNodeGUID: 330
-  - BaseNodeGUID: 330
-    TargetNodeGUID: 148
-  - BaseNodeGUID: 331
-    TargetNodeGUID: 155
-  - BaseNodeGUID: 332
-    TargetNodeGUID: 270
-  - BaseNodeGUID: 333
     TargetNodeGUID: 104
-  - BaseNodeGUID: 334
-    TargetNodeGUID: 106
-  - BaseNodeGUID: 334
-    TargetNodeGUID: 255
+  - BaseNodeGUID: 325
+    TargetNodeGUID: 249
+  - BaseNodeGUID: 326
+    TargetNodeGUID: 327
+  - BaseNodeGUID: 327
+    TargetNodeGUID: 328
+  - BaseNodeGUID: 328
+    TargetNodeGUID: 216
+  - BaseNodeGUID: 328
+    TargetNodeGUID: 326
   DialogueNodeData:
   - Id: 1
     OutIds: 02000000
@@ -1022,7 +1022,7 @@ MonoBehaviour:
     Music: 
     Position: {x: 2124, y: 101}
   - Id: 3
-    OutIds: d8000000
+    OutIds: d3000000
     IsRepeatable: 1
     DialogueText: "\u042D\u0442\u0430 \u0438\u0441\u0442\u043E\u0440\u0438\u044F
       \u0433\u043B\u0430\u0441\u0438\u043B\u0430, \u0447\u0442\u043E \u0432 \u043E\u0434\u043D\u043E\u043C
@@ -1057,7 +1057,7 @@ MonoBehaviour:
     Music: 
     Position: {x: 5487, y: 43}
   - Id: 5
-    OutIds: dc000000
+    OutIds: d7000000
     IsRepeatable: 1
     DialogueText: "\u0412\u0430\u0448 \u0436\u0430\u043B\u043A\u0438\u0439 \u043C\u043E\u0437\u0433
       \u043D\u0435 \u0441\u043F\u0440\u0430\u0432\u0438\u043B\u0441\u044F \u0441\r\n\u043D\u0430\u0445\u043B\u044B\u043D\u0443\u0432\u0448\u0438\u043C
@@ -1073,7 +1073,7 @@ MonoBehaviour:
     Music: 
     Position: {x: 5487, y: 392}
   - Id: 6
-    OutIds: de00000007000000
+    OutIds: 4801000046010000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B \u043E\u0441\u043C\u0430\u0442\u0440\u0438\u0432\u0430\u0435\u0442\u0435\u0441\u044C
       \u0438 \u0437\u0430\u043C\u0435\u0447\u0430\u0435\u0442\u0435, \u0447\u0442\u043E
@@ -1091,19 +1091,7 @@ MonoBehaviour:
     Music: 
     Position: {x: 5826, y: 43}
   - Id: 7
-    OutIds: d4000000
-    IsRepeatable: 0
-    DialogueText: "\u0423\u0431\u0435\u0436\u0430\u0442\u044C \u0434\u043E\u043C\u043E\u0439"
-    Type: 0
-    Stipulations: []
-    Trial: -1
-    Gift: 
-    Bg: 
-    Sound: greenStep
-    Music: 
-    Position: {x: 6170, y: 362}
-  - Id: 8
-    OutIds: 09000000
+    OutIds: 08000000
     IsRepeatable: 1
     DialogueText: "\u0412\u043D\u0443\u0442\u0440\u0438 \u0432\u0430\u0441 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0435\u0442\n\u0440\u043E\u0441\u043A\u043E\u0448\u043D\u043E\u0433\u043E
       \u0432\u0438\u0434\u0430 \u043F\u043E\u043C\u0435\u0449\u0435\u043D\u0438\u0435.\n\u0415\u0433\u043E
@@ -1122,8 +1110,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 6379, y: -43}
-  - Id: 9
-    OutIds: 0a000000
+  - Id: 8
+    OutIds: 09000000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B \u0437\u0430\u043C\u0435\u0447\u0430\u0435\u0442\u0435
       \u043F\u0440\u043E\u0445\u043E\u0434 \u0441\r\n\u043D\u0435\u043F\u043E\u043D\u044F\u0442\u043D\u043E\u0439
@@ -1139,8 +1127,8 @@ MonoBehaviour:
     Sound: step
     Music: 
     Position: {x: 6772, y: -43}
-  - Id: 10
-    OutIds: 0b000000
+  - Id: 9
+    OutIds: 0a000000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B \u0437\u0430\u0445\u043E\u0434\u0438\u0442\u0435
       \u0432\u043D\u0443\u0442\u0440\u044C \u0438 \u0437\u0430\u043C\u0435\u0447\u0430\u0435\u0442\u0435
@@ -1156,8 +1144,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 7104, y: -43}
-  - Id: 11
-    OutIds: 0c000000
+  - Id: 10
+    OutIds: 0b000000
     IsRepeatable: 1
     DialogueText: "\u041F\u043E\u0434\u0441\u043E\u0437\u043D\u0430\u043D\u0438\u0435
       \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u0442 \u0432\u0430\u043C,\r\n\u0447\u0442\u043E
@@ -1174,8 +1162,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 7496, y: -43}
-  - Id: 12
-    OutIds: 0d000000
+  - Id: 11
+    OutIds: 0c000000
     IsRepeatable: 1
     DialogueText: "\u041D\u0430\u0447\u0430\u0442\u044C \u0442\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435."
     Type: 0
@@ -1186,8 +1174,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 7737, y: -43}
-  - Id: 13
-    OutIds: ad000000ae000000b0000000af000000b1000000
+  - Id: 12
+    OutIds: a9000000aa000000ac000000ab000000ad000000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B\u0431\u0435\u0440\u0435\u0442\u0435 \u0432\u043E\u0437\u0440\u0430\u0441\u0442:"
     Type: 0
@@ -1198,8 +1186,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 7953, y: -43}
-  - Id: 14
-    OutIds: b8000000b7000000a7000000b9000000a8000000
+  - Id: 13
+    OutIds: b4000000b3000000a3000000b5000000a4000000
     IsRepeatable: 1
     DialogueText: "\u0415\u0441\u043B\u0438 \u0432\u044B \u0441\u0442\u043E\u043B\u043A\u043D\u0443\u043B\u0438\u0441\u044C
       \u0441 \u043A\u0435\u043C-\u0442\u043E \u0443 \u043A\u043E\u0433\u043E \u0443\u0436\u0430\u0441\u043D\u044B\u0439
@@ -1212,8 +1200,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 10002, y: -43}
-  - Id: 15
-    OutIds: 2a0100002b0100002c0100002d0100002e010000
+  - Id: 14
+    OutIds: 2101000022010000230100002401000025010000
     IsRepeatable: 1
     DialogueText: "\u0422\u0440\u0443\u0434\u043D\u043E \u043B\u0438 \u0432\u0430\u043C
       \u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0432 \u0433\u043B\u0430\u0437\u0430
@@ -1227,8 +1215,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 10830, y: -43}
-  - Id: 16
-    OutIds: 2f010000ba000000d5000000d6000000d7000000
+  - Id: 15
+    OutIds: 26010000b6000000d0000000d1000000d2000000
     IsRepeatable: 1
     DialogueText: "\u041F\u043E\u043A\u0430\u043A\u0430\u043B(\u0430) \u0441\u0435\u0433\u043E\u0434\u043D\u044F
       ?"
@@ -1240,8 +1228,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 11853, y: -43}
-  - Id: 17
-    OutIds: bc000000bb000000be000000bd000000bf000000
+  - Id: 16
+    OutIds: b8000000b7000000ba000000b9000000bb000000
     IsRepeatable: 1
     DialogueText: "\u0427\u0438\u0442\u0430\u0442\u044C \u0433\u043E\u043B\u043E\u0441\u043E\u043C\u0443
       \u0414\u0443\u0434\u044F:\n\u041A\u0430\u043A \u0442\u044B \u0441\u0447\u0438\u0442\u0430\u0435\u0448\u044C,
@@ -1254,8 +1242,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 12431, y: -43}
-  - Id: 18
-    OutIds: 3d00000039010000
+  - Id: 17
+    OutIds: 3c00000030010000
     IsRepeatable: 1
     DialogueText: "\u0422\u0435\u043F\u0435\u0440\u044C \u0432\u0430\u0448\u0438
       \u043D\u043E\u0433\u0438 \u0441\u0438\u043B\u044C\u043D\u044B, \u043D\u043E
@@ -1271,8 +1259,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18498, y: -2932}
-  - Id: 19
-    OutIds: 36010000
+  - Id: 18
+    OutIds: 2d010000
     IsRepeatable: 0
     DialogueText: "\u041D\u0430\u0447\u0430\u0442\u044C \u043A\u0430\u0447\u0430\u0442\u044C
       \u0440\u0443\u043A\u0438"
@@ -1284,8 +1272,8 @@ MonoBehaviour:
     Sound: gim_trening
     Music: 
     Position: {x: 18239, y: -1512}
-  - Id: 20
-    OutIds: 2200000016000000
+  - Id: 19
+    OutIds: 2100000015000000
     IsRepeatable: 1
     DialogueText: "\u041F\u0440\u0438\u0441\u0438\u0434\u0430\u0442\u044C 10 \u0440\u0430\u0437"
     Type: 1
@@ -1296,8 +1284,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18566, y: -1036}
-  - Id: 21
-    OutIds: 2200000017000000
+  - Id: 20
+    OutIds: 2100000016000000
     IsRepeatable: 1
     DialogueText: "\u043F\u0440\u0438\u0441\u0438\u0434\u0430\u0442\u044C 50 \u0440\u0430\u0437"
     Type: 1
@@ -1308,8 +1296,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18565, y: -695}
-  - Id: 22
-    OutIds: 18000000
+  - Id: 21
+    OutIds: 17000000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B \u043D\u0435\u043C\u043D\u043E\u0433\u043E \u0443\u0441\u0442\u0430\u043B\u0438"
     Type: 3
@@ -1320,8 +1308,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18826, y: -1036}
-  - Id: 23
-    OutIds: ea0000003d00000039010000
+  - Id: 22
+    OutIds: e40000003c00000030010000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B \u0441\u0438\u043B\u044C\u043D\u043E \u0443\u0441\u0442\u0430\u043B\u0438"
     Type: 3
@@ -1332,8 +1320,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18807, y: -695}
-  - Id: 24
-    OutIds: 3d000000150000002100000039010000
+  - Id: 23
+    OutIds: 3c000000140000002000000030010000
     IsRepeatable: 1
     DialogueText: "\u0421\u043B\u0438\u0448\u043A\u043E\u043C \u043C\u0430\u043B\u043E
       \u0442\u0440\u0435\u043D\u0435\u0440\u043E\u0432\u043E\u043A"
@@ -1345,8 +1333,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19084, y: -1036}
-  - Id: 25
-    OutIds: 3a0100001c000000
+  - Id: 24
+    OutIds: 310100001b000000
     IsRepeatable: 1
     DialogueText: "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u043D\u0430\u0441\u0440\u0430\u0442\u044C
       \u0432 \u0448\u0442\u0430\u043D\u044B \u043E\u0442 \u0440\u0430\u0434\u043E\u0441\u0442\u0438"
@@ -1358,8 +1346,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18790, y: -2342}
-  - Id: 26
-    OutIds: 1b0000003d00000039010000
+  - Id: 25
+    OutIds: 1a0000003c00000030010000
     IsRepeatable: 1
     DialogueText: "\u0417\u0430\u0434\u0443\u043C\u0430\u0442\u044C\u0441\u044F \u0437\u0430\u0447\u0435\u043C
       \u043D\u0443\u0436\u043D\u044B \u0440\u043A\u0443\u0438"
@@ -1371,8 +1359,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18826, y: -1512}
-  - Id: 27
-    OutIds: 1d0000003c000000
+  - Id: 26
+    OutIds: 1c0000003b000000
     IsRepeatable: 1
     DialogueText: "\u0420\u0430\u0437\u043E\u0447\u0430\u0440\u043E\u0432\u0430\u0442\u044C\u0441\u044F
       \u0432 \u0436\u0438\u0437\u043D\u0438 \u0438 \r\u043F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F
@@ -1385,8 +1373,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19063, y: -1821}
-  - Id: 28
-    OutIds: 3d00000039010000
+  - Id: 27
+    OutIds: 3c00000030010000
     IsRepeatable: 1
     DialogueText: "\u041D\u0438\u0447\u0435\u0433\u043E \u043D\u0435 \u0432\u044B\u0448\u043B\u043E,
       \u0432\u044B \u0441\u0442\u0435\u0441\u043D\u044F\u0435\u0442\u0435\u0441\u044C."
@@ -1398,8 +1386,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19088, y: -2155}
-  - Id: 29
-    OutIds: 3b000000
+  - Id: 28
+    OutIds: 3a000000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B \u0443\u043C\u0435\u0440\u043B\u0438."
     Type: 3
@@ -1410,8 +1398,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19404, y: -2155}
-  - Id: 30
-    OutIds: 12000000
+  - Id: 29
+    OutIds: 11000000
     IsRepeatable: 0
     DialogueText: "\u041D\u0430\u0447\u0430\u0442\u044C \u043A\u0430\u0447\u0430\u0442\u044C
       \u043D\u043E\u0433\u0438"
@@ -1423,8 +1411,8 @@ MonoBehaviour:
     Sound: skakalka
     Music: 
     Position: {x: 18261, y: -2932}
-  - Id: 31
-    OutIds: 2400000025000000
+  - Id: 30
+    OutIds: 2300000024000000
     IsRepeatable: 0
     DialogueText: "\u0411\u0440\u043E\u0434\u0438\u0442\u044C \u043F\u043E \u043A\u043E\u0440\u0438\u0434\u043E\u0440\u0430\u043C"
     Type: 0
@@ -1433,10 +1421,10 @@ MonoBehaviour:
     Gift: 
     Bg: coridors
     Sound: 
-    Music: 
+    Music: default
     Position: {x: 19923, y: 42}
-  - Id: 32
-    OutIds: 28000000130000001e0000003d000000
+  - Id: 31
+    OutIds: 27000000120000001d0000003c000000
     IsRepeatable: 1
     DialogueText: "\u0417\u0430\u0439\u0442\u0438 \u0432 \u043A\u0430\u0447\u0430\u043B\u043A\u0443
       \u0437\u0430\u043C\u043A\u0430"
@@ -1448,8 +1436,8 @@ MonoBehaviour:
     Sound: 
     Music: fonk3
     Position: {x: 18013, y: 18}
-  - Id: 33
-    OutIds: 2200000023000000
+  - Id: 32
+    OutIds: 2100000022000000
     IsRepeatable: 0
     DialogueText: "\u041F\u0440\u0438\u0441\u0438\u0434\u0430\u0442\u044C 100 \u0440\u0430\u0437"
     Type: 1
@@ -1460,8 +1448,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18565, y: -335}
-  - Id: 34
-    OutIds: 3d00000039010000
+  - Id: 33
+    OutIds: 3c00000030010000
     IsRepeatable: 1
     DialogueText: "\u0423 \u0432\u0430\u0441 \u0441\u043B\u0443\u0447\u0438\u043B\u0430\u0441\u044C
       \u0441\u0443\u0434\u043E\u0440\u043E\u0433\u0430 \u0438 \u043E\u0442\u043D\u044F\u043B\u0430\u0441\u044C
@@ -1474,8 +1462,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18772, y: -334}
-  - Id: 35
-    OutIds: 40010000
+  - Id: 34
+    OutIds: 37010000
     IsRepeatable: 1
     DialogueText: "\u0432\u044B \u043A\u043E\u043D\u043A\u0440\u0435\u0442\u043D\u043E
       \u0437\u0430\u0435\u0431\u0430\u043B\u0438\u0441\u044C"
@@ -1487,8 +1475,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19268, y: -335}
-  - Id: 36
-    OutIds: 26000000
+  - Id: 35
+    OutIds: 25000000
     IsRepeatable: 1
     DialogueText: "\u041F\u0443\u043A\u043D\u0443\u0442\u044C \u0442\u0438\u0445\u043E"
     Type: 0
@@ -1499,8 +1487,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 20125, y: -470}
-  - Id: 37
-    OutIds: 26000000
+  - Id: 36
+    OutIds: 25000000
     IsRepeatable: 1
     DialogueText: "\u041F\u0435\u0440\u0434\u0430\u043D\u0443\u0442\u044C \u0441\u043E
       \u0432\u0441\u0435\u0439 \u0441\u0438\u043B\u044B"
@@ -1512,8 +1500,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 20125, y: -190}
-  - Id: 38
-    OutIds: 27000000
+  - Id: 37
+    OutIds: 26000000
     IsRepeatable: 1
     DialogueText: "\u0425\u043E\u0434\u0438\u0442\u044C \u0434\u0430\u043B\u044C\u0448\u0435"
     Type: 0
@@ -1524,8 +1512,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 20379, y: -470}
-  - Id: 39
-    OutIds: 29000000
+  - Id: 38
+    OutIds: 28000000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B \u0437\u0430\u043C\u0435\u0447\u0430\u0435\u0442\u0435
       \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u0443\u044E \u043A\u0430\u0440\u0442\u0438\u043D\u0443
@@ -1542,8 +1530,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 20605, y: -470}
-  - Id: 40
-    OutIds: 210000001500000014000000
+  - Id: 39
+    OutIds: 200000001400000013000000
     IsRepeatable: 0
     DialogueText: "\u041D\u0430\u0447\u0430\u0442\u044C \u043A\u0430\u0447\u0430\u0442\u044C
       \u0436\u043E\u043F\u0443"
@@ -1555,8 +1543,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18225, y: -335}
-  - Id: 41
-    OutIds: 2a0000002c000000
+  - Id: 40
+    OutIds: 290000002b000000
     IsRepeatable: 1
     DialogueText: "\u0412\u0434\u0440\u0443\u0433 \u0432\u044B \u0441\u043B\u044B\u0448\u0438\u0442\u0435
       \u043D\u0435\u043F\u043E\u043D\u044F\u0442\u043D\u044B\u0435 \u0437\u0432\u0443\u043A\u0438
@@ -1569,8 +1557,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 21194, y: -470}
-  - Id: 42
-    OutIds: 2b000000
+  - Id: 41
+    OutIds: 2a000000
     IsRepeatable: 1
     DialogueText: " \u041F\u0440\u0438\u0441\u043B\u0443\u0448\u0430\u0442\u044C\u0441\u044F."
     Type: 0
@@ -1581,8 +1569,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 21597, y: -470}
-  - Id: 43
-    OutIds: 39000000
+  - Id: 42
+    OutIds: 38000000
     IsRepeatable: 1
     DialogueText: " \"\u0427\u0430\u0441\u0442\u0438, \u0447\u0430\u0441\u0442\u0435\u0439,
       \u0447\u0430\u0441\u0442\u0438\u0447\u043D\u043E, \u0447\u0430\u0441\u0442\u043E,
@@ -1600,8 +1588,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 21810, y: -470}
-  - Id: 44
-    OutIds: 44000000
+  - Id: 43
+    OutIds: 43000000
     IsRepeatable: 1
     DialogueText: "\u0423\u0431\u0435\u0436\u0430\u0442\u044C \u0432 \u0441\u0442\u0440\u0430\u0445\u0435."
     Type: 0
@@ -1612,8 +1600,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 21597, y: -750}
-  - Id: 45
-    OutIds: 2e0000003f0100003a000000
+  - Id: 44
+    OutIds: 2d0000003601000039000000
     IsRepeatable: 0
     DialogueText: "\u041F\u043E\u0439\u0442\u0438 \u0432 \u043C\u0443\u0437\u044B\u043A\u0430\u043B\u044C\u043D\u044B\u0439
       \u0437\u0430\u043B"
@@ -1625,8 +1613,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 23487, y: 57}
-  - Id: 46
-    OutIds: 2f00000030000000
+  - Id: 45
+    OutIds: 2e0000002f000000
     IsRepeatable: 0
     DialogueText: "\u041F\u043E\u043F\u0440\u043E\u0431\u043E\u0432\u0430\u0442\u044C
       \u0441\u044B\u0433\u0440\u0430\u0442\u044C \u043C\u0435\u043B\u043E\u0434\u0438\u044E\n\u043D\u0430
@@ -1639,8 +1627,8 @@ MonoBehaviour:
     Sound: 
     Music: jopen
     Position: {x: 23718, y: -1548}
-  - Id: 47
-    OutIds: 9f000000
+  - Id: 46
+    OutIds: 9b000000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B \u0440\u0430\u0437\u0431\u0443\u0434\u0438\u043B\u0438
       \u0441\u0442\u0440\u0430\u0448\u043D\u044B\u0445 \u0434\u0443\u0445\u043E\u0432,
@@ -1656,8 +1644,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 24064, y: -1731}
-  - Id: 48
-    OutIds: 41010000
+  - Id: 47
+    OutIds: 38010000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B \u0440\u0430\u0437\u043E\u0437\u043B\u0438\u043B\u0438
       \u0441\u0442\u0440\u0430\u0448\u043D\u044B\u0445 \u0434\u0443\u0445\u043E\u0432
@@ -1673,8 +1661,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 24064, y: -1451}
-  - Id: 49
-    OutIds: 34000000
+  - Id: 48
+    OutIds: 33000000
     IsRepeatable: 0
     DialogueText: "\u0414\u043E\u043D \u043B\u0438, \u0412\u043E\u043B\u0433\u0430
       \u043B\u0438 \u0442\u0435\u0447\u0451\u0442\n\u043A\u043E\u0442\u043E\u043C\u043A\u0443
@@ -1689,8 +1677,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 24021, y: -1171}
-  - Id: 50
-    OutIds: 36000000
+  - Id: 49
+    OutIds: 35000000
     IsRepeatable: 0
     DialogueText: "\u0413\u043E\u0432\u043D\u043E, \u0437\u0430\u043B\u0443\u043F\u0430,
       \u043F\u0435\u043D\u0438\u0441, \u0445\u0435\u0440, \u0434\u0430\u0432\u0430\u043B\u043A\u0430,
@@ -1705,8 +1693,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 24021, y: -846}
-  - Id: 51
-    OutIds: 3a00000037000000
+  - Id: 50
+    OutIds: 3900000036000000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B \u0441\u0442\u0430\u043B\u0438 \u0447\u0435\u043B\u043E\u0432\u0435\u043A\u043E\u043C
       \u0433\u043E\u0434\u0430 \u043F\u043E \u0432\u0435\u0440\u0441\u0438\u0438
@@ -1719,8 +1707,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 24287, y: -551}
-  - Id: 52
-    OutIds: a0000000
+  - Id: 51
+    OutIds: 9c000000
     IsRepeatable: 1
     DialogueText: "\u0412\u0430\u043C \u0434\u0430\u043B\u0438 \u043A\u043B\u044E\u0447\u0451\u043C
       \u043D\u0430 9 \u043F\u043E \u0435\u0431\u0430\u043B\u044C\u043D\u0438\u043A\u0443.
@@ -1735,8 +1723,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 24305, y: -1151}
-  - Id: 53
-    OutIds: 3a00000037000000
+  - Id: 52
+    OutIds: 3900000036000000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B \u043F\u043E\u043F\u043B\u0430\u0442\u0438\u0442\u0435\u0441\u044C
       \u0437\u0430 \u0441\u0432\u043E\u0438 \u0441\u043B\u043E\u0432\u0430!\n\u041F\u0440\u0438\u0434\u0451\u0442\u0441\u044F
@@ -1749,8 +1737,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 24697, y: -847}
-  - Id: 54
-    OutIds: 35000000
+  - Id: 53
+    OutIds: 34000000
     IsRepeatable: 1
     DialogueText: "\u0414\u0443\u0445\u0438 \u043F\u043E\u0434\u0443\u043C\u0430\u043B\u0438,
       \u0447\u0442\u043E \u0432\u044B \u0438\u043C \u0443\u0433\u0440\u043E\u0436\u0430\u0435\u0442\u0435"
@@ -1762,8 +1750,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 24399, y: -847}
-  - Id: 55
-    OutIds: 31000000320000003e0100003a000000
+  - Id: 54
+    OutIds: 30000000310000003501000039000000
     IsRepeatable: 1
     DialogueText: "\u0417\u0430\u0447\u0438\u0442\u0430\u0442\u044C \u0435\u0449\u0451
       \u0440\u0435\u043F\u0430"
@@ -1775,8 +1763,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 25081, y: -834}
-  - Id: 56
-    OutIds: e30000003e000000
+  - Id: 55
+    OutIds: dd0000003d000000
     IsRepeatable: 0
     DialogueText: "\u041F\u043E\u0439\u0442\u0438 \u0432 \u043A\u0443\u0445\u043D\u043E\u043D\u043D\u043E\u0435
       \u043F\u043E\u043C\u0435\u0449\u0435\u043D\u0438\u0435 \u0437\u0430\u043C\u043A\u0430."
@@ -1788,8 +1776,8 @@ MonoBehaviour:
     Sound: 
     Music: elder_scrols_4
     Position: {x: 25603, y: 105}
-  - Id: 57
-    OutIds: 44000000
+  - Id: 56
+    OutIds: 43000000
     IsRepeatable: 1
     DialogueText: "\u0412\u0441\u0451 \u0437\u0430\u0442\u0438\u0445\u043B\u043E."
     Type: 0
@@ -1800,8 +1788,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 22741, y: -470}
-  - Id: 58
-    OutIds: e1000000
+  - Id: 57
+    OutIds: db000000
     IsRepeatable: 1
     DialogueText: "\u0412\u0435\u0440\u043D\u0443\u0442\u0441\u044F \u043D\u0430\u0437\u0430\u0434"
     Type: 0
@@ -1812,7 +1800,7 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 23487, y: 385}
-  - Id: 59
+  - Id: 58
     OutIds: 
     IsRepeatable: 1
     DialogueText: "\u041A\u043E\u043D\u0435\u0446."
@@ -1824,8 +1812,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19666, y: -2155}
-  - Id: 60
-    OutIds: 3d00000039010000
+  - Id: 59
+    OutIds: 3c00000030010000
     IsRepeatable: 1
     DialogueText: "\u0423\u043C\u0435\u0440\u0435\u0442\u044C \u0441\u0438\u043B\u043E\u0439
       \u043C\u044B\u0441\u043B\u0438 \u043E\u043A\u0430\u0437\u0430\u043B\u043E\u0441\u044C
@@ -1838,8 +1826,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19404, y: -1745}
-  - Id: 61
-    OutIds: e1000000
+  - Id: 60
+    OutIds: db000000
     IsRepeatable: 1
     DialogueText: "\u0412\u0435\u0440\u043D\u0443\u0442\u0441\u044F \u043D\u0430\u0437\u0430\u0434"
     Type: 0
@@ -1850,8 +1838,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19971, y: -1074}
-  - Id: 62
-    OutIds: 41000000
+  - Id: 61
+    OutIds: 40000000
     IsRepeatable: 0
     DialogueText: "\u0418\u0441\u043A\u0430\u0442\u044C \u0447\u0442\u043E-\u043D\u0438\u0431\u0443\u0434\u044C
       \u043F\u043E\u0435\u0441\u0442\u044C \u0432 \u0448\u043A\u0430\u0444\u0430\u0445
@@ -1864,8 +1852,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 25961, y: 122}
-  - Id: 63
-    OutIds: 40000000
+  - Id: 62
+    OutIds: 3f000000
     IsRepeatable: 1
     DialogueText: "\u0421\u044A\u0435\u0441\u0442\u044C \u044D\u0442\u043E"
     Type: 0
@@ -1876,7 +1864,7 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 26629, y: -263}
-  - Id: 64
+  - Id: 63
     OutIds: 
     IsRepeatable: 1
     DialogueText: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E,
@@ -1890,8 +1878,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 26872, y: -263}
-  - Id: 65
-    OutIds: 42000000
+  - Id: 64
+    OutIds: 41000000
     IsRepeatable: 1
     DialogueText: "\u0412\u043E \u0432\u0440\u0435\u043C\u044F \u0440\u0430\u0441\u0441\u043C\u0430\u0442\u0440\u0438\u0432\u0430\u043D\u0438\u044F
       \u043F\u044B\u043B\u044C\u043D\u044B\u0445 \u043F\u043E\u043B\u043E\u043A \u0438
@@ -1907,8 +1895,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 26278, y: 122}
-  - Id: 66
-    OutIds: e4000000
+  - Id: 65
+    OutIds: de000000
     IsRepeatable: 1
     DialogueText: "\u041E\u0433\u043B\u044F\u043D\u0443\u0432\u0448\u0438\u0441\u044C
       \u0432\u044B \u0443\u0432\u0438\u0434\u0435\u043B\u0438 \u0445\u043E\u0440\u043E\u0448\u043E
@@ -1923,8 +1911,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 26720, y: 122}
-  - Id: 67
-    OutIds: 3701000035010000e6000000
+  - Id: 66
+    OutIds: 2e0100002c010000e0000000
     IsRepeatable: 0
     DialogueText: "\u041D\u0430\u043B\u0435\u0439 \u0447\u0435\u0433\u043E \u043F\u043E\u043A\u0440\u0435\u043F\u0447\u0435"
     Type: 0
@@ -1935,8 +1923,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 27574, y: -158}
-  - Id: 68
-    OutIds: e1000000
+  - Id: 67
+    OutIds: db000000
     IsRepeatable: 1
     DialogueText: "\u0412\u0435\u0440\u043D\u0443\u0442\u0441\u044F \u043D\u0430\u0437\u0430\u0434"
     Type: 0
@@ -1947,8 +1935,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19923, y: 358}
-  - Id: 69
-    OutIds: 64000000
+  - Id: 68
+    OutIds: 63000000
     IsRepeatable: 1
     DialogueText: "\u0411\u0430\u0440\u043C\u0435\u043D \u0434\u0430\u043B \u0432\u0430\u043C
       \u0437\u0430\u043F\u0438\u0441\u043A\u0443 \u043D\u0430 \u043D\u0435\u043F\u043E\u043D\u044F\u0442\u043D\u043E\u043C
@@ -1967,8 +1955,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 28413, y: 236}
-  - Id: 70
-    OutIds: 47000000
+  - Id: 69
+    OutIds: 46000000
     IsRepeatable: 1
     DialogueText: "\u041D\u0430\u0447\u0430\u0442\u044C \u0436\u0430\u043D\u0433\u043B\u0438\u0440\u043E\u0432\u0430\u0442\u044C
       \u043A\u043E\u043B\u0431\u0430\u043C\u0438."
@@ -1980,8 +1968,8 @@ MonoBehaviour:
     Sound: glass_break
     Music: 
     Position: {x: 19283, y: 1714}
-  - Id: 71
-    OutIds: 49000000
+  - Id: 70
+    OutIds: 48000000
     IsRepeatable: 1
     DialogueText: "\u0412\u0441\u0435 \u043F\u0430\u0434\u0430\u0435\u0442 \u0438
       \u0440\u0430\u0437\u0431\u0438\u0432\u0430\u0435\u0442\u0441\u044F \u043D\u0430\u0445\u0443\u0439."
@@ -1993,7 +1981,7 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19531, y: 1718}
-  - Id: 72
+  - Id: 71
     OutIds: 
     IsRepeatable: 1
     DialogueText: "\u041C\u043E\u043B\u043E\u0434\u0435\u0446, \u0443 \u0442\u0435\u0431\u044F
@@ -2009,8 +1997,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19498, y: 1414}
-  - Id: 73
-    OutIds: 4a000000
+  - Id: 72
+    OutIds: 49000000
     IsRepeatable: 1
     DialogueText: "\u041D\u0430 \u0433\u0440\u043E\u0445\u043E\u0442 \u043F\u0440\u0438\u0431\u0435\u0433\u0430\u044E\u0442
       \u043C\u0430\u043B\u0435\u043D\u044C\u043A\u0438\u0435 \u0443\u0436\u0430\u0441\u044B
@@ -2026,8 +2014,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19761, y: 1718}
-  - Id: 74
-    OutIds: 4b000000
+  - Id: 73
+    OutIds: 4a000000
     IsRepeatable: 1
     DialogueText: "\u0412\u0430\u0441 \u043D\u0435 \u0441\u044A\u0435\u043B\u0438
       \u043D\u043E \u043E\u0447\u0435\u043D\u044C \u0441\u0438\u043B\u044C\u043D\u043E
@@ -2042,8 +2030,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 20435, y: 1718}
-  - Id: 75
-    OutIds: e1000000
+  - Id: 74
+    OutIds: db000000
     IsRepeatable: 1
     DialogueText: "\u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043D\u0430\u0437\u0430\u0434"
     Type: 0
@@ -2054,8 +2042,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 21078, y: 1345}
-  - Id: 76
-    OutIds: fb000000
+  - Id: 75
+    OutIds: f5000000
     IsRepeatable: 1
     DialogueText: "\u041F\u043E\u0439\u0442\u0438 \u0432 \u043B\u0430\u0431\u0443"
     Type: 0
@@ -2066,8 +2054,8 @@ MonoBehaviour:
     Sound: step
     Music: lab
     Position: {x: 17411, y: 498}
-  - Id: 77
-    OutIds: 4f000000
+  - Id: 76
+    OutIds: 4e000000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B \u0447\u0443\u0432\u0441\u0432\u0442\u0443\u0435\u0442\u0435
       \u043A\u0430\u043A \u0431\u0435\u0448\u0430\u043D\u043E \u043D\u0430\u0447\u0438\u043D\u0430\u0435\u0442
@@ -2083,8 +2071,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18120, y: 498}
-  - Id: 78
-    OutIds: 52000000
+  - Id: 77
+    OutIds: 51000000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u043E
       \u0440\u0430\u0441\u0441\u0447\u0438\u0442\u0430\u043B\u0438 \u0434\u043E\u0437\u0443.
@@ -2099,7 +2087,7 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18120, y: 802}
-  - Id: 79
+  - Id: 78
     OutIds: 
     IsRepeatable: 1
     DialogueText: "\u041A\u043E\u043D\u0435\u0446."
@@ -2111,8 +2099,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18880, y: 498}
-  - Id: 80
-    OutIds: 51000000
+  - Id: 79
+    OutIds: 50000000
     IsRepeatable: 1
     DialogueText: "\u041F\u0440\u043E\u0447\u0438\u0442\u0430\u0442\u044C \u0437\u0430\u043F\u0438\u0441\u043A\u0443
       \u043D\u0430 \u0441\u0442\u043E\u043B\u0435"
@@ -2124,8 +2112,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 17850, y: 1099}
-  - Id: 81
-    OutIds: 52000000
+  - Id: 80
+    OutIds: 51000000
     IsRepeatable: 1
     DialogueText: "\u041D\u0430\u043F\u0438\u0441\u0430\u043D\u043E \"\u041A\u0440\u044B\u0441\u0438\u043D\u044B\u0439
       \u044F\u0434\""
@@ -2137,8 +2125,8 @@ MonoBehaviour:
     Sound: step
     Music: 
     Position: {x: 18120, y: 1099}
-  - Id: 82
-    OutIds: 17010000
+  - Id: 81
+    OutIds: 0e010000
     IsRepeatable: 1
     DialogueText: "\u041F\u0440\u043E\u0447\u0438\u0442\u0430\u0442\u044C \u043D\u0430\u0434\u043F\u0438\u0441\u044C
       \u043D\u0430 \u0441\u0442\u0435\u043D\u0435."
@@ -2150,8 +2138,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18363, y: 1099}
-  - Id: 83
-    OutIds: 4c000000
+  - Id: 82
+    OutIds: 4b000000
     IsRepeatable: 0
     DialogueText: "\u0418\u0441\u043A\u0430\u0442\u044C \u0447\u0442\u043E-\u043D\u0438\u0431\u0443\u0434\u044C
       \u0441\u0432\u044F\u0437\u0430\u043D\u043E\u0435 \u0441 \u0430\u043B\u0445\u0438\u043C\u0438\u0435\u0439"
@@ -2163,8 +2151,8 @@ MonoBehaviour:
     Sound: step
     Music: 
     Position: {x: 17101, y: 498}
-  - Id: 84
-    OutIds: 5b0000005c000000a3000000
+  - Id: 83
+    OutIds: 5a0000005b0000009f000000
     IsRepeatable: 1
     DialogueText: "\u0418\u0441\u043A\u0430\u0442\u044C \u043F\u043E\u043C\u043E\u0449\u044C
       \u0438\u0437\u0432\u043D\u0435"
@@ -2174,10 +2162,10 @@ MonoBehaviour:
     Gift: 
     Bg: 
     Sound: step
-    Music: 
+    Music: vokal
     Position: {x: 17101, y: 2051}
-  - Id: 85
-    OutIds: 56000000
+  - Id: 84
+    OutIds: 55000000
     IsRepeatable: 1
     DialogueText: "\u041F\u0440\u0438\u0442\u0432\u043E\u0440\u0438\u0442\u044C\u0441\u044F
       \u0448\u0438\u0437\u0430\u043D\u0443\u0442\u044B\u043C, \u0433\u0440\u043E\u043C\u043A\u043E
@@ -2191,8 +2179,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18318, y: 2051}
-  - Id: 86
-    OutIds: a3000000
+  - Id: 85
+    OutIds: 9f000000
     IsRepeatable: 1
     DialogueText: "\u041B\u0435\u0436\u0430\u0442\u044C \u043F\u043E\u043A\u0430
       \u043D\u0430 \u0442\u0435\u0431\u044F \u043D\u0435 \u043F\u0435\u0440\u0435\u0441\u0442\u0430\u043D\u0443\u0442
@@ -2205,8 +2193,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18810, y: 2051}
-  - Id: 87
-    OutIds: 58000000
+  - Id: 86
+    OutIds: 57000000
     IsRepeatable: 1
     DialogueText: "\u041F\u043E\u043F\u0440\u043E\u0441\u0438\u0442\u044C \u043F\u043E\u043C\u043E\u0449\u0438
       \u0432 \u043F\u043E\u0438\u0441\u043A\u0430\u0445"
@@ -2218,8 +2206,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18318, y: 2355}
-  - Id: 88
-    OutIds: 590000005a000000
+  - Id: 87
+    OutIds: 5800000059000000
     IsRepeatable: 1
     DialogueText: "\u041E\u043D\u0438 \u0440\u0430\u0441\u0441\u043A\u0430\u0437\u044B\u0432\u0430\u044E\u0442,
       \u0447\u0442\u043E \u043D\u0438\u043A\u0442\u043E \u0435\u0449\u0435 \u043D\u0435
@@ -2234,8 +2222,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18539, y: 2355}
-  - Id: 89
-    OutIds: e7000000
+  - Id: 88
+    OutIds: e1000000
     IsRepeatable: 1
     DialogueText: "\u0421\u043A\u0430\u0437\u0430\u0442\u044C, \u0447\u0442\u043E
       \u043D\u0435 \u0431\u0443\u0434\u0435\u0448\u044C \u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F
@@ -2248,8 +2236,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19215, y: 2355}
-  - Id: 90
-    OutIds: e8000000
+  - Id: 89
+    OutIds: e2000000
     IsRepeatable: 1
     DialogueText: "\u0421\u043A\u0430\u0437\u0430\u0442\u044C, \u0447\u0442\u043E
       \u0442\u0435\u0431\u0435 \u043F\u043E\u0445\u0443\u0439, \u0447\u0442\u043E
@@ -2263,8 +2251,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19215, y: 2650}
-  - Id: 91
-    OutIds: 110100000f010000
+  - Id: 90
+    OutIds: 0801000006010000
     IsRepeatable: 0
     DialogueText: "\u041F\u043E\u0441\u0442\u043E\u0440\u0430\u0442\u044C\u0441\u044F
       \u0432\u044B\u0437\u0432\u0430\u0442\u044C \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u0438\u0442\u0435\u043B\u0435\u0439
@@ -2277,8 +2265,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 17342, y: 2051}
-  - Id: 92
-    OutIds: 5d000000
+  - Id: 91
+    OutIds: 5c000000
     IsRepeatable: 0
     DialogueText: "\u041F\u043E\u0441\u0442\u043E\u0440\u0430\u0442\u044C\u0441\u044F
       \u0432\u044B\u0437\u0432\u0430\u0442\u044C \u0434\u0443\u0445\u043E\u0432 \u0434\u0440\u0435\u0432\u043D\u0438\u0445
@@ -2291,8 +2279,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 17304, y: 2930}
-  - Id: 93
-    OutIds: 63000000
+  - Id: 92
+    OutIds: 62000000
     IsRepeatable: 1
     DialogueText: "\u0412\u043C\u0435\u0441\u0442\u043E \u043E\u0431\u044A\u044F\u0441\u043D\u0435\u043D\u0438\u0439,
       \u0447\u0442\u043E \u0437\u0430 \u0431\u0440\u0435\u0434 \u043F\u0440\u043E\u0438\u0441\u0445\u043E\u0434\u0438\u0442,
@@ -2305,8 +2293,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 17623, y: 2930}
-  - Id: 94
-    OutIds: fe000000fd000000
+  - Id: 93
+    OutIds: f8000000f7000000
     IsRepeatable: 1
     DialogueText: "\u0414\u0443\u0445 \u0434\u0435\u0434\u0430 \u043D\u0430\u0447\u0430\u043B
       \u043F\u0440\u043E\u044F\u0441\u043D\u044F\u0442\u044C\u0441\u044F \u043F\u0435\u0440\u0435\u0434
@@ -2323,8 +2311,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18854, y: 3240}
-  - Id: 95
-    OutIds: fe00000061000000
+  - Id: 94
+    OutIds: f800000060000000
     IsRepeatable: 1
     DialogueText: "\u0414\u0435\u0434 \u0432 \u043E\u0447\u0435\u0440\u0435\u0434\u043D\u043E\u0439
       \u0440\u0430\u0437 \u0440\u0430\u0441\u0441\u043A\u0430\u0437\u0430\u043B \u0442\u0435\u0431\u0435,\n\u043A\u0430\u043A
@@ -2337,8 +2325,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18854, y: 3557}
-  - Id: 96
-    OutIds: fd000000fe000000
+  - Id: 95
+    OutIds: f7000000f8000000
     IsRepeatable: 1
     DialogueText: "\u0411\u0430\u0431\u043A\u0430 \u0432\u0441\u043F\u043E\u043C\u043D\u0438\u043B\u0430,
       \u043A\u0430\u043A \u0442\u0432\u043E\u0438 \u0440\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0438\u043A\u0438
@@ -2356,8 +2344,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18854, y: 3869}
-  - Id: 97
-    OutIds: 6000000062000000
+  - Id: 96
+    OutIds: 5f00000061000000
     IsRepeatable: 0
     DialogueText: "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u0441\u0432\u044F\u0437\u0430\u0442\u044C\u0441\u044F
       \u0441 \u0431\u0430\u0431\u043A\u043E\u0439"
@@ -2369,8 +2357,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18509, y: 3869}
-  - Id: 98
-    OutIds: fe000000fd000000
+  - Id: 97
+    OutIds: f8000000f7000000
     IsRepeatable: 1
     DialogueText: "\u0411\u0430\u0431\u0443\u0448\u043A\u0430 \u0441\u043F\u0438\u0442,
       \u043D\u0435 \u0442\u0440\u0435\u0432\u043E\u0436 \u0435\u0451."
@@ -2382,8 +2370,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18854, y: 4173}
-  - Id: 99
-    OutIds: fd00000061000000fe000000
+  - Id: 98
+    OutIds: f700000060000000f8000000
     IsRepeatable: 1
     DialogueText: "\u0422\u0435\u043F\u0435\u0440\u044C \u0432\u044B \u0437\u043D\u0430\u0435\u0442\u0435
       \u0440\u0438\u0442\u0443\u0430\u043B\u044B \u0438 \u043E\u0431\u0440\u044F\u0434\u044B,
@@ -2398,8 +2386,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18091, y: 2930}
-  - Id: 100
-    OutIds: e1000000
+  - Id: 99
+    OutIds: db000000
     IsRepeatable: 1
     DialogueText: "\u0412\u0435\u0440\u043D\u0443\u0442\u0441\u044F \u043D\u0430\u0437\u0430\u0434"
     Type: 0
@@ -2410,24 +2398,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 29444, y: 59}
-  - Id: 101
-    OutIds: 01010000
-    IsRepeatable: 1
-    DialogueText: "\u041F\u043E\u0439\u0442\u0438 \u0432 \u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0443
-      \u0438\u0437\u0443\u0447\u0430\u0442\u044C \u043A\u043D\u0438\u0433\u0438 \u0438
-      \u044F\u0437\u044B\u043A\u0438"
-    Type: 5
-    Stipulations:
-    - spirits_conversation
-    - bartenders_note
-    Trial: -1
-    Gift: 
-    Bg: library
-    Sound: step
-    Music: 
-    Position: {x: 17277, y: 4635}
-  - Id: 102
-    OutIds: 6700000069000000
+  - Id: 100
+    OutIds: 6500000067000000
     IsRepeatable: 0
     DialogueText: "\u0412\u0437\u044F\u0442\u044C \u0442\u0440\u0430\u043A\u0442\u0430\u0442
       \u043F\u043E \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044E \u0433\u043E\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u043E\u043C."
@@ -2437,10 +2409,10 @@ MonoBehaviour:
     Gift: 
     Bg: scrol
     Sound: 
-    Music: 
+    Music: ' '
     Position: {x: 18788, y: 4635}
-  - Id: 103
-    OutIds: 4d0100004c010000
+  - Id: 101
+    OutIds: 4401000043010000
     IsRepeatable: 1
     DialogueText: "\u041F\u0440\u043E\u0447\u0438\u0442\u0430\u0442\u044C \u0435\u0433\u043E."
     Type: 0
@@ -2451,8 +2423,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19157, y: 4635}
-  - Id: 104
-    OutIds: 9d000000a6000000
+  - Id: 102
+    OutIds: 99000000a2000000
     IsRepeatable: 1
     DialogueText: "\u041E\u0434\u043D\u043E\u0433\u043E \u0442\u0440\u0430\u043A\u0442\u0430\u0442\u0430
       \u043E\u043A\u0430\u0437\u0430\u043B\u043E\u0441\u044C \u043C\u0430\u043B\u043E,
@@ -2470,8 +2442,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19855, y: 4635}
-  - Id: 105
-    OutIds: 4e010000
+  - Id: 103
+    OutIds: 45010000
     IsRepeatable: 1
     DialogueText: "\u0421\u0436\u0435\u0447\u044C \u0435\u0433\u043E \u043F\u043E
       \u043F\u0440\u0438\u043A\u043E\u043B\u0443"
@@ -2483,8 +2455,8 @@ MonoBehaviour:
     Sound: 
     Music: fir
     Position: {x: 19106, y: 5261}
-  - Id: 106
-    OutIds: 6c0000006b000000
+  - Id: 104
+    OutIds: 6a00000069000000
     IsRepeatable: 1
     DialogueText: "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u043F\u043E\u0442\u0443\u0448\u0438\u0442\u044C
       \u043F\u043E\u0436\u0430\u0440"
@@ -2496,8 +2468,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 20024, y: 5261}
-  - Id: 107
-    OutIds: a5000000
+  - Id: 105
+    OutIds: a1000000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B \u043F\u044B\u0442\u0430\u0435\u0442\u0435\u0441\u044C
       \u0442\u0443\u0448\u0438\u0442\u044C \u043E\u0433\u043E\u043D\u044C. \u041D\u043E
@@ -2512,8 +2484,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 20264, y: 5562}
-  - Id: 108
-    OutIds: 9e000000
+  - Id: 106
+    OutIds: 9a000000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B \u043F\u0440\u0438\u043D\u0438\u043C\u0430\u0435\u0442\u0435
       \u0442\u043E, \u0447\u0442\u043E \u0432\u044B \u0434\u043E\u043B\u0431\u0430\u0435\u0431.
@@ -2526,12 +2498,12 @@ MonoBehaviour:
     Gift: 
     Bg: 
     Sound: 
-    Music: 
+    Music: silence
     Position: {x: 20264, y: 5261}
-  - Id: 109
-    OutIds: 6e000000
+  - Id: 107
+    OutIds: 4e010000
     IsRepeatable: 1
-    DialogueText: "\u0430\u0445\u0443\u0435\u0442\u044C"
+    DialogueText: "\u0410\u0445\u0443\u0435\u0442\u044C"
     Type: 0
     Stipulations: []
     Trial: -1
@@ -2540,34 +2512,22 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19067, y: 5914}
-  - Id: 110
-    OutIds: 6f000000
+  - Id: 108
+    OutIds: 6d0000006e000000
     IsRepeatable: 1
-    DialogueText: "\u0443\u043C\u0435\u0440\u0435\u0442\u044C"
+    DialogueText: "\u0412\u043E\u0441\u043A\u0440\u0435\u0441\u043D\u0443\u0442\u044C"
     Type: 0
     Stipulations: []
     Trial: -1
     Gift: 
-    Bg: 
-    Sound: 
-    Music: 
-    Position: {x: 19511, y: 5914}
-  - Id: 111
-    OutIds: 7000000071000000
-    IsRepeatable: 1
-    DialogueText: "\u0432\u043E\u0441\u043A\u0440\u0435\u0441\u043D\u0443\u0442\u044C"
-    Type: 0
-    Stipulations: []
-    Trial: -1
-    Gift: 
-    Bg: 
+    Bg: comicses
     Sound: 
     Music: 
     Position: {x: 19727, y: 5914}
-  - Id: 112
-    OutIds: 0e010000
+  - Id: 109
+    OutIds: 4c010000
     IsRepeatable: 1
-    DialogueText: "\u0435\u0449\u0451 \u0440\u0430\u0437 \u0430\u0445\u0443\u0435\u0442\u044C"
+    DialogueText: "\u0415\u0449\u0451 \u0440\u0430\u0437 \u0430\u0445\u0443\u0435\u0442\u044C"
     Type: 0
     Stipulations: []
     Trial: -1
@@ -2576,10 +2536,10 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19974, y: 5914}
-  - Id: 113
-    OutIds: 0e010000
+  - Id: 110
+    OutIds: 4c010000
     IsRepeatable: 1
-    DialogueText: "\u043E\u0431\u043E\u0441\u0440\u0430\u0442\u044C \u0448\u0442\u0430\u043D\u044B"
+    DialogueText: "\u041E\u0431\u043E\u0441\u0440\u0430\u0442\u044C \u0448\u0442\u0430\u043D\u044B"
     Type: 0
     Stipulations: []
     Trial: -1
@@ -2588,8 +2548,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 20173, y: 5938}
-  - Id: 114
-    OutIds: 04010000
+  - Id: 111
+    OutIds: fc000000
     IsRepeatable: 1
     DialogueText: "\u041E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u0441\u044F \u043D\u0430
       \u043F\u043E\u0438\u0441\u043A\u0438"
@@ -2601,8 +2561,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19511, y: 6990}
-  - Id: 115
-    OutIds: 74000000
+  - Id: 112
+    OutIds: 4d010000
     IsRepeatable: 1
     DialogueText: "\u041E\u0441\u0442\u0430\u0442\u044C\u0441\u044F \u0436\u0438\u0442\u044C
       \u0441 \u043F\u0440\u0438\u0437\u0440\u0430\u043A\u0430\u043C\u0438. \u041A\u043E\u043D\u0435\u0446..."
@@ -2614,21 +2574,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19501, y: 7293}
-  - Id: 116
-    OutIds: 
-    IsRepeatable: 1
-    DialogueText: "\u0440\u0435\u0430\u043B\u044C\u043D\u043E \u043A\u043E\u043D\u0435\u0446
-      =)"
-    Type: 4
-    Stipulations: []
-    Trial: -1
-    Gift: 
-    Bg: 
-    Sound: 
-    Music: 
-    Position: {x: 19799, y: 7293}
-  - Id: 117
-    OutIds: 0e010000
+  - Id: 113
+    OutIds: 4c010000
     IsRepeatable: 1
     DialogueText: "\u043F\u043E\u043D\u044F\u0442\u044C, \u0447\u0442\u043E \u044D\u0442\u043E
       \u0431\u0440\u0435\u0434 \u0431\u043B\u044F\u0442\u044C \u0438\u0441\u043A\u0430\u0442\u044C
@@ -2642,8 +2589,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19426, y: 6568}
-  - Id: 118
-    OutIds: 0e010000
+  - Id: 114
+    OutIds: 4c010000
     IsRepeatable: 1
     DialogueText: "\u0432\u044B \u043E\u0431\u0431\u043B\u0435\u0432\u0430\u043B\u0438\u0441\u044C
       \u0438 \u0440\u0430\u0437\u043E\u0440\u0432\u0430\u043B\u0438 \u043A\u043D\u0438\u0433\u0443
@@ -2656,8 +2603,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19102, y: 6568}
-  - Id: 119
-    OutIds: 7900000075000000
+  - Id: 115
+    OutIds: 7500000071000000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B \u0445\u043E\u0442\u0438\u0442\u0435 \u043B\u044E\u0431\u0432\u0438"
     Type: 3
@@ -2668,8 +2615,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19102, y: 6238}
-  - Id: 120
-    OutIds: 7700000076000000
+  - Id: 116
+    OutIds: 7300000072000000
     IsRepeatable: 0
     DialogueText: "\u041F\u0440\u043E\u0447\u0438\u0442\u0430\u0442\u044C \u043A\u0430\u043C\u0430\u0441\u0443\u0442\u0440\u0443"
     Type: 1
@@ -2680,8 +2627,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18885, y: 6238}
-  - Id: 121
-    OutIds: 7a00000075000000
+  - Id: 117
+    OutIds: 7600000071000000
     IsRepeatable: 1
     DialogueText: "\u043F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u043D\u0430\u0439\u0442\u0438
       \u0442\u043E\u0433\u043E, \u043A\u0442\u043E \u0432\u0430\u0441 \u0441\u043E\u0433\u0440\u0435\u0435\u0442."
@@ -2693,8 +2640,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19400, y: 6238}
-  - Id: 122
-    OutIds: 7b000000
+  - Id: 118
+    OutIds: 77000000
     IsRepeatable: 1
     DialogueText: "\u0412\u0434\u0430\u043B\u0435\u043A\u0435 \u0432\u044B \u0432\u0438\u0434\u0438\u0442\u0435
       \u0434\u0443\u0445\u0430, \u043A\u043E\u0442\u043E\u0440\u044B\u0439 \u043E\u0442\u0430\u0434\u043B\u0435\u043D\u043D\u043E
@@ -2707,7 +2654,7 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19694, y: 6238}
-  - Id: 123
+  - Id: 119
     OutIds: 
     IsRepeatable: 1
     DialogueText: "\u0412\u044B \u043F\u043E\u0434\u043E\u0448\u043B\u0438 \u0431\u043B\u0438\u0436\u0435.
@@ -2724,8 +2671,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 20173, y: 6238}
-  - Id: 124
-    OutIds: f7000000
+  - Id: 120
+    OutIds: f1000000
     IsRepeatable: 1
     DialogueText: "\u041E\u043A\u0430\u0437\u0430\u0432\u0448\u0438\u0441\u044C \u043F\u0435\u0440\u0435\u0434
       \u0434\u0432\u0435\u0440\u044C\u044E\n\u0432\u044B \u0432\u0441\u043F\u043E\u043C\u0438\u043D\u0430\u0435\u0442\u0435
@@ -2742,8 +2689,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 20135, y: 6990}
-  - Id: 125
-    OutIds: 7e000000
+  - Id: 121
+    OutIds: 7a000000
     IsRepeatable: 1
     DialogueText: "\u042D\u0442\u043E \u0431\u044B\u043B \u0441\u0442\u0430\u0440\u0438\u043A
       \u2013 \u0434\u0440\u044F\u0445\u043B\u044B\u0439, \u0441 \u0432\u043F\u0430\u0432\u0448\u0438\u043C\u0438
@@ -2761,8 +2708,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 20825, y: 6990}
-  - Id: 126
-    OutIds: f0000000ef000000f1000000f2000000f6000000f5000000f3000000
+  - Id: 122
+    OutIds: ea000000e9000000eb000000ec000000f0000000ef000000ed000000
     IsRepeatable: 1
     DialogueText: "\u0417\u0434\u0435\u0441\u044C \u043A\u0442\u043E-\u0442\u043E
       \u0435\u0441\u0442\u044C?! \u043F\u0440\u043E\u0445\u0440\u0435\u043F\u0435\u043B\u043E
@@ -2777,8 +2724,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 21229, y: 6990}
-  - Id: 127
-    OutIds: 43010000
+  - Id: 123
+    OutIds: 3a010000
     IsRepeatable: 1
     DialogueText: "\u0441\u0442\u0430\u0440\u0438\u043A\u0430 \u043F\u0440\u043E\u043D\u0437\u0438\u043B\u043E
       \u0441\u0442\u0440\u0435\u043B\u043E\u0439 \u0438 \u043E\u043D \u0437\u0430\u0445\u0440\u0438\u043F\u0435\u043B"
@@ -2790,8 +2737,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 22224, y: 7250}
-  - Id: 128
-    OutIds: 81000000
+  - Id: 124
+    OutIds: 7d000000
     IsRepeatable: 1
     DialogueText: "\u041E\u043D \u0431\u044B\u043B \u043D\u0435 \u043F\u0440\u0438\u043D\u044F\u0442\u044B\u043C
       \u0433\u0435\u043D\u0438\u0435\u043C \u0441\u0432\u043E\u0435\u0433\u043E \u0432\u0440\u0435\u043C\u0435\u043D\u0438,
@@ -2805,8 +2752,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 22689, y: 7530}
-  - Id: 129
-    OutIds: 82000000
+  - Id: 125
+    OutIds: 7e000000
     IsRepeatable: 1
     DialogueText: "\u041D\u043E \u044D\u0442\u043E\u0442 \u0434\u0430\u0440 \u0431\u044B\u043B
       \u043E\u0434\u043D\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u043E  \u0438 
@@ -2820,8 +2767,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 23291, y: 7530}
-  - Id: 130
-    OutIds: 83000000
+  - Id: 126
+    OutIds: 7f000000
     IsRepeatable: 1
     DialogueText: "\u0427\u0442\u043E\u0431\u044B \u0437\u0430\u0433\u043B\u0443\u0448\u0438\u0442\u044C 
       \u044D\u0442\u043E \u0447\u0443\u0432\u0441\u0442\u0432\u043E, \u0430\u043B\u0445\u0438\u043C\u0438\u043A
@@ -2837,8 +2784,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 23829, y: 7530}
-  - Id: 131
-    OutIds: 84000000
+  - Id: 127
+    OutIds: 80000000
     IsRepeatable: 1
     DialogueText: "\u041D\u0430\u0441\u0442\u0430\u043B \u0434\u0435\u043D\u044C
       \u043A\u043E\u0433\u0434\u0430 \u0438\u043C \u0431\u044B\u043B \u0441\u043E\u0437\u0434\u0430\u043D
@@ -2854,8 +2801,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 24231, y: 7530}
-  - Id: 132
-    OutIds: 85000000
+  - Id: 128
+    OutIds: 81000000
     IsRepeatable: 1
     DialogueText: "\u0422\u043E\u0433\u0434\u0430 \u0410\u043B\u0445\u0438\u043C\u0438\u043A
       \u043F\u0440\u0438\u0448\u0451\u043B \u043A \u043A\u043E\u0440\u043E\u043B\u044E,\n\u0438
@@ -2870,8 +2817,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 24654, y: 7530}
-  - Id: 133
-    OutIds: 4401000045010000
+  - Id: 129
+    OutIds: 3b0100003c010000
     IsRepeatable: 1
     DialogueText: "\u041D\u043E \u043F\u043E\u0442\u043E\u043C \u0441\u0442\u0430\u0440\u0438\u043A
       \u043E\u0441\u0442\u0430\u043D\u0430\u0432\u043B\u0438\u0432\u0430\u0435\u0442\u0441\u044F
@@ -2884,8 +2831,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 24923, y: 7530}
-  - Id: 134
-    OutIds: 1501000045010000
+  - Id: 130
+    OutIds: 0c0100003c010000
     IsRepeatable: 1
     DialogueText: "\u0421\u0442\u0440\u0438\u043A \u0441\u043F\u0440\u0430\u0448\u0438\u0432\u0430\u0435\u0442:
       \u0442\u044B \u043A\u0442\u043E?"
@@ -2897,8 +2844,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 25632, y: 7530}
-  - Id: 135
-    OutIds: 88000000
+  - Id: 131
+    OutIds: 84000000
     IsRepeatable: 1
     DialogueText: "\u0412\u043D\u0435\u0437\u0430\u043F\u043D\u043E \u043F\u043E\u0442\u043E\u043B\u043E\u043A
       \u043E\u0431\u0440\u0443\u0448\u0438\u043B\u0441\u044F,\n\u0438 \u0432\u0430\u0441
@@ -2912,8 +2859,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 23829, y: 8090}
-  - Id: 136
-    OutIds: 890000008a000000
+  - Id: 132
+    OutIds: 8500000086000000
     IsRepeatable: 1
     DialogueText: "\u0412\u0430\u043C \u043D\u0435 \u043F\u043E\u0448\u0435\u0432\u0435\u043B\u0438\u0442\u0441\u044F,
       \u043C\u0430\u043A\u0441\u0438\u043C\u0443\u043C, \u0447\u0442\u043E \u0432\u044B
@@ -2928,8 +2875,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 24165, y: 8090}
-  - Id: 137
-    OutIds: 93000000
+  - Id: 133
+    OutIds: 8f000000
     IsRepeatable: 1
     DialogueText: "\u041D\u0430\u0447\u0430\u0442\u044C \u043A\u0440\u0438\u0447\u0430\u0442\u044C"
     Type: 0
@@ -2940,8 +2887,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 24893, y: 8090}
-  - Id: 138
-    OutIds: 93000000
+  - Id: 134
+    OutIds: 8f000000
     IsRepeatable: 1
     DialogueText: "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u0432\u044B\u0440\u0432\u0430\u0442\u044C\u0441\u044F"
     Type: 0
@@ -2952,8 +2899,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 24893, y: 8379}
-  - Id: 139
-    OutIds: 92000000
+  - Id: 135
+    OutIds: 8e000000
     IsRepeatable: 1
     DialogueText: "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u0432\u044B\u0440\u0432\u0430\u0442\u044C\u0441\u044F"
     Type: 0
@@ -2964,8 +2911,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 25373, y: 8370}
-  - Id: 140
-    OutIds: 92000000
+  - Id: 136
+    OutIds: 8e000000
     IsRepeatable: 1
     DialogueText: "\u041A\u0440\u0438\u0447\u0430\u0442\u044C"
     Type: 0
@@ -2976,8 +2923,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 25373, y: 8090}
-  - Id: 141
-    OutIds: 91000000
+  - Id: 137
+    OutIds: 8d000000
     IsRepeatable: 1
     DialogueText: "\u041D\u0430\u0447\u0430\u0442\u044C \u0440\u044B\u0434\u0430\u0442\u044C"
     Type: 0
@@ -2988,8 +2935,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 25851, y: 8370}
-  - Id: 142
-    OutIds: 91000000
+  - Id: 138
+    OutIds: 8d000000
     IsRepeatable: 1
     DialogueText: "\u041A\u0440\u0438\u0447\u0430\u0442\u044C"
     Type: 0
@@ -3000,8 +2947,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 25851, y: 8670}
-  - Id: 143
-    OutIds: 91000000
+  - Id: 139
+    OutIds: 8d000000
     IsRepeatable: 1
     DialogueText: "\u0416\u0434\u0430\u0442\u044C"
     Type: 0
@@ -3012,8 +2959,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 25851, y: 8950}
-  - Id: 144
-    OutIds: 91000000
+  - Id: 140
+    OutIds: 8d000000
     IsRepeatable: 1
     DialogueText: "\u041F\u043E\u043F\u043B\u0430\u043A\u0430\u0442\u044C"
     Type: 0
@@ -3024,8 +2971,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 25851, y: 8090}
-  - Id: 145
-    OutIds: 49010000
+  - Id: 141
+    OutIds: 40010000
     IsRepeatable: 1
     DialogueText: "\u041D\u0438\u0447\u0435\u0433\u043E \u043D\u0435 \u043F\u0440\u043E\u0438\u0437\u043E\u0448\u043B\u043E"
     Type: 0
@@ -3036,8 +2983,8 @@ MonoBehaviour:
     Sound: 
     Music: horror
     Position: {x: 26136, y: 8090}
-  - Id: 146
-    OutIds: 900000008d0000008e0000008f000000
+  - Id: 142
+    OutIds: 8c000000890000008a0000008b000000
     IsRepeatable: 1
     DialogueText: "\u041D\u0438\u0447\u0435\u0433\u043E \u043D\u0435 \u043F\u0440\u043E\u0438\u0437\u043E\u0448\u043B\u043E"
     Type: 0
@@ -3048,8 +2995,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 25605, y: 8090}
-  - Id: 147
-    OutIds: 8c0000008b000000
+  - Id: 143
+    OutIds: 8800000087000000
     IsRepeatable: 1
     DialogueText: "\u041D\u0438\u0447\u0435\u0433\u043E \u043D\u0435 \u043F\u0440\u043E\u0438\u0437\u043E\u0448\u043B\u043E"
     Type: 0
@@ -3060,8 +3007,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 25140, y: 8090}
-  - Id: 148
-    OutIds: 95000000960000009700000099000000
+  - Id: 144
+    OutIds: 91000000920000009300000095000000
     IsRepeatable: 1
     DialogueText: "\u041F\u0440\u043E\u0448\u0451\u043B \u0434\u0435\u043D\u044C,
       \u0438\u043B\u0438 \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E \u0434\u043D\u0435\u0439"
@@ -3073,8 +3020,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 26356, y: 8090}
-  - Id: 149
-    OutIds: 98000000
+  - Id: 145
+    OutIds: 94000000
     IsRepeatable: 1
     DialogueText: "\u0417\u0430\u043A\u0440\u0438\u0447\u0430\u0442\u044C"
     Type: 0
@@ -3085,8 +3032,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 26634, y: 8090}
-  - Id: 150
-    OutIds: 98000000
+  - Id: 146
+    OutIds: 94000000
     IsRepeatable: 1
     DialogueText: "\u0417\u0430\u043F\u043B\u0430\u043A\u0430\u0442\u044C"
     Type: 0
@@ -3097,8 +3044,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 26633, y: 8370}
-  - Id: 151
-    OutIds: 98000000
+  - Id: 147
+    OutIds: 94000000
     IsRepeatable: 1
     DialogueText: "\u043D\u0438\u0447\u0435\u0433\u043E \u043D\u0435 \u0434\u0435\u043B\u0430\u0442\u044C"
     Type: 0
@@ -3109,8 +3056,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 26633, y: 8650}
-  - Id: 152
-    OutIds: 9a000000
+  - Id: 148
+    OutIds: 96000000
     IsRepeatable: 1
     DialogueText: "\u041D\u0438\u0447\u0435\u0433\u043E \u043D\u0435 \u043F\u0440\u043E\u0438\u0437\u043E\u0448\u043B\u043E"
     Type: 0
@@ -3121,8 +3068,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 26874, y: 8090}
-  - Id: 153
-    OutIds: 98000000
+  - Id: 149
+    OutIds: 94000000
     IsRepeatable: 1
     DialogueText: "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u043F\u043E\u0434\u0432\u0438\u0433\u0430\u0442\u044C\u0441\u044F"
     Type: 0
@@ -3133,8 +3080,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 26631, y: 8950}
-  - Id: 154
-    OutIds: 4b010000
+  - Id: 150
+    OutIds: 42010000
     IsRepeatable: 1
     DialogueText: "\u043F\u0440\u043E\u0448\u043B\u043E \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E
       \u043D\u0435\u0434\u0435\u043B\u044C \u0438\u043B\u0438 \u043C\u0435\u0441\u044F\u0446\u0435\u0432."
@@ -3146,8 +3093,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 27092, y: 8090}
-  - Id: 155
-    OutIds: 1c010000
+  - Id: 151
+    OutIds: 13010000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B \u043E\u0447\u0435\u043D\u044C \u0433\u043E\u043B\u043E\u0434\u043D\u044B,
       \u043D\u043E \u0432\u044B \u043D\u0435 \u043C\u043E\u0436\u0435\u0442\u0435
@@ -3161,7 +3108,7 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 27373, y: 8090}
-  - Id: 156
+  - Id: 152
     OutIds: 
     IsRepeatable: 1
     DialogueText: "\u041F\u0440\u043E\u0442\u0438\u0432 \u0432\u0430\u0441 \u0441\u0442\u0440\u043E\u044E\u0442
@@ -3177,8 +3124,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 20818, y: 4494}
-  - Id: 157
-    OutIds: 9c000000
+  - Id: 153
+    OutIds: 98000000
     IsRepeatable: 1
     DialogueText: "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C \u0441\u0442\u0430\u0440\u0430\u0442\u044C\u0441\u044F
       \u0441\u0442\u0430\u0442\u044C\n\u0445\u043E\u0440\u043E\u0448\u0438\u043C
@@ -3191,8 +3138,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 20519, y: 4445}
-  - Id: 158
-    OutIds: 0e010000
+  - Id: 154
+    OutIds: 4c010000
     IsRepeatable: 1
     DialogueText: "\u0412\u0435\u0440\u043D\u0443\u0442\u0441\u044F \u043D\u0430\u0437\u0430\u0434"
     Type: 0
@@ -3203,8 +3150,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 21227, y: 5449}
-  - Id: 159
-    OutIds: 3a0000003f010000
+  - Id: 155
+    OutIds: 3900000036010000
     IsRepeatable: 1
     DialogueText: "\u041D\u0430\u0439\u0441"
     Type: 6
@@ -3215,8 +3162,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 25031, y: -1731}
-  - Id: 160
-    OutIds: 370000003a000000
+  - Id: 156
+    OutIds: 3600000039000000
     IsRepeatable: 1
     DialogueText: "\u0412\u0430\u043C \u0434\u0430\u043B\u0438 \u043E\u0442\u043C\u044B\u0447\u043A\u0443.
       \u041D\u0430\u0439\u0441"
@@ -3228,8 +3175,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 25289, y: -1149}
-  - Id: 161
-    OutIds: 64000000
+  - Id: 157
+    OutIds: 63000000
     IsRepeatable: 1
     DialogueText: "\u043F\u043E\u043A\u0430 \u0432\u044B \u043B\u0443\u043F\u0438\u043B\u0438
       \u0431\u0430\u0440\u043C\u0435\u043D\u0430 \u0438\u0437 \u0435\u0433\u043E
@@ -3244,8 +3191,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 28413, y: -386}
-  - Id: 162
-    OutIds: a3000000
+  - Id: 158
+    OutIds: 9f000000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B \u043E\u0431\u0440\u0435\u043B\u0438 \u043C\u0443\u0434\u0440\u043E\u0441\u0442\u044C
       \u0438  \u043F\u043E\u043D\u0438\u043C\u0430\u043D\u0438\u0435.\n\u041F\u0440\u0435\u0434\u043A\u0438
@@ -3261,8 +3208,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19218, y: 3047}
-  - Id: 163
-    OutIds: e1000000
+  - Id: 159
+    OutIds: db000000
     IsRepeatable: 1
     DialogueText: "\u0412\u0435\u0440\u043D\u0443\u0442\u0441\u044F \u043D\u0430\u0437\u0430\u0434"
     Type: 0
@@ -3273,8 +3220,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19648, y: 3062}
-  - Id: 164
-    OutIds: 7200000073000000
+  - Id: 160
+    OutIds: 6f00000070000000
     IsRepeatable: 1
     DialogueText: "\u0412 \u043B\u0435\u0442\u043E\u043F\u0438\u0441\u0435 \u043D\u0430\u043F\u0438\u0441\u0430\u043D\u043E,
       \u0447\u0442\u043E \u043A\u043B\u044E\u0447 \u043A \u043E\u0442\u0433\u0430\u0434\u044B\u0432\u0430\u043D\u0438\u044E
@@ -3288,7 +3235,7 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19086, y: 7214}
-  - Id: 165
+  - Id: 161
     OutIds: 
     IsRepeatable: 1
     DialogueText: "\u0421\u043C\u0435\u0440\u0442\u044C \u043E\u0442 \u043E\u0433\u043E\u043D\u044F.(\u0418\u043B\u0438
@@ -3302,8 +3249,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 20877, y: 5562}
-  - Id: 166
-    OutIds: 0e010000
+  - Id: 162
+    OutIds: 4c010000
     IsRepeatable: 1
     DialogueText: "\u041E\u0442\u0441\u0442\u0443\u043F\u0438\u0442\u044C. \u041F\u043E\u043D\u044F\u0442\u044C,
       \u0447\u0442\u043E \u0442\u044B \u043D\u0435 \u041B\u0435\u043D\u0438\u043D
@@ -3317,8 +3264,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 20629, y: 4872}
-  - Id: 167
-    OutIds: 0f000000
+  - Id: 163
+    OutIds: 0e000000
     IsRepeatable: 1
     DialogueText: "\u0423 \u043C\u0435\u043D\u044F \u0444\u0435\u0442\u0438\u0448
       \u043D\u0430\n\u0443\u0436\u0430\u0441\u043D\u044B\u0439 \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440."
@@ -3330,8 +3277,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 10568, y: 358}
-  - Id: 168
-    OutIds: 0f000000
+  - Id: 164
+    OutIds: 0e000000
     IsRepeatable: 1
     DialogueText: "\u041F\u0443\u043A-\u043C\u0435\u043A, \u0437\u0430\u0432\u0438\u0441\u0438\u0442
       \u043E\u0442 \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u0438."
@@ -3343,8 +3290,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 10937, y: 358}
-  - Id: 169
-    OutIds: b3000000b2000000b4000000b5000000b6000000
+  - Id: 165
+    OutIds: af000000ae000000b0000000b1000000b2000000
     IsRepeatable: 1
     DialogueText: "\u041A\u0430\u043A\u043E\u0439 \u0436\u0430\u043D\u0440 \u043C\u0443\u0437\u044B\u043A\u0438
       \u0432\u044B \u043F\u0440\u0435\u0434\u043F\u043E\u0447\u0438\u0442\u0430\u0435\u0442\u0435
@@ -3357,8 +3304,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 9310, y: -43}
-  - Id: 170
-    OutIds: a9000000
+  - Id: 166
+    OutIds: a5000000
     IsRepeatable: 1
     DialogueText: "\u043D\u0435\u0442"
     Type: 6
@@ -3369,8 +3316,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 8829, y: 412}
-  - Id: 171
-    OutIds: a9000000
+  - Id: 167
+    OutIds: a5000000
     IsRepeatable: 1
     DialogueText: "\u044F \u0431\u044B \u043D\u0430\u0448\u0451\u043B \u043C\u0438\u0440\u043D\u043E\u0435
       \u0440\u0435\u0448\u0435\u043D\u0438\u0435 \u043A\u043E\u043D\u0444\u043B\u0438\u043A\u0442\u0430."
@@ -3382,8 +3329,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 9189, y: 412}
-  - Id: 172
-    OutIds: a9000000
+  - Id: 168
+    OutIds: a5000000
     IsRepeatable: 1
     DialogueText: "\u043D\u0438\u043A\u0442\u043E \u0438 \u043D\u0435 \u043F\u043E\u0434\u0443\u043C\u0430\u0435\u0442
       \u043E\u0441\u043A\u043E\u0440\u0431\u0438\u0442\u044C \u043C\u0435\u043D\u044F."
@@ -3395,8 +3342,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 8589, y: 412}
-  - Id: 173
-    OutIds: d1000000
+  - Id: 169
+    OutIds: cd000000
     IsRepeatable: 1
     DialogueText: "\u043C\u0435\u043D\u0435\u0435 14 \u0438\u043B\u0438 \u043C\u0435\u043D\u044C\u0448\u0435"
     Type: 6
@@ -3407,8 +3354,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 7773, y: 441}
-  - Id: 174
-    OutIds: d1000000
+  - Id: 170
+    OutIds: cd000000
     IsRepeatable: 1
     DialogueText: "\u043E\u0442 15 \u0434\u043E 18"
     Type: 6
@@ -3419,8 +3366,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 7953, y: 441}
-  - Id: 175
-    OutIds: d1000000
+  - Id: 171
+    OutIds: cd000000
     IsRepeatable: 1
     DialogueText: "\u043E\u0442 25 \u0434\u043E 40"
     Type: 6
@@ -3431,8 +3378,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 8133, y: 441}
-  - Id: 176
-    OutIds: d1000000
+  - Id: 172
+    OutIds: cd000000
     IsRepeatable: 1
     DialogueText: "\u043E\u0442 18 \u0434\u043E 25"
     Type: 6
@@ -3443,8 +3390,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 8313, y: 441}
-  - Id: 177
-    OutIds: d1000000
+  - Id: 173
+    OutIds: cd000000
     IsRepeatable: 1
     DialogueText: "\u0431\u043E\u043B\u0435\u0435 40"
     Type: 6
@@ -3455,8 +3402,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 7593, y: 441}
-  - Id: 178
-    OutIds: 0e000000
+  - Id: 174
+    OutIds: 0d000000
     IsRepeatable: 1
     DialogueText: "\u0420\u043E\u043A"
     Type: 6
@@ -3467,8 +3414,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 9396, y: -825}
-  - Id: 179
-    OutIds: 0e000000
+  - Id: 175
+    OutIds: 0d000000
     IsRepeatable: 1
     DialogueText: "\u041A\u043B\u0430\u0441\u0441\u0438\u043A\u0430"
     Type: 6
@@ -3479,8 +3426,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 9576, y: -825}
-  - Id: 180
-    OutIds: 0e000000
+  - Id: 176
+    OutIds: 0d000000
     IsRepeatable: 1
     DialogueText: "\u0420\u0435\u043F"
     Type: 6
@@ -3491,8 +3438,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 9756, y: -825}
-  - Id: 181
-    OutIds: 0e000000
+  - Id: 177
+    OutIds: 0d000000
     IsRepeatable: 1
     DialogueText: "\u042D\u043B\u0435\u0442\u0440\u043E\u043D\u0449\u0438\u043D\u0430"
     Type: 6
@@ -3503,8 +3450,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 9936, y: -825}
-  - Id: 182
-    OutIds: 0e000000
+  - Id: 178
+    OutIds: 0d000000
     IsRepeatable: 1
     DialogueText: "\u0412\u0441\u0451 \u0438 \u0441\u0440\u0430\u0437\u0443"
     Type: 6
@@ -3515,8 +3462,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 10116, y: -825}
-  - Id: 183
-    OutIds: 0f000000
+  - Id: 179
+    OutIds: 0e000000
     IsRepeatable: 1
     DialogueText: "\u041F\u043E\u0441\u0442\u0430\u0432\u043B\u044E \u0435\u0433\u043E
       \u043D\u0430 \u043C\u0435\u0441\u0442\u043E."
@@ -3528,8 +3475,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 10388, y: 358}
-  - Id: 184
-    OutIds: 0f000000
+  - Id: 180
+    OutIds: 0e000000
     IsRepeatable: 1
     DialogueText: "\u041D\u0435 \u043E\u0431\u0449\u0430\u044E\u0441\u044C \u0441
       \u0442\u0430\u043A\u0438\u043C\u0438,\n\u043D\u0435 \u0442\u0440\u0430\u0447\u0443
@@ -3542,8 +3489,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 10203, y: 358}
-  - Id: 185
-    OutIds: 0f000000
+  - Id: 181
+    OutIds: 0e000000
     IsRepeatable: 1
     DialogueText: "\u041D\u0435 \u043E\u0431\u0440\u0430\u0449\u0430\u043B(\u0430)
       \u0431\u044B \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u0435."
@@ -3555,8 +3502,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 10748, y: 358}
-  - Id: 186
-    OutIds: 11000000
+  - Id: 182
+    OutIds: 10000000
     IsRepeatable: 1
     DialogueText: "\u043D\u0435\u0442"
     Type: 6
@@ -3567,8 +3514,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 12123, y: 358}
-  - Id: 187
-    OutIds: c0000000
+  - Id: 183
+    OutIds: bc000000
     IsRepeatable: 1
     DialogueText: "\u041A\u0430\u043A\u043E\u0433\u043E \u0447\u0451\u0440\u0442\u0430
       \u043C\u044B \u043F\u0435\u0440\u0435\u0448\u043B\u0438 \u043D\u0430 \u0442\u044B?"
@@ -3580,8 +3527,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 12563, y: -771}
-  - Id: 188
-    OutIds: c0000000
+  - Id: 184
+    OutIds: bc000000
     IsRepeatable: 1
     DialogueText: "\u0434\u0430"
     Type: 6
@@ -3592,8 +3539,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 12778, y: -771}
-  - Id: 189
-    OutIds: c0000000
+  - Id: 185
+    OutIds: bc000000
     IsRepeatable: 1
     DialogueText: "\u041B\u0435\u043D\u0438\u043D \u0445\u0443\u0435\u0442\u0443
       \u0434\u0435\u043B\u0430\u043B!"
@@ -3605,8 +3552,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 12958, y: -771}
-  - Id: 190
-    OutIds: c0000000
+  - Id: 186
+    OutIds: bc000000
     IsRepeatable: 1
     DialogueText: "\u041B\u0435\u043D\u0438\u043D \u043F\u043E\u0431\u0435\u0434\u0443
       \u0434\u0435\u043B\u0430\u043B!"
@@ -3618,8 +3565,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 13138, y: -771}
-  - Id: 191
-    OutIds: c0000000
+  - Id: 187
+    OutIds: bc000000
     IsRepeatable: 1
     DialogueText: "\u042F \u0438\u0437 \u0432\u0440\u0435\u043C\u0435\u043D\u043D\u043E\u0439
       \u043B\u0438\u043D\u0438\u0438 \u0432 \u043A\u043E\u0442\u043E\u0440\u043E\u0439
@@ -3632,8 +3579,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 13321, y: -771}
-  - Id: 192
-    OutIds: c1000000c2000000c4000000c3000000c5000000
+  - Id: 188
+    OutIds: bd000000be000000c0000000bf000000c1000000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B\u0431\u0435\u0440\u0438 \u0441\u0430\u043C\u043E\u0435
       \u0441\u043C\u0435\u0448\u043D\u043E\u0435 \u0441\u043B\u043E\u0432\u043E:"
@@ -3645,8 +3592,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 13091, y: -43}
-  - Id: 193
-    OutIds: c6000000
+  - Id: 189
+    OutIds: c2000000
     IsRepeatable: 0
     DialogueText: "\u0416\u043E\u043F\u0430"
     Type: 6
@@ -3657,8 +3604,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 13231, y: 387}
-  - Id: 194
-    OutIds: c6000000
+  - Id: 190
+    OutIds: c2000000
     IsRepeatable: 1
     DialogueText: "\u041F\u0438\u0441\u044C\u043A\u0430"
     Type: 6
@@ -3669,8 +3616,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 13408, y: 387}
-  - Id: 195
-    OutIds: c6000000
+  - Id: 191
+    OutIds: c2000000
     IsRepeatable: 1
     DialogueText: "\u041A\u0430\u0440\u0431\u044E\u0440\u0430\u0442\u043E\u0440"
     Type: 6
@@ -3681,8 +3628,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 13051, y: 387}
-  - Id: 196
-    OutIds: c6000000
+  - Id: 192
+    OutIds: c2000000
     IsRepeatable: 0
     DialogueText: "\u041A\u0430\u043A\u0430\u0448\u043A\u0430"
     Type: 6
@@ -3693,8 +3640,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 13588, y: 387}
-  - Id: 197
-    OutIds: c6000000
+  - Id: 193
+    OutIds: c2000000
     IsRepeatable: 1
     DialogueText: "\u0421\u0430\u0441"
     Type: 6
@@ -3705,8 +3652,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 13768, y: 387}
-  - Id: 198
-    OutIds: ca000000c7000000c9000000cb000000c8000000
+  - Id: 194
+    OutIds: c6000000c3000000c5000000c7000000c4000000
     IsRepeatable: 1
     DialogueText: "\u0417\u0430\u043A\u043B\u044E\u0447\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439
       \u0432\u043E\u043F\u0440\u043E\u0441:\n\u043E\u043A\u0430\u0437\u0430\u0432\u0448\u0438\u0441\u044C
@@ -3720,8 +3667,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 13720, y: -58}
-  - Id: 199
-    OutIds: 0c010000
+  - Id: 195
+    OutIds: 04010000
     IsRepeatable: 1
     DialogueText: "\u0421\u043A\u0430\u0436\u0443 \u0447\u0442\u043E\u0431\u044B
       \u043D\u0430\u0437\u043D\u0430\u0447\u0438\u043B \u043C\u0435\u043D\u044F \u043F\u0440\u0435\u0434\u0441\u0435\u0434\u0430\u0442\u0435\u043B\u0435\u043C
@@ -3738,8 +3685,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 14184, y: -801}
-  - Id: 200
-    OutIds: 0c010000
+  - Id: 196
+    OutIds: 04010000
     IsRepeatable: 1
     DialogueText: "\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\u043E\u0432\u0438\u0447
       \u041F\u0443\u0442\u0438\u043D, \u0443\u0445\u043E\u0434\u0438\u0442\u0435."
@@ -3751,8 +3698,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 14563, y: -801}
-  - Id: 201
-    OutIds: 0c010000
+  - Id: 197
+    OutIds: 04010000
     IsRepeatable: 1
     DialogueText: "\u043F\u0430\u0441\u0438\u0431\u0430\u2026 \u0437\u0430\u2026
       \u0442\u043E \u0447\u0442\u043E \u0443\u0440\u043E\u043D\u0438\u043B\u0438
@@ -3765,8 +3712,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 14827, y: -801}
-  - Id: 202
-    OutIds: 0c010000
+  - Id: 198
+    OutIds: 04010000
     IsRepeatable: 1
     DialogueText: "\u0417\u0434\u0440\u0430\u0441\u0442\u0435"
     Type: 6
@@ -3777,8 +3724,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 14004, y: -801}
-  - Id: 203
-    OutIds: 0c010000
+  - Id: 199
+    OutIds: 04010000
     IsRepeatable: 1
     DialogueText: "\u0422\u042B. \u043D\u0435 \u0437\u0430\u0435\u0431\u0430\u043B\u0441\u044F
       ?..."
@@ -3790,8 +3737,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 13824, y: -801}
-  - Id: 204
-    OutIds: df000000
+  - Id: 200
+    OutIds: d9000000
     IsRepeatable: 1
     DialogueText: "\u0412\u0430\u043C \u0434\u043E\u0441\u0442\u0430\u0451\u0442\u0441\u044F
       \u043C\u0435\u0447.\r\n\u0412\u044B \u0442\u0451\u043C\u043D\u044B\u0439 \u043C\u0435\u0447\u043D\u0438\u043A.\r\nC\u043A\u043E\u0440\u0435\u0435
@@ -3814,8 +3761,8 @@ MonoBehaviour:
     Sound: wepon
     Music: 
     Position: {x: 15706, y: -1148}
-  - Id: 205
-    OutIds: df000000
+  - Id: 201
+    OutIds: d9000000
     IsRepeatable: 1
     DialogueText: "\u0412\u0430\u043C \u0434\u043E\u0441\u0442\u0430\u0451\u0442\u0441\u044F
       \u041B\u0443\u043A.\r\n\u0412\u044B \u0422\u0435\u0440\u043F\u0438\u043B\u0430.\r\n\u201C\u041C\u043D\u043E\u0433\u043E
@@ -3842,8 +3789,8 @@ MonoBehaviour:
     Sound: wepon
     Music: 
     Position: {x: 15706, y: -481}
-  - Id: 206
-    OutIds: df000000
+  - Id: 202
+    OutIds: d9000000
     IsRepeatable: 1
     DialogueText: "\u0412\u0430\u043C \u0434\u043E\u0441\u0442\u0430\u0451\u0442\u0441\u044F
       \u041A\u043E\u043F\u044C\u0451.\r\n\u0422\u044B \u043F\u0440\u043E\u0441\u0442\u043E
@@ -3871,8 +3818,8 @@ MonoBehaviour:
     Sound: wepon
     Music: 
     Position: {x: 15706, y: 201}
-  - Id: 207
-    OutIds: df000000
+  - Id: 203
+    OutIds: d9000000
     IsRepeatable: 1
     DialogueText: "\u0412\u0430\u043C \u0434\u043E\u0441\u0442\u0430\u044E\u0442\u0441\u044F
       \u0417\u0435\u043B\u044C\u044F.\r\n\u0412\u044B \u0428\u0438\u0437\u043E\u0439\u0434.\r\n\u201C\u041F\u0418\u0421\u042F,
@@ -3894,8 +3841,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 16117, y: 883}
-  - Id: 208
-    OutIds: cc000000cd000000ce000000fa000000cf000000
+  - Id: 204
+    OutIds: c8000000c9000000ca000000f4000000cb000000
     IsRepeatable: 1
     DialogueText: "\u0420\u0430\u0441\u0448\u0438\u0444\u0440\u043E\u0432\u043A\u0430:"
     Type: 0
@@ -3906,8 +3853,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 15448, y: -43}
-  - Id: 209
-    OutIds: d3000000aa000000d2000000ac000000ab000000
+  - Id: 205
+    OutIds: cf000000a6000000ce000000a8000000a7000000
     IsRepeatable: 1
     DialogueText: "\u0415\u0441\u043B\u0438 \u043A\u0442\u043E-\u0442\u043E \u043E\u0441\u043A\u043E\u0440\u0431\u043B\u044F\u0435\u0442
       \u0432\u0430\u0441 \u0432 \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u0438
@@ -3921,8 +3868,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 8333, y: -43}
-  - Id: 210
-    OutIds: a9000000
+  - Id: 206
+    OutIds: a5000000
     IsRepeatable: 1
     DialogueText: "\u043D\u0435 \u0437\u043D\u0430\u044E"
     Type: 6
@@ -3933,8 +3880,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 9009, y: 412}
-  - Id: 211
-    OutIds: a9000000
+  - Id: 207
+    OutIds: a5000000
     IsRepeatable: 1
     DialogueText: "\u0434\u0430"
     Type: 6
@@ -3945,21 +3892,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 9445, y: 412}
-  - Id: 212
-    OutIds: de000000
-    IsRepeatable: 1
-    DialogueText: "\u041C\u044B \u043D\u0430\u0445\u0443\u044F \u0438\u0433\u0440\u0443
-      \u0434\u0435\u043B\u0430\u043B\u0438 ?"
-    Type: 0
-    Stipulations: []
-    Trial: -1
-    Gift: 
-    Bg: 
-    Sound: 
-    Music: 
-    Position: {x: 6406, y: 353}
-  - Id: 213
-    OutIds: 11000000
+  - Id: 208
+    OutIds: 10000000
     IsRepeatable: 1
     DialogueText: "\u0421\u0435\u0439\u0447\u0430\u0441 \u0441\u0440\u0443"
     Type: 6
@@ -3970,8 +3904,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 12303, y: 358}
-  - Id: 214
-    OutIds: 11000000
+  - Id: 209
+    OutIds: 10000000
     IsRepeatable: 1
     DialogueText: "\u0414\u0435\u0432\u043E\u0447\u043A\u0438 \u043D\u0435 \u043A\u0430\u043A\u0430\u044E\u0442"
     Type: 6
@@ -3982,8 +3916,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 11943, y: 358}
-  - Id: 215
-    OutIds: 11000000
+  - Id: 210
+    OutIds: 10000000
     IsRepeatable: 1
     DialogueText: "\u042F \u0442\u0440\u0430\u0445\u043D\u0443\u043B \u043A\u0430\u043A\u0442\u0443\u0441"
     Type: 6
@@ -3994,8 +3928,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 12483, y: 358}
-  - Id: 216
-    OutIds: 33010000
+  - Id: 211
+    OutIds: 2a010000
     IsRepeatable: 1
     DialogueText: "\u042D\u0442\u043E \u0440\u0430\u0439\u0441\u043A\u043E\u0435
       \u043F\u043E\u0439\u043B\u043E \u043F\u043E\u0437\u0432\u043E\u043B\u044F\u0435\u0442
@@ -4016,8 +3950,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 2914, y: 101}
-  - Id: 217
-    OutIds: db000000
+  - Id: 212
+    OutIds: d6000000
     IsRepeatable: 1
     DialogueText: "\u041D\u043E \u043A\u043E\u0433\u0434\u0430 \u0432\u044B \u0432\u044B\u043F\u0438\u043B\u0438
       \u0432\u0441\u0451 \u0434\u043E \u0434\u043D\u0430, \u043E\u043A\u0430\u0437\u0430\u043B\u043E\u0441\u044C,\n\u0447\u0442\u043E
@@ -4037,8 +3971,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 4808, y: 101}
-  - Id: 218
-    OutIds: d9000000
+  - Id: 213
+    OutIds: d4000000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B \u043D\u0435 \u0441\u0442\u0430\u043B\u0438 \u043C\u0435\u0434\u043B\u0438\u0442\u044C
       \u0438 \u043F\u0440\u0438\u0441\u0442\u0443\u043F\u0438\u043B\u0438 \u043A
@@ -4052,7 +3986,7 @@ MonoBehaviour:
     Sound: vodka_3
     Music: 
     Position: {x: 4475, y: 101}
-  - Id: 219
+  - Id: 214
     OutIds: 0500000004000000
     IsRepeatable: 1
     DialogueText: "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u043F\u0435\u0440\u0435\u0432\u0430\u0440\u0438\u0442\u044C
@@ -4066,7 +4000,7 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 5242, y: 101}
-  - Id: 220
+  - Id: 215
     OutIds: 
     IsRepeatable: 1
     DialogueText: "\u041A\u043E\u043D\u0435\u0446."
@@ -4078,8 +4012,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 5753, y: 457}
-  - Id: 221
-    OutIds: 08000000
+  - Id: 216
+    OutIds: 07000000
     IsRepeatable: 0
     DialogueText: "\u0417\u0430\u0439\u0442\u0438 \u0432\u043D\u0443\u0442\u0440\u044C"
     Type: 0
@@ -4088,22 +4022,10 @@ MonoBehaviour:
     Gift: 
     Bg: room
     Sound: dore
-    Music: 
+    Music: dark_ambient
     Position: {x: 6274, y: -464}
-  - Id: 222
-    OutIds: dd00000007000000
-    IsRepeatable: 0
-    DialogueText: "\u041F\u043E\u0434\u043E\u0439\u0442\u0438 \u043A \u0437\u0430\u043C\u043A\u0443"
-    Type: 0
-    Stipulations: []
-    Trial: -1
-    Gift: 
-    Bg: door
-    Sound: greenStep
-    Music: 
-    Position: {x: 6170, y: -43}
-  - Id: 223
-    OutIds: e0000000
+  - Id: 217
+    OutIds: da000000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B \u0440\u0430\u0441\u0441\u043C\u0430\u0442\u0440\u0438\u0432\u0430\u0435\u0442\u0435
       \u0441\u0432\u043E\u0451 \u043E\u0440\u0443\u0436\u0435\u0435"
@@ -4115,8 +4037,8 @@ MonoBehaviour:
     Sound: step
     Music: 
     Position: {x: 16343, y: -147}
-  - Id: 224
-    OutIds: e1000000
+  - Id: 218
+    OutIds: db000000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B \u0432\u043E\u0437\u0432\u0440\u0430\u0449\u0430\u0435\u0442\u0435\u0441\u044C
       \u0432 \u0433\u043B\u0430\u0432\u043D\u044B\u0439 \u0445\u043E\u043B \u0441
@@ -4129,8 +4051,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 16600, y: -427}
-  - Id: 225
-    OutIds: e2000000530000005400000065000000
+  - Id: 219
+    OutIds: dc000000520000005300000049010000
     IsRepeatable: 1
     DialogueText: "\u0413\u0434\u0435 \u0438\u0441\u043A\u043A\u0430\u0442\u044C
       \u0440\u0435\u0448\u0435\u043D\u0438\u0435 \u043F\u0440\u043E\u0431\u043B\u0435\u043C\u043C\u044B:"
@@ -4142,8 +4064,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 16840, y: -54}
-  - Id: 226
-    OutIds: 200000001f0000002d0000003800000012010000
+  - Id: 220
+    OutIds: 1f0000001e0000002c0000003700000009010000
     IsRepeatable: 1
     DialogueText: "\u041D\u0438\u0447\u0435\u043C \u043D\u0435 \u0437\u0430\u043D\u0438\u043C\u0430\u0442\u044C\u0441\u044F,\n\r\u043F\u0438\u043D\u0430\u0442\u044C
       \u0445\u0443\u0438."
@@ -4155,8 +4077,8 @@ MonoBehaviour:
     Sound: step
     Music: 
     Position: {x: 17591, y: -108}
-  - Id: 227
-    OutIds: 13010000
+  - Id: 221
+    OutIds: 0a010000
     IsRepeatable: 0
     DialogueText: "\u041F\u043E\u0434\u043E\u0439\u0442\u0438 \u043A \u0442\u0430\u0440\u0435\u043B\u043A\u0435
       \u0441 \u0447\u0435\u043C-\u0442\u043E \u0432\u043D\u0443\u0442\u0440\u0438"
@@ -4168,8 +4090,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 25989, y: -263}
-  - Id: 228
-    OutIds: f800000043000000e5000000
+  - Id: 222
+    OutIds: f200000042000000df000000
     IsRepeatable: 1
     DialogueText: "\u041F\u043E\u0433\u043E\u0432\u043E\u0440\u0438\u0442\u044C \u0441
       \u0431\u0430\u0440\u043C\u0435\u043D\u043E\u043C"
@@ -4181,8 +4103,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 27314, y: 122}
-  - Id: 229
-    OutIds: 3501000037010000e6000000
+  - Id: 223
+    OutIds: 2c0100002e010000e0000000
     IsRepeatable: 1
     DialogueText: "\u041F\u043E\u043F\u0440\u043E\u0441\u0438\u0442\u044C \u043F\u0438\u0432\u0430"
     Type: 0
@@ -4193,8 +4115,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 27574, y: 501}
-  - Id: 230
-    OutIds: 3501000037010000
+  - Id: 224
+    OutIds: 2c0100002e010000
     IsRepeatable: 1
     DialogueText: "\u0421\u0434\u0435\u043B\u0430\u044C \u0433\u043B\u043E\u0442\u043E\u043A"
     Type: 0
@@ -4205,8 +4127,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 27818, y: 580}
-  - Id: 231
-    OutIds: a30000005c000000
+  - Id: 225
+    OutIds: 9f0000005b000000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B \u043F\u043E\u043B\u0443\u0447\u0438\u043B\u0438
       \u043E\u0434\u043E\u0431\u0440\u0435\u043D\u0438\u0435 \u0438 \u043F\u043E\u0434\u0434\u0440\u0435\u0436\u043A\u0443
@@ -4219,7 +4141,7 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19846, y: 2244}
-  - Id: 232
+  - Id: 226
     OutIds: 
     IsRepeatable: 1
     DialogueText: "\u041D\u0443 \u0442\u044B \u0443\u043C\u0435\u0440 \u0431\u043B\u044F\u0442\u044C.
@@ -4232,8 +4154,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19901, y: 2866}
-  - Id: 233
-    OutIds: 3401000030010000
+  - Id: 227
+    OutIds: 2b01000027010000
     IsRepeatable: 1
     DialogueText: "\u0418\u0433\u0440\u0430 \u0434\u043B\u044F \u043B\u044E\u0434\u0435\u0439
       \u0434\u043E\u0441\u0442\u0438\u0433\u0448\u0438\u0445 \u0441\u043E\u0432\u0435\u0440\u0448\u0435\u043D\u043D\u043E\u043B\u0435\u0442\u0438\u044F(18
@@ -4258,8 +4180,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 236, y: 277}
-  - Id: 234
-    OutIds: 2300000022000000
+  - Id: 228
+    OutIds: 2200000021000000
     IsRepeatable: 1
     DialogueText: "\u041F\u0440\u0438\u0441\u0435\u0434\u0430\u0442\u044C \u0435\u0449\u0451
       50 \u0440\u0430\u0437"
@@ -4271,8 +4193,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19084, y: -695}
-  - Id: 235
-    OutIds: 43010000
+  - Id: 229
+    OutIds: 3a010000
     IsRepeatable: 1
     DialogueText: "\u0421\u0442\u0430\u0440\u0438\u043A \u0437\u0430\u0433\u043E\u0440\u0435\u043B\u0441\u044F
       \u0438 \u043D\u0430\u0447\u0430\u043B \u0445\u0440\u0438\u043F\u0435\u0442\u044C."
@@ -4284,8 +4206,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 22349, y: 5966}
-  - Id: 236
-    OutIds: 43010000
+  - Id: 230
+    OutIds: 3a010000
     IsRepeatable: 1
     DialogueText: "\u0421\u0442\u0430\u0440\u0438 \u0445\u0440\u0438\u043F\u043D\u0443\u043B
       \u0438 \u0443\u043F\u0430\u043B \u0441\u043E \u0441\u0442\u0443\u043B\u0430
@@ -4298,8 +4220,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 22349, y: 6246}
-  - Id: 237
-    OutIds: 43010000
+  - Id: 231
+    OutIds: 3a010000
     IsRepeatable: 1
     DialogueText: "\u041A\u043E\u043F\u044C\u0451 \u043F\u0440\u043E\u0442\u043A\u043D\u0443\u043B\u043E
       \u0441\u0442\u0430\u0440\u0438\u043A\u0430 \u0438 \u043F\u0440\u0438\u0433\u0432\u043E\u0437\u0434\u0438\u043B\u043E
@@ -4312,8 +4234,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 22349, y: 6806}
-  - Id: 238
-    OutIds: 43010000
+  - Id: 232
+    OutIds: 3a010000
     IsRepeatable: 1
     DialogueText: "\u0413\u043E\u043B\u043E\u0432\u0430 \u0441\u0442\u0430\u0440\u0438\u043A\u0430
       \u043E\u0442\u0432\u0430\u043B\u0438\u043B\u0430\u0441\u044C \u0438 \u043F\u043E\u043A\u043E\u0442\u0438\u043B\u0430\u0441\u044C
@@ -4326,8 +4248,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 22349, y: 6526}
-  - Id: 239
-    OutIds: ec000000
+  - Id: 233
+    OutIds: e6000000
     IsRepeatable: 1
     DialogueText: "\u041F\u0438\u0437\u0434\u0430\u043D\u0443\u0442\u044C \u043F\u043E
       \u0441\u0442\u0430\u0440\u0438\u043A\u0443 \u0432\u043E\u043B\u0448\u0435\u0431\u043D\u044B\u043C
@@ -4341,8 +4263,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 22049, y: 5966}
-  - Id: 240
-    OutIds: eb000000
+  - Id: 234
+    OutIds: e5000000
     IsRepeatable: 1
     DialogueText: "\u041A\u0438\u043D\u0443\u0442\u044C \u0432 \u0441\u0442\u0430\u0440\u0438\u043A\u0430
       \u0432\u0437\u0440\u044B\u0432\u0430\u044E\u0449\u0435\u0435\u0441\u044F \u0437\u0435\u043B\u044C\u0435"
@@ -4355,8 +4277,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 21796, y: 5966}
-  - Id: 241
-    OutIds: ee000000
+  - Id: 235
+    OutIds: e8000000
     IsRepeatable: 1
     DialogueText: "\u041E\u0442\u0440\u0443\u0431\u0438\u0442\u044C \u0441\u0442\u0430\u0440\u0438\u043A\u0443
       \u0433\u043E\u043B\u043E\u0432\u0443 \u0441\u0432\u043E\u0438\u043C \u043C\u0435\u0447\u043E\u043C"
@@ -4369,8 +4291,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 22073, y: 6588}
-  - Id: 242
-    OutIds: ed000000
+  - Id: 236
+    OutIds: e7000000
     IsRepeatable: 1
     DialogueText: "\u041A\u0438\u043D\u0443\u0442\u044C \u0432 \u0441\u0442\u0430\u0440\u0438\u043A\u0430
       \u043A\u043E\u043F\u044C\u0451"
@@ -4383,8 +4305,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 21860, y: 6588}
-  - Id: 243
-    OutIds: f4000000
+  - Id: 237
+    OutIds: ee000000
     IsRepeatable: 1
     DialogueText: "\u0420\u0430\u0441\u0441\u043A\u0430\u0437\u0430\u0442\u044C \u0441\u0442\u0430\u0440\u0438\u043A\u0443
       \u043A\u0442\u043E \u0432\u044B \u0442\u0430\u043A\u043E\u0439,\n\u0447\u0442\u043E
@@ -4399,8 +4321,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 21831, y: 8308}
-  - Id: 244
-    OutIds: 3d01000048010000
+  - Id: 238
+    OutIds: 340100003f010000
     IsRepeatable: 1
     DialogueText: "\u0421\u0442\u0430\u0440\u0438\u043A \u0432\u044B\u0441\u043B\u0443\u0448\u0430\u043B
       \u0432\u0430\u0448\u0443 \u0438\u0441\u0442\u043E\u0440\u0438\u044E. \u0438
@@ -4414,8 +4336,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 22149, y: 8308}
-  - Id: 245
-    OutIds: 38010000
+  - Id: 239
+    OutIds: 2f010000
     IsRepeatable: 1
     DialogueText: "\u0421\u043F\u0440\u043E\u0441\u0438\u0442\u044C \u0443 \u0441\u0442\u0430\u0440\u0438\u043A\u0430
       \u043A\u0442\u043E \u043E\u043D \u0442\u0430\u043A\u043E\u0439"
@@ -4427,8 +4349,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 21927, y: 8028}
-  - Id: 246
-    OutIds: 7f000000
+  - Id: 240
+    OutIds: 7b000000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B\u0441\u0442\u0440\u0435\u043B\u0438\u0442\u044C \u0432
       \u0441\u0442\u0430\u0440\u0438\u043A\u0430 \u0438\u0437 \u043B\u0443\u043A\u0430"
@@ -4441,8 +4363,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 21902, y: 7250}
-  - Id: 247
-    OutIds: 7d000000
+  - Id: 241
+    OutIds: 79000000
     IsRepeatable: 1
     DialogueText: "\u0412\u043D\u0443\u0442\u0440\u0438 \u0432\u0430\u0441 \u043F\u043E\u043F\u0440\u0438\u0432\u0435\u0442\u0441\u0442\u0432\u043E\u0432\u0430\u043B
       \u0442\u0451\u043F\u043B\u044B\u0439 \u0441\u0432\u0435\u0442\n\u0438 \u0432\u044B\u0441\u043E\u043A\u0438\u0435
@@ -4462,8 +4384,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 20450, y: 6990}
-  - Id: 248
-    OutIds: f9000000
+  - Id: 242
+    OutIds: f3000000
     IsRepeatable: 0
     DialogueText: "\u041C\u043E\u0436\u043D\u043E \u043C\u043D\u0435 \u043A\u043B\u044E\u043A\u0432\u0435\u043D\u043D\u044B\u0439
       \u0441\u043E\u043A"
@@ -4475,8 +4397,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 27574, y: 170}
-  - Id: 249
-    OutIds: 3701000035010000e6000000
+  - Id: 243
+    OutIds: 2e0100002c010000e0000000
     IsRepeatable: 1
     DialogueText: "\u0423 \u0442\u0435\u0431\u044F \u0447\u0442\u043E \u043C\u0435\u0441\u044F\u0447\u043D\u044B\u0435?\n\u041E\u0442\u0432\u0435\u0442\u0438\u043B
       \u0431\u0430\u0440\u043C\u0435\u043D."
@@ -4488,8 +4410,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 27798, y: 84}
-  - Id: 250
-    OutIds: df000000
+  - Id: 244
+    OutIds: d9000000
     IsRepeatable: 1
     DialogueText: "\u0412\u0430\u043C \u0434\u043E\u0441\u0442\u0430\u0451\u0442\u0441\u044F
       \u0412\u043E\u043B\u0448\u0435\u0431\u043D\u044B\u0439 \u043F\u043E\u0441\u043E\u0445.\r\n\u0412\u044B
@@ -4513,8 +4435,8 @@ MonoBehaviour:
     Sound: wepon
     Music: 
     Position: {x: 15659, y: 883}
-  - Id: 251
-    OutIds: fc00000050000000
+  - Id: 245
+    OutIds: f60000004f000000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B \u0432\u0438\u0434\u0438\u0442\u0435 \u041A\u0430\u043A\u043E\u0439-\u0442\u043E
       \u043F\u043E\u0440\u043E\u0448\u043E\u043A \u043D\u0430 \u0441\u0442\u043E\u043B\u0435"
@@ -4526,8 +4448,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 17608, y: 498}
-  - Id: 252
-    OutIds: 4d0000004e000000
+  - Id: 246
+    OutIds: 4c0000004d000000
     IsRepeatable: 1
     DialogueText: "\u041F\u043E\u043F\u0440\u043E\u0431\u043E\u0432\u0430\u0442\u044C
       \u0435\u0433\u043E"
@@ -4539,8 +4461,8 @@ MonoBehaviour:
     Sound: nouse
     Music: 
     Position: {x: 17875, y: 498}
-  - Id: 253
-    OutIds: 5e0000005f000000
+  - Id: 247
+    OutIds: 5d0000005e000000
     IsRepeatable: 0
     DialogueText: "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u0441\u0432\u044F\u0437\u0430\u0442\u044C\u0441\u044F
       \u0441 \u0434\u0435\u0434\u043E\u043C"
@@ -4552,8 +4474,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18509, y: 3255}
-  - Id: 254
-    OutIds: a2000000
+  - Id: 248
+    OutIds: 9e000000
     IsRepeatable: 0
     DialogueText: "\u0421\u043A\u043E\u043D\u0446\u0435\u043D\u0442\u0440\u0438\u0440\u043E\u0432\u0430\u0442\u044C
       \u0432\u0441\u044E \u044D\u043D\u0435\u0440\u0433\u0438\u044E \u0438 \u043F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F\n\u0432\u044B\u0437\u0432\u0430\u0442\u044C
@@ -4567,10 +4489,10 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18509, y: 2930}
-  - Id: 255
+  - Id: 249
     OutIds: 
     IsRepeatable: 1
-    DialogueText: "\u0421\u0433\u043E\u0440\u0435\u0442\u044C \u0437\u0430\u0436\u0438\u0432\u043E.
+    DialogueText: "\u0421\u0433\u043E\u0440\u0435\u0442\u044C \u0437\u0430\u0436\u0438\u0432\u043E
       =)"
     Type: 4
     Stipulations: []
@@ -4580,8 +4502,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 20024, y: 5619}
-  - Id: 256
-    OutIds: 6d000000
+  - Id: 250
+    OutIds: 6b000000
     IsRepeatable: 1
     DialogueText: "\u041F\u0440\u043E\u0447\u0438\u0442\u0430\u0442\u044C \u0434\u0440\u0435\u0432\u043D\u0438\u0435
       \u043A\u043E\u043C\u0438\u043A\u0441\u044B 18+"
@@ -4591,36 +4513,10 @@ MonoBehaviour:
     Gift: 
     Bg: comicses
     Sound: 
-    Music: 
+    Music: nokia
     Position: {x: 18800, y: 5914}
-  - Id: 257
-    OutIds: 02010000
-    IsRepeatable: 1
-    DialogueText: "\u0417\u0430\u043D\u044F\u0442\u044C\u0441\u044F \u0438\u0437\u0443\u0447\u0435\u043D\u0438\u0435\u043C
-      \u0434\u0440\u0435\u0432\u043D\u0438\u0445 \u044F\u0437\u044B\u043A\u043E\u0432."
-    Type: 0
-    Stipulations: []
-    Trial: -1
-    Gift: 
-    Bg: library
-    Sound: 
-    Music: 
-    Position: {x: 17581, y: 4635}
-  - Id: 258
-    OutIds: 03010000
-    IsRepeatable: 1
-    DialogueText: "\u0414\u043E\u043B\u0433\u043E \u0438\u0437\u0443\u0447\u0430\u0442\u044C
-      \u0434\u0440\u0435\u0432\u043D\u0438\u0435 \u044F\u0437\u044B\u043A\u0438."
-    Type: 0
-    Stipulations: []
-    Trial: -1
-    Gift: 
-    Bg: 
-    Sound: 
-    Music: 
-    Position: {x: 17869, y: 4635}
-  - Id: 259
-    OutIds: 0e010000
+  - Id: 251
+    OutIds: 4c010000
     IsRepeatable: 1
     DialogueText: "\u041E\u0447\u0435\u043D\u044C \u0434\u043E\u043B\u0433\u043E
       \u0438\u0437\u0443\u0447\u0430\u0442\u044C \u0434\u0440\u0435\u0432\u043D\u0438\u0435
@@ -4633,8 +4529,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18118, y: 4635}
-  - Id: 260
-    OutIds: 7c000000
+  - Id: 252
+    OutIds: 78000000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B \u043D\u0430\u0445\u043E\u0434\u0438\u0442\u0435
       \u0434\u043B\u0438\u043D\u043D\u0443\u044E \u043B\u0435\u0441\u0442\u043D\u0438\u0446\u0443,
@@ -4649,8 +4545,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19728, y: 6990}
-  - Id: 261
-    OutIds: 0b010000
+  - Id: 253
+    OutIds: 03010000
     IsRepeatable: 1
     DialogueText: "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"
     Type: 6
@@ -4661,8 +4557,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 14644, y: 397}
-  - Id: 262
-    OutIds: 0b010000
+  - Id: 254
+    OutIds: 03010000
     IsRepeatable: 1
     DialogueText: "\u0413\u0435\u043D\u0434\u0435\u0440\u043D\u043E \u0435\u0431\u0443\u0449\u0438\u0439
       \u044D\u0442\u043E\u0442 \u0442\u0435\u0441\u0442!!!"
@@ -4674,8 +4570,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 14388, y: 397}
-  - Id: 263
-    OutIds: 09010000
+  - Id: 255
+    OutIds: 01010000
     IsRepeatable: 1
     DialogueText: "\u0416\u0435\u043D\u0441\u043A\u0438\u0439"
     Type: 6
@@ -4686,8 +4582,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 14866, y: 397}
-  - Id: 264
-    OutIds: 09010000
+  - Id: 256
+    OutIds: 01010000
     IsRepeatable: 1
     DialogueText: "\u041F\u0430\u0440\u043A\u0435\u0442"
     Type: 6
@@ -4698,8 +4594,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 15095, y: 397}
-  - Id: 265
-    OutIds: d0000000
+  - Id: 257
+    OutIds: cc000000
     IsRepeatable: 1
     DialogueText: ...
     Type: 6
@@ -4710,8 +4606,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 14734, y: 1159}
-  - Id: 266
-    OutIds: 0b010000
+  - Id: 258
+    OutIds: 03010000
     IsRepeatable: 1
     DialogueText: "\u0422\u043E\u0440\u0447\u0451\u043A"
     Type: 6
@@ -4722,8 +4618,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 15358, y: 397}
-  - Id: 267
-    OutIds: d0000000
+  - Id: 259
+    OutIds: cc000000
     IsRepeatable: 1
     DialogueText: ...
     Type: 6
@@ -4734,8 +4630,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 15034, y: 1159}
-  - Id: 268
-    OutIds: 0501000007010000080100000a01000006010000
+  - Id: 260
+    OutIds: fd000000ff0000000001000002010000fe000000
     IsRepeatable: 1
     DialogueText: "(\u0415\u0449\u0451 \u043E\u0434\u0438\u043D \u0432\u043E\u043F\u0440\u043E\u0441\u0438\u043A)
       \u0432\u044B\u0431\u0435\u0440\u0435\u0442\u0435 \u0432\u0430\u0448 \u043F\u043E\u043B:"
@@ -4747,8 +4643,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 14644, y: -43}
-  - Id: 269
-    OutIds: 4b000000
+  - Id: 261
+    OutIds: 4a000000
     IsRepeatable: 1
     DialogueText: "\u0423\u0420\u0410! \u0412\u044B \u0441\u0432\u0430\u0440\u0438\u043B\u0438
       \u043F\u0430\u0440\u0442\u0438\u044E \u0438\u0434\u0435\u0430\u043B\u044C\u043D\u043E\u0433\u043E
@@ -4761,21 +4657,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 20087, y: 1072}
-  - Id: 270
-    OutIds: 66000000000100007800000014010000
-    IsRepeatable: 1
-    DialogueText: "\u0420\u0430\u0441\u0441\u043C\u0430\u0442\u0440\u0438\u0432\u0430\u0442\u044C
-      \u043F\u043E\u043B\u043A\u0438 \u0441 \u043A\u043D\u0438\u0433\u0430\u043C\u0438."
-    Type: 0
-    Stipulations: []
-    Trial: -1
-    Gift: 
-    Bg: 
-    Sound: 
-    Music: 
-    Position: {x: 18451, y: 4635}
-  - Id: 271
-    OutIds: 10010000
+  - Id: 262
+    OutIds: 07010000
     IsRepeatable: 0
     DialogueText: "\u0412\u0430\u043C \u043E\u0442\u043E\u0440\u0432\u0430\u043B\u0438
       \u043F\u0438\u0441\u044E"
@@ -4788,8 +4671,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 17818, y: 2285}
-  - Id: 272
-    OutIds: 11010000
+  - Id: 263
+    OutIds: 08010000
     IsRepeatable: 1
     DialogueText: "\u043F\u0440\u0438\u043A\u0440\u0435\u043F\u0438\u043B\u0438 \u0441\u0438\u0441\u0438"
     Type: 6
@@ -4800,8 +4683,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18083, y: 2285}
-  - Id: 273
-    OutIds: 5500000057000000
+  - Id: 264
+    OutIds: 5400000056000000
     IsRepeatable: 0
     DialogueText: "\u041F\u0440\u0438\u043D\u044F\u043B\u0438 \u0442\u0435\u0431\u044F
       \u0438 \u0440\u0430\u0441\u0441\u043A\u0430\u0437\u0430\u043B\u0438 \u0434\u043E\u043B\u0433\u0443\u044E
@@ -4816,8 +4699,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 17846, y: 1639}
-  - Id: 274
-    OutIds: e1000000
+  - Id: 265
+    OutIds: db000000
     IsRepeatable: 1
     DialogueText: "\u0412\u0435\u0440\u043D\u0443\u0442\u0441\u044F \u043D\u0430\u0437\u0430\u0434."
     Type: 0
@@ -4828,8 +4711,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18332, y: 206}
-  - Id: 275
-    OutIds: 3f0000003e000000
+  - Id: 266
+    OutIds: 3e0000003d000000
     IsRepeatable: 1
     DialogueText: "\u0412 \u0442\u0430\u0440\u0435\u043B\u043A\u0435 \u043B\u0435\u0436\u0438\u0442
       \u0447\u0442\u043E-\u0442\u043E \u0441\u0442\u0440\u0451\u043C\u043D\u043E\u0435"
@@ -4841,8 +4724,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 26313, y: -263}
-  - Id: 276
-    OutIds: a4000000
+  - Id: 267
+    OutIds: a0000000
     IsRepeatable: 1
     DialogueText: "\u041F\u0440\u043E\u0447\u0438\u0442\u0430\u0442\u044C \u043B\u0435\u0442\u043E\u043F\u0438\u0441\u044C."
     Type: 5
@@ -4853,10 +4736,10 @@ MonoBehaviour:
     Gift: 
     Bg: scrol2
     Sound: 
-    Music: 
+    Music: piano_nice
     Position: {x: 18847, y: 6990}
-  - Id: 277
-    OutIds: 16010000
+  - Id: 268
+    OutIds: 0d010000
     IsRepeatable: 1
     DialogueText: "\u041F\u0435\u0440\u0435\u0441\u043A\u0430\u0437\u0430\u0442\u044C
       \u0441\u0442\u0430\u0440\u0438\u043A\u0443 \u0432\u0441\u0451 \u0447\u0442\u043E
@@ -4869,8 +4752,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 25862, y: 7541}
-  - Id: 278
-    OutIds: 20010000
+  - Id: 269
+    OutIds: 17010000
     IsRepeatable: 1
     DialogueText: "\u0421\u0442\u0430\u0440\u0438\u043A \u043E\u0442\u0432\u0435\u0442\u0438\u043B
       \u0442\u0435\u0431\u0435, \u0447\u0442\u043E \u0417\u043B\u043E\u0431\u043D\u0430\u044F
@@ -4891,8 +4774,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 26162, y: 7541}
-  - Id: 279
-    OutIds: 3b0100003c01000046000000
+  - Id: 270
+    OutIds: 320100003301000045000000
     IsRepeatable: 0
     DialogueText: "\u042D\u0442\u043E \u0440\u0435\u0446\u0435\u043F\u0442 \u0437\u0435\u043B\u044C\u044F
       \u0434\u043B\u044F \u0432\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u044F
@@ -4908,8 +4791,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18548, y: 1403}
-  - Id: 280
-    OutIds: 1d010000
+  - Id: 271
+    OutIds: 14010000
     IsRepeatable: 1
     DialogueText: "\u041D\u0438\u0447\u0435\u0433\u043E \u043D\u0435 \u043F\u0440\u043E\u0438\u0437\u043E\u0448\u043B\u043E"
     Type: 0
@@ -4920,8 +4803,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 28391, y: 8090}
-  - Id: 281
-    OutIds: 18010000
+  - Id: 272
+    OutIds: 0f010000
     IsRepeatable: 1
     DialogueText: "\u041D\u0438\u0447\u0435\u0433\u043E \u043D\u0435 \u0434\u0435\u043B\u0430\u0442\u044C"
     Type: 0
@@ -4932,8 +4815,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 28157, y: 8090}
-  - Id: 282
-    OutIds: 18010000
+  - Id: 273
+    OutIds: 0f010000
     IsRepeatable: 1
     DialogueText: "\u041F\u043E\u043F\u043B\u0430\u043A\u0430\u0442\u044C"
     Type: 0
@@ -4944,8 +4827,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 28157, y: 8392}
-  - Id: 283
-    OutIds: 18010000
+  - Id: 274
+    OutIds: 0f010000
     IsRepeatable: 1
     DialogueText: "\u041F\u043E\u043A\u0440\u0438\u0447\u0430\u0442\u044C"
     Type: 0
@@ -4956,8 +4839,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 28157, y: 8689}
-  - Id: 284
-    OutIds: 190100001a0100001b010000
+  - Id: 275
+    OutIds: 100100001101000012010000
     IsRepeatable: 1
     DialogueText: "\u0412\u043E\u0437\u043C\u043E\u0436\u043D\u043E \u043F\u0440\u043E\u0448\u043B\u043E
       \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E \u043B\u0435\u0442"
@@ -4969,8 +4852,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 27887, y: 8090}
-  - Id: 285
-    OutIds: 1e010000
+  - Id: 276
+    OutIds: 15010000
     IsRepeatable: 1
     DialogueText: ....
     Type: 0
@@ -4981,8 +4864,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 28610, y: 8090}
-  - Id: 286
-    OutIds: 1f010000
+  - Id: 277
+    OutIds: 16010000
     IsRepeatable: 1
     DialogueText: .....
     Type: 0
@@ -4993,7 +4876,7 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 28837, y: 8090}
-  - Id: 287
+  - Id: 278
     OutIds: 
     IsRepeatable: 1
     DialogueText: "\u042D\u0442\u0430 \u0438\u0433\u0440\u0430 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0430\u043D\u0430
@@ -5015,8 +4898,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 29082, y: 8090}
-  - Id: 288
-    OutIds: 4601000047010000
+  - Id: 279
+    OutIds: 3d0100003e010000
     IsRepeatable: 1
     DialogueText: "\u041F\u0440\u043E\u0441\u0438\u0434\u0435\u0432 \u0437\u0434\u0435\u0441\u044C
       \u043D\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043D\u043E \u0447\u0438\u0441\u043B\u043E
@@ -5033,8 +4916,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 26715, y: 7542}
-  - Id: 289
-    OutIds: 22010000
+  - Id: 280
+    OutIds: 19010000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B \u0432\u043E\u0437\u0432\u0440\u0430\u0449\u0430\u0435\u0442\u0435\u0441\u044C
       \u0432 \u043B\u0430\u0431\u0443 \u0438 \u0432\u0430\u0440\u0438\u0442\u0435
@@ -5047,8 +4930,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 27820, y: 7383}
-  - Id: 290
-    OutIds: 23010000
+  - Id: 281
+    OutIds: 1a010000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B\u043F\u0438\u0432 \u0441\u0432\u044F\u0442\u043E\u0439
       \u044D\u043B\u0435\u043A\u0441\u0438\u0440, \u043F\u0435\u0440\u0435\u0434
@@ -5065,8 +4948,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 28120, y: 7383}
-  - Id: 291
-    OutIds: 24010000
+  - Id: 282
+    OutIds: 1b010000
     IsRepeatable: 1
     DialogueText: "\u0421\u043F\u0443\u0441\u0442\u044F \u043A\u0430\u043A\u043E\u0435-\u0442\u043E
       \u0432\u0440\u0435\u043C\u044F, \u0442\u044B \u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u0448\u044C\u0441\u044F
@@ -5080,8 +4963,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 28733, y: 7383}
-  - Id: 292
-    OutIds: 270100002501000026010000
+  - Id: 283
+    OutIds: 1e0100001c0100001d010000
     IsRepeatable: 1
     DialogueText: "\u0423 \u0442\u0435\u0431\u044F \u043F\u043E\u044F\u0432\u0438\u043B\u0441\u044F
       \u0432\u0442\u043E\u0440\u043E\u0439 \u0448\u0430\u043D\u0441, \u043D\u0435
@@ -5094,8 +4977,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 29203, y: 7383}
-  - Id: 293
-    OutIds: 28010000
+  - Id: 284
+    OutIds: 1f010000
     IsRepeatable: 1
     DialogueText: "\u041D\u0435 \u043F\u0440\u043E\u0435\u0431\u0430\u0442\u044C
       \u0432\u0442\u043E\u0440\u043E\u0439 \u0448\u0430\u043D\u0441"
@@ -5107,8 +4990,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 29622, y: 7705}
-  - Id: 294
-    OutIds: 28010000
+  - Id: 285
+    OutIds: 1f010000
     IsRepeatable: 1
     DialogueText: "\u041F\u0440\u043E\u0435\u0431\u0430\u0442\u044C \u0432\u0442\u0440\u043E\u0439
       \u0448\u0430\u043D\u0441"
@@ -5120,8 +5003,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 29621, y: 7056}
-  - Id: 295
-    OutIds: 28010000
+  - Id: 286
+    OutIds: 1f010000
     IsRepeatable: 1
     DialogueText: "\u041E\u0431\u043E\u0441\u0440\u0430\u0442\u044C \u0448\u0442\u0430\u043D\u044B"
     Type: 0
@@ -5132,8 +5015,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 29621, y: 7383}
-  - Id: 296
-    OutIds: 29010000
+  - Id: 287
+    OutIds: 20010000
     IsRepeatable: 1
     DialogueText: "\u041D\u043E \u044D\u0442\u043E \u0443\u0436\u0435 \u0441\u043E\u0432\u0441\u0435\u043C
       \u0434\u0440\u0443\u0433\u0430\u044F \u0438\u0441\u0442\u043E\u0440\u0438\u044F..."
@@ -5145,7 +5028,7 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 29908, y: 7383}
-  - Id: 297
+  - Id: 288
     OutIds: 
     IsRepeatable: 1
     DialogueText: "\u042D\u0442\u0430 \u0438\u0433\u0440\u0430 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0430\u043D\u0430
@@ -5167,8 +5050,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 30218, y: 7386}
-  - Id: 298
-    OutIds: 10000000
+  - Id: 289
+    OutIds: 0f000000
     IsRepeatable: 1
     DialogueText: "\u0414\u0430(\u043F\u0438\u0437\u0434\u0430)"
     Type: 6
@@ -5179,8 +5062,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 11045, y: -825}
-  - Id: 299
-    OutIds: 10000000
+  - Id: 290
+    OutIds: 0f000000
     IsRepeatable: 1
     DialogueText: "\u041D\u0435\u0442(\u043F\u0438\u0437\u0434\u0430)"
     Type: 6
@@ -5191,8 +5074,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 11225, y: -825}
-  - Id: 300
-    OutIds: 10000000
+  - Id: 291
+    OutIds: 0f000000
     IsRepeatable: 1
     DialogueText: "\u0442\u0440\u0443\u0434\u043D\u043E \u043C\u043D\u0435 \u043E\u0442\u0432\u0435\u0447\u0430\u0442\u044C
       \u043D\u0430 \u044D\u0442\u0438 \u0432\u043E\u043F\u0440\u043E\u0441\u044B
@@ -5206,8 +5089,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 11781, y: -816}
-  - Id: 301
-    OutIds: 10000000
+  - Id: 292
+    OutIds: 0f000000
     IsRepeatable: 1
     DialogueText: "\u201C\u042F \u0447\u0430\u0441\u0442\u043E \u0432\u0438\u0436\u0443
       \u0441\u0442\u0440\u0430\u0445\n\u0432 \u0441\u043C\u043E\u0442\u0440\u044F\u0449\u0438\u0445
@@ -5220,8 +5103,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 11585, y: -816}
-  - Id: 302
-    OutIds: 10000000
+  - Id: 293
+    OutIds: 0f000000
     IsRepeatable: 1
     DialogueText: "\u042F \u0436\u0438\u0432\u043E\u0442\u043D\u043E\u0435."
     Type: 6
@@ -5232,8 +5115,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 11405, y: -816}
-  - Id: 303
-    OutIds: 11000000
+  - Id: 294
+    OutIds: 10000000
     IsRepeatable: 1
     DialogueText: "\u0434\u0430"
     Type: 6
@@ -5244,8 +5127,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 11763, y: 373}
-  - Id: 304
-    OutIds: 31010000
+  - Id: 295
+    OutIds: 28010000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B \u0431\u044B\u043B\u0438 \u0443\u0441\u043F\u0435\u0448\u043D\u044B\u043C,
       \u0443 \u0432\u0430\u0441 \u0431\u044B\u043B\u043E \u0432\u0441\u0435,\n\u0447\u0435\u0433\u043E
@@ -5260,7 +5143,7 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 831, y: -95}
-  - Id: 305
+  - Id: 296
     OutIds: 01000000
     IsRepeatable: 1
     DialogueText: "\u041D\u043E \u044D\u0442\u043E\u043C\u0443 \u043D\u0435 \u0441\u0443\u0436\u0434\u0435\u043D\u043E
@@ -5279,8 +5162,8 @@ MonoBehaviour:
     Sound: book_0
     Music: 
     Position: {x: 1097, y: 462}
-  - Id: 306
-    OutIds: da000000
+  - Id: 297
+    OutIds: d5000000
     IsRepeatable: 1
     DialogueText: "\u0412 \u0438\u0442\u043E\u0433\u0435 \u0432\u044B \u043E\u0442\u043F\u0440\u0430\u0432\u0438\u043B\u0438\u0441\u044C
       \u043D\u0430 \u0443\u043A\u0430\u0437\u0430\u043D\u043D\u043E\u0435 \u043C\u0435\u0441\u0442\u043E.\r\n\u0418
@@ -5296,8 +5179,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 4033, y: 101}
-  - Id: 307
-    OutIds: 32010000
+  - Id: 298
+    OutIds: 29010000
     IsRepeatable: 1
     DialogueText: "\u0441 \u043F\u0440\u043E\u0431\u0443\u0436\u0434\u0435\u043D\u0438\u0435\u043C
       \u0432 \u0432\u0430\u0448 \u043C\u043E\u0437\u0433 \u043F\u043B\u043E\u0442\u043D\u043E
@@ -5318,10 +5201,10 @@ MonoBehaviour:
     Gift: 
     Bg: forest_3
     Sound: greenStep
-    Music: mish
+    Music: forest_1
     Position: {x: 3516, y: 101}
-  - Id: 308
-    OutIds: 0c010000
+  - Id: 299
+    OutIds: 04010000
     IsRepeatable: 1
     DialogueText: Skip
     Type: 0
@@ -5332,8 +5215,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 13629, y: 1604}
-  - Id: 309
-    OutIds: 45000000
+  - Id: 300
+    OutIds: 44000000
     IsRepeatable: 1
     DialogueText: "\u0421\u043F\u0440\u043E\u0441\u0438\u0442\u044C, \u043D\u0435
       \u0437\u043D\u0430\u0435\u0442 \u043B\u0438 \u043E\u043D \u043A\u0430\u043A
@@ -5346,8 +5229,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 28044, y: 236}
-  - Id: 310
-    OutIds: 190000001a000000
+  - Id: 301
+    OutIds: 1800000019000000
     IsRepeatable: 1
     DialogueText: "\u0422\u0435\u043F\u0435\u0440\u044C \u0434\u0443\u0448\u0438\u0442\u044C
       \u043B\u044E\u0434\u0435\u0439 \u0441\u0442\u0430\u043B\u043E \u043B\u0435\u0433\u0447\u0435.\n\u0417\u043C\u0435\u0439
@@ -5360,8 +5243,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 18485, y: -1745}
-  - Id: 311
-    OutIds: a1000000
+  - Id: 302
+    OutIds: 9d000000
     IsRepeatable: 1
     DialogueText: "\u0420\u0430\u0437\u0431\u0438\u0442\u044C \u0431\u0430\u0440\u043C\u0435\u043D\u0443
       \u0435\u0431\u0430\u043B\u043E"
@@ -5374,8 +5257,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 28097, y: -520}
-  - Id: 312
-    OutIds: 80000000
+  - Id: 303
+    OutIds: 7c000000
     IsRepeatable: 1
     DialogueText: "\u0421\u0442\u0430\u0440\u0438\u043A \u043D\u0430\u0447\u0430\u043B
       \u0440\u0430\u0441\u0441\u043A\u0430\u0437\u044B\u0432\u0430\u0442\u044C \u0441\u0432\u043E\u044E
@@ -5389,8 +5272,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 22168, y: 8028}
-  - Id: 313
-    OutIds: 28000000130000001e0000003d000000
+  - Id: 304
+    OutIds: 27000000120000001d0000003c000000
     IsRepeatable: 1
     DialogueText: "\u041A\u0430\u0447\u0430\u0442\u044C \u0434\u0440\u0443\u0433\u0438\u0435
       \u0433\u0440\u0443\u043F\u043F\u044B \u043C\u044B\u0448\u0446"
@@ -5402,8 +5285,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 17900, y: -1066}
-  - Id: 314
-    OutIds: 3d00000039010000
+  - Id: 305
+    OutIds: 3c00000030010000
     IsRepeatable: 1
     DialogueText: "\u0412\u044B \u043E\u0431\u043E\u0441\u0440\u0430\u043B\u0438
       \u0432\u0441\u0435 \u0448\u0442\u0430\u043D\u044B.\r \u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E."
@@ -5415,8 +5298,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19100, y: -2459}
-  - Id: 315
-    OutIds: 0d010000
+  - Id: 306
+    OutIds: 05010000
     IsRepeatable: 1
     DialogueText: "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u0434\u0435\u043B\u0430\u0442\u044C
       \u0432\u0441\u0435 \u043F\u043E \u0438\u043D\u0441\u0442\u0440\u0443\u043A\u0446\u0438\u0438."
@@ -5428,8 +5311,8 @@ MonoBehaviour:
     Sound: potoin_2
     Music: 
     Position: {x: 19283, y: 1123}
-  - Id: 316
-    OutIds: 48000000
+  - Id: 307
+    OutIds: 47000000
     IsRepeatable: 1
     DialogueText: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0435\u0446
       \u0447\u0438\u043B\u0438."
@@ -5441,8 +5324,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19283, y: 1414}
-  - Id: 317
-    OutIds: 38010000
+  - Id: 308
+    OutIds: 2f010000
     IsRepeatable: 1
     DialogueText: "\u0432\u044B\u0441\u043B\u0443\u0448\u0430\u0442\u044C \u0441\u0442\u0440\u0438\u043A\u0430"
     Type: 0
@@ -5453,8 +5336,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 22689, y: 7888}
-  - Id: 318
-    OutIds: 33000000
+  - Id: 309
+    OutIds: 32000000
     IsRepeatable: 0
     DialogueText: "\u0421\u0443\u043A\u0430, \u043A\u0430\u043C\u043E\u043D, \u043F\u0435\u043B\u0435\u043D\u0430\u044E
       \u0442\u0435\u0431\u044F \u2014 \u0422\u0443\u0442\u0430\u043D\u0445\u0430\u043C\u043E\u043D\r\n\u0422\u044B
@@ -5472,8 +5355,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 23960, y: -543}
-  - Id: 319
-    OutIds: 31000000320000003e0100003a000000
+  - Id: 310
+    OutIds: 30000000310000003501000039000000
     IsRepeatable: 0
     DialogueText: "\u0417\u0430\u0447\u0438\u0442\u0430\u0442\u044C \u0440\u0435\u043F
       \u043A\u0430\u043A \u041E\u043A\u0441\u0438\u043C\u0438\u0440\u043E\u043D"
@@ -5485,8 +5368,8 @@ MonoBehaviour:
     Sound: 
     Music: oxxxymiron
     Position: {x: 23718, y: -1059}
-  - Id: 320
-    OutIds: 3d00000039010000
+  - Id: 311
+    OutIds: 3c00000030010000
     IsRepeatable: 1
     DialogueText: "\u0422\u0435\u043F\u0435\u0440\u044C \u0432\u0430\u0441 \u0445\u043E\u0447\u0435\u0442
       \u0432\u044B\u0435\u0431\u0430\u0442\u044C \u043A\u0430\u0436\u0434\u044B\u0439
@@ -5500,8 +5383,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19489, y: -334}
-  - Id: 321
-    OutIds: 3a0000003f010000
+  - Id: 312
+    OutIds: 3900000036010000
     IsRepeatable: 1
     DialogueText: "\u0412\u0430\u043C \u043F\u0440\u0438\u0448\u043B\u043E\u0441\u044C
       \u043F\u0440\u043E\u043B\u0435\u0436\u0430\u0442\u044C \u0442\u0430\u043C \u043E\u0447\u0435\u043D\u044C
@@ -5514,8 +5397,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 24722, y: -1451}
-  - Id: 322
-    OutIds: 87000000
+  - Id: 313
+    OutIds: 83000000
     IsRepeatable: 1
     DialogueText: "\u0432\u043D\u0435\u0437\u0430\u043F\u043D\u043E \u0432\u0441\u0451
       \u0437\u0430\u0434\u0440\u043E\u0436\u0430\u043B\u043E, \u0441 \u043F\u043E\u0442\u043E\u043B\u043A\u0430
@@ -5530,8 +5413,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 23311, y: 8090}
-  - Id: 323
-    OutIds: 42010000
+  - Id: 314
+    OutIds: 39010000
     IsRepeatable: 1
     DialogueText: "\u0411\u0435\u0441\u0441\u043C\u0435\u0440\u0442\u043D\u044B\u0439
       \u0441\u0442\u0430\u0440\u0438\u043A \u043F\u043E\u0442\u0435\u0440\u044F\u043B
@@ -5544,10 +5427,10 @@ MonoBehaviour:
     Gift: 
     Bg: 
     Sound: 
-    Music: 
+    Music: silence
     Position: {x: 22912, y: 8090}
-  - Id: 324
-    OutIds: 86000000
+  - Id: 315
+    OutIds: 82000000
     IsRepeatable: 1
     DialogueText: "\u0421\u043F\u0440\u043E\u0441\u0438\u0442\u044C \u0443 \u0441\u0442\u0430\u0440\u0438\u043A\u0430,
       \u0447\u0442\u043E \u0431\u044B\u043B\u043E \u0434\u0430\u043B\u044C\u0448\u0435?"
@@ -5559,8 +5442,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 25321, y: 7103}
-  - Id: 325
-    OutIds: 43010000
+  - Id: 316
+    OutIds: 3a010000
     IsRepeatable: 1
     DialogueText: "\u0437\u0430\u0445\u0443\u044F\u0440\u0438\u0442\u044C \u0441\u0442\u0430\u0440\u0438\u043A\u0430
       \u043A\u0443\u043B\u0430\u043A\u0430\u043C\u0438."
@@ -5573,8 +5456,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 25321, y: 7383}
-  - Id: 326
-    OutIds: 21010000
+  - Id: 317
+    OutIds: 18010000
     IsRepeatable: 1
     DialogueText: "\u041F\u0435\u0440\u0435\u043F\u0438\u0441\u0430\u0442\u044C \u0440\u0435\u0446\u0435\u043F\u0442
       \u0441\u043E \u0441\u043B\u043E\u0432 \u0441\u0442\u0430\u0440\u0438\u043A\u0430"
@@ -5586,8 +5469,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 27579, y: 7067}
-  - Id: 327
-    OutIds: 43010000
+  - Id: 318
+    OutIds: 3a010000
     IsRepeatable: 1
     DialogueText: "\u0417\u0430\u0445\u0443\u044F\u0440\u0438\u0442\u044C \u0434\u0435\u0434\u0430
       \u043A\u0443\u043B\u0430\u043A\u0430\u043C\u0438"
@@ -5600,8 +5483,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 27612, y: 7389}
-  - Id: 328
-    OutIds: 43010000
+  - Id: 319
+    OutIds: 3a010000
     IsRepeatable: 1
     DialogueText: "\u0437\u0430\u0445\u0443\u044F\u0440\u0438\u0442\u044C \u0441\u0442\u0430\u0440\u0438\u043A\u0430
       \u043A\u0443\u043B\u0430\u043A\u0430\u043C\u0438"
@@ -5614,8 +5497,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 22653, y: 8168}
-  - Id: 329
-    OutIds: 4a010000
+  - Id: 320
+    OutIds: 41010000
     IsRepeatable: 1
     DialogueText: ...
     Type: 0
@@ -5626,8 +5509,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 26173, y: 8468}
-  - Id: 330
-    OutIds: 94000000
+  - Id: 321
+    OutIds: 90000000
     IsRepeatable: 1
     DialogueText: Text field
     Type: 0
@@ -5638,8 +5521,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 26356, y: 8748}
-  - Id: 331
-    OutIds: 9b000000
+  - Id: 322
+    OutIds: 97000000
     IsRepeatable: 1
     DialogueText: ...
     Type: 0
@@ -5650,8 +5533,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 27287, y: 8442}
-  - Id: 332
-    OutIds: 0e010000
+  - Id: 323
+    OutIds: 4c010000
     IsRepeatable: 1
     DialogueText: "\u041E\u0441\u0442\u0432\u0438\u0442\u044C \u043C\u0435\u0447\u0442\u0443
       \u0441\u0442\u0430\u0442\u044C \u043F\u0440\u0435\u0437\u0438\u0434\u0435\u043D\u0442\u043E\u043C.
@@ -5664,8 +5547,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19367, y: 4939}
-  - Id: 333
-    OutIds: 68000000
+  - Id: 324
+    OutIds: 66000000
     IsRepeatable: 1
     DialogueText: "\u041F\u0435\u0440\u0435\u0434\u0443\u043C\u0430\u0442\u044C \u0440\u0435\u0448\u0430\u0442\u044C
       \u0441\u0432\u043E\u044E \u043F\u0440\u043E\u0431\u043B\u0435\u043C\u0443.
@@ -5679,8 +5562,8 @@ MonoBehaviour:
     Sound: 
     Music: 
     Position: {x: 19367, y: 4635}
-  - Id: 334
-    OutIds: 6a000000ff000000
+  - Id: 325
+    OutIds: 68000000f9000000
     IsRepeatable: 1
     DialogueText: "\u041E\u0433\u043E\u043D\u044C \u0440\u0430\u0441\u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u0438\u043B\u0441\u044F
       \u043F\u043E \u043A\u043E\u043C\u043D\u0430\u0442\u0435 \u0432 \u043A\u043E\u0442\u043E\u0440\u043E\u0439
@@ -5691,7 +5574,123 @@ MonoBehaviour:
     Gift: 
     Bg: vodka
     Sound: 
-    Music: 
+    Music: pojar
     Position: {x: 19353, y: 5261}
+  - Id: 326
+    OutIds: 47010000
+    IsRepeatable: 0
+    DialogueText: "\u0423\u0431\u0435\u0436\u0430\u0442\u044C \u0434\u043E\u043C\u043E\u0439"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: greenStep
+    Music: 
+    Position: {x: 6170, y: 362}
+  - Id: 327
+    OutIds: 48010000
+    IsRepeatable: 1
+    DialogueText: "\u041C\u044B \u043D\u0430\u0445\u0443\u044F \u0438\u0433\u0440\u0443
+      \u0434\u0435\u043B\u0430\u043B\u0438 ?"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 6406, y: 353}
+  - Id: 328
+    OutIds: d800000046010000
+    IsRepeatable: 1
+    DialogueText: "\u041F\u043E\u0434\u043E\u0439\u0442\u0438 \u043A \u0437\u0430\u043C\u043A\u0443"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: door
+    Sound: greenStep
+    Music: 
+    Position: {x: 6168, y: -43}
+  - Id: 329
+    OutIds: 4a010000
+    IsRepeatable: 1
+    DialogueText: "\u041F\u043E\u0439\u0442\u0438 \u0432 \u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0443
+      \u0438\u0437\u0443\u0447\u0430\u0442\u044C \u043A\u043D\u0438\u0433\u0438 \u0438
+      \u044F\u0437\u044B\u043A\u0438"
+    Type: 5
+    Stipulations:
+    - spirits_conversation
+    - bartenders_note
+    Trial: -1
+    Gift: 
+    Bg: library
+    Sound: step
+    Music: 
+    Position: {x: 17287, y: 4197}
+  - Id: 330
+    OutIds: 4b010000
+    IsRepeatable: 1
+    DialogueText: "\u0417\u0430\u043D\u044F\u0442\u044C\u0441\u044F \u0438\u0437\u0443\u0447\u0435\u043D\u0438\u0435\u043C
+      \u0434\u0440\u0435\u0432\u043D\u0438\u0445 \u044F\u0437\u044B\u043A\u043E\u0432."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: library
+    Sound: 
+    Music: 
+    Position: {x: 17591, y: 4197}
+  - Id: 331
+    OutIds: fb000000
+    IsRepeatable: 1
+    DialogueText: "\u0414\u043E\u043B\u0433\u043E \u0438\u0437\u0443\u0447\u0430\u0442\u044C
+      \u0434\u0440\u0435\u0432\u043D\u0438\u0435 \u044F\u0437\u044B\u043A\u0438."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 17879, y: 4197}
+  - Id: 332
+    OutIds: 64000000fa000000740000000b010000
+    IsRepeatable: 1
+    DialogueText: "\u0420\u0430\u0441\u0441\u043C\u0430\u0442\u0440\u0438\u0432\u0430\u0442\u044C
+      \u043F\u043E\u043B\u043A\u0438 \u0441 \u043A\u043D\u0438\u0433\u0430\u043C\u0438."
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 18451, y: 4635}
+  - Id: 333
+    OutIds: 
+    IsRepeatable: 1
+    DialogueText: "\u0420\u0435\u0430\u043B\u044C\u043D\u043E \u043A\u043E\u043D\u0435\u0446"
+    Type: 4
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: 
+    Sound: 
+    Music: 
+    Position: {x: 19799, y: 7293}
+  - Id: 334
+    OutIds: 6c000000
+    IsRepeatable: 1
+    DialogueText: "\u0423\u043C\u0435\u0440\u0435\u0442\u044C"
+    Type: 0
+    Stipulations: []
+    Trial: -1
+    Gift: 
+    Bg: vodka
+    Sound: 
+    Music: 
+    Position: {x: 19400, y: 5914}
   ExposedProperties: []
   CommentBlockData: []
