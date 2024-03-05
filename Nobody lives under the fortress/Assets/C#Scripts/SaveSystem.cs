@@ -19,7 +19,7 @@ public class SaveSystem : MonoBehaviour
 
     private void Awake()
     {
-        filePath = Path.Combine(Application.dataPath, "Resources/" + profileName + ".json");
+        filePath = Path.Combine(Application.persistentDataPath, profileName + ".json");
     }
 
     void OnApplicationPause(bool pauseStatus)
@@ -50,6 +50,8 @@ public class SaveSystem : MonoBehaviour
     }
     public void LoadProfile()
     {
+        CreateNewProfile();
+        /*
         if (File.Exists(filePath))
         {
             CreateNewProfile();
@@ -58,7 +60,7 @@ public class SaveSystem : MonoBehaviour
         {
             string str = File.ReadAllText(filePath);
             profile = JsonUtility.FromJson<Profile>(str);
-        }
+        }*/
     }
     public void AddGift(string str)
     {

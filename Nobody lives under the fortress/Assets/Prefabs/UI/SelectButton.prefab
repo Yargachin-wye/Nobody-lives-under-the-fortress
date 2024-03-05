@@ -64,7 +64,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4509804, g: 0, b: 0.16732913, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.56078434}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -80,7 +80,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.5
 --- !u!114 &8774295385069276128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -192,8 +192,8 @@ MonoBehaviour:
   _textButton: {fileID: 4150717540425145674, guid: 899ed2e419a7be544ab83f25a0fd4689, type: 3}
   _text: {fileID: 8774295385264978749}
   _image: {fileID: 8774295385069276129}
-  "_\u0441olor\u0421hoice": {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
-  "_\u0441olorWin": {r: 0.990566, g: 0.7660592, b: 0.023362402, a: 1}
+  "_\u0441olor\u0421hoice": {r: 0, g: 0, b: 0, a: 0.77254903}
+  "_\u0441olorWin": {r: 0.9245283, g: 0.6837654, b: 0, a: 1}
   "_\u0441olorLoss": {r: 0.5754717, g: 0, b: 0.079926595, a: 1}
   "_\u0441olorTrial": {r: 0, g: 0.69803923, b: 0.5058824, a: 1}
   "_\u0441olorEnd": {r: 0.45098042, g: 0, b: 0.16862746, a: 1}
@@ -233,8 +233,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 335.805, y: 0}
-  m_SizeDelta: {x: 671.61, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8774295385264978690
 CanvasRenderer:
@@ -276,8 +276,8 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
+  m_enableVertexGradient: 1
+  m_colorMode: 0
   m_fontColorGradient:
     topLeft: {r: 1, g: 1, b: 1, a: 1}
     topRight: {r: 1, g: 1, b: 1, a: 1}
@@ -288,7 +288,7 @@ MonoBehaviour:
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
   m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
+  m_overrideHtmlColors: 1
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
@@ -328,7 +328,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 20, y: 20, z: 20, w: 20}
+  m_margin: {x: 57.720825, y: 24.525497, z: 58.707825, w: 23.394112}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

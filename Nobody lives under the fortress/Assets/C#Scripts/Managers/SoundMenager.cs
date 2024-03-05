@@ -1,14 +1,18 @@
-using Mono.Cecil;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SoundMenager : MonoBehaviour
 {
-
+    [SerializeField] private Scrollbar scrollbar;
+    [SerializeField] private TextMeshProUGUI scrollbarText;
     [SerializeField] private AudioSource sourceAmbiance;
     [SerializeField] private AudioSource sourceUI;
     [SerializeField] private AudioSource sourceMusic;
+
+
     [SerializeField] private AudioClip winSound;
     [SerializeField] private AudioClip loseSound;
     [SerializeField] private AudioClip[] steps;
@@ -39,7 +43,13 @@ public class SoundMenager : MonoBehaviour
     {
         PlayClip(sourceUI, volumeUI, loseSound);
     }
-
+    public void ScrollbarChanged()
+    {
+        sourceMusic.volume = scrollbar.value;
+        sourceAmbiance.volume = scrollbar.value;
+        sourceUI.volume = scrollbar.value;
+        scrollbarText.text = Mathf.Round(scrollbar.value * 100).ToString() + "%";
+    }
     public AudioClip GetStep()
     {
         int i = 0;

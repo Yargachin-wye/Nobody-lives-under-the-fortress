@@ -8,6 +8,8 @@ using static UnityEngine.ParticleSystem;
 
 public class UIMenager : MonoBehaviour
 {
+    [SerializeField] private GameObject _scrollbarAudio;
+
     [SerializeField] private RectTransform _trialAnimationRect;
     [SerializeField] private RectTransform _trialAnimationPanel;
 
@@ -39,7 +41,7 @@ public class UIMenager : MonoBehaviour
     private List<GameObject> anactiveMessages = new List<GameObject>();
     private List<GameObject> interactiveMessages = new List<GameObject>();
 
-    
+
     // public static bool AndroidUI => Application.platform == RuntimePlatform.Android;
     private void Awake()
     {
@@ -59,7 +61,9 @@ public class UIMenager : MonoBehaviour
         _trialAnimationPanel.gameObject.SetActive(false);
         animationMenager.oldImageBG = _oldBG;
         animationMenager.newImageBG = _newBG;
+        _scrollbarAudio.SetActive(false);
     }
+    public void BtnAudio() => _scrollbarAudio.SetActive(!_scrollbarAudio.active);
     public void OffActivButtons()
     {
         foreach (var obj in interactiveMessages)

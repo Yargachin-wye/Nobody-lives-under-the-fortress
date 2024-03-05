@@ -17,7 +17,7 @@ public class SelectButton : MonoBehaviour
         _text.fontSize = FontSize;
         id = ID;
         _text.text = text;
-        
+
         if (type == NodeType.Trial)
         {
             _image.color = _ñolorTrial;
@@ -45,8 +45,13 @@ public class SelectButton : MonoBehaviour
         UIMenager.instaince.SetAnactiveMessage(
             _text.text,
             id,
-            new Color(_image.color.r - 0.1f, _image.color.g - 0.1f, _image.color.b - 0.1f, 0.5f),
-            _text.color);
+            new Color(_image.color.r - 0.1f, _image.color.g - 0.1f, _image.color.b - 0.1f, _image.color.a / 2),
+            new Color(
+                _text.color.r - 0.1f,
+                _text.color.g - 0.1f,
+                _text.color.b - 0.1f,
+                0.5f)
+            );
 
         Ñontroler.instaince.SetMessage(id);
     }
